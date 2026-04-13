@@ -112,29 +112,26 @@ export default async function LocaleLayout({ children, params }: Props) {
 	const wikiLinks = getWikiLinks()
 
 	return (
-		<html lang={locale} className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
-			<head>
-				<meta name="google-adsense-account" content="ca-pub-7733402184034568" />
-				<Script
-					crossOrigin="anonymous"
-					src="https://unpkg.com/same-runtime@0.0.1/dist/index.global.js"
-					strategy="beforeInteractive"
-				/>
-				<Script
-					async
-					src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7733402184034568"
-					crossOrigin="anonymous"
-					strategy="lazyOnload"
-				/>
-			</head>
-			<body suppressHydrationWarning className="antialiased">
+		<>
+			<Script
+				crossOrigin="anonymous"
+				src="https://unpkg.com/same-runtime@0.0.1/dist/index.global.js"
+				strategy="beforeInteractive"
+			/>
+			<Script
+				async
+				src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7733402184034568"
+				crossOrigin="anonymous"
+				strategy="lazyOnload"
+			/>
+			<div className={`${geistSans.variable} ${geistMono.variable}`}>
 				<Analytics />
 				<NextIntlClientProvider messages={messages}>
 					<ClientBody navPreviewData={navPreviewData} wikiLinks={wikiLinks}>{children}</ClientBody>
 				</NextIntlClientProvider>
 				{/* 社交栏广告 */}
 				<SocialBarAd adKey={process.env.NEXT_PUBLIC_AD_SOCIAL_BAR || ''} />
-			</body>
-		</html>
+			</div>
+		</>
 	)
 }

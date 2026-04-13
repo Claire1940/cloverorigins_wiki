@@ -1,12 +1,26 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "id": "/",
+  "name": "Clover Origins Wiki - Codes, Grimoires & Quests",
+  "short_name": "Clover Origins",
+  "description": "Clover Origins Wiki covers active codes, grimoire guides, race and broom rolls, quests, stat builds, and beginner tips for the Roblox Black Clover RPG.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui",
+    "browser"
+  ],
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "lang": "en-US",
+  "dir": "ltr",
+  "theme_color": "#22B766",
+  "background_color": "#07130D",
+  "categories": [
+    "games",
+    "entertainment",
+    "reference"
+  ],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -23,17 +37,34 @@
     {
       "src": "/favicon-16x16.png",
       "sizes": "16x16",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "/favicon-32x32.png",
       "sizes": "32x32",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     },
     {
       "src": "/apple-touch-icon.png",
       "sizes": "180x180",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Wiki Home",
+      "short_name": "Home",
+      "description": "Browse Clover Origins guides and updates",
+      "url": "/"
+    },
+    {
+      "name": "Portuguese Home",
+      "short_name": "PT",
+      "description": "Open the Portuguese Clover Origins homepage",
+      "url": "/pt"
     }
   ]
 }
