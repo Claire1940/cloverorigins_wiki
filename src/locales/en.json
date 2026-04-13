@@ -367,133 +367,133 @@
     },
     "lucidBlocksQualiaAndBaseBuilding": {
       "title": "Clover Origins Grimoire Guide",
-      "displayType": "cards",
-      "intro": "The grimoire system is the heart of Clover Origins because it determines your combat identity, your reroll decisions, and when your stat resets become worth spending. New players should think about grimoires as progression anchors, not just rarity rolls.",
-      "cards": [
+      "displayType": "accordion",
+      "eyebrow": "Core System",
+      "subtitle": "The Grimoire system is the center of combat identity in Clover Origins. It connects your early-game quests, spin economy, and long-term build direction.",
+      "intro": "In Clover Origins, your Grimoire is not a side feature. It is the main power system that shapes how your character grows, what kind of magic you use, and when your rerolls actually matter. The smartest time to learn it is early, because the first codes already feed directly into Grimoire progression.",
+      "items": [
         {
-          "name": "Unlock Timing",
-          "description": "Your first Clover Origins grimoire matters most after you have leveled a bit and reached the Wizard NPC. Do not rush into build commitment before that checkpoint."
+          "label": "What the Clover Origins Grimoire system does",
+          "body": "The Grimoire is the main spin-based power system in Clover Origins. Public game guides describe progression around magic types such as Fire, Wind, Regen, and the rare Anti Magic, which is why Grimoire rolls sit at the center of strength and reroll decisions."
         },
         {
-          "name": "Spin Economy",
-          "description": "Use your free Clover Origins code rewards first so your initial grimoire decisions come from launch spins instead of wasted yen."
+          "label": "When you unlock your first Clover Origins Grimoire",
+          "body": "After progressing through the early quests and leveling up, you can visit the Wizard NPC to unlock and spin your first Grimoire. This is the point where your build starts to feel personal instead of generic."
         },
         {
-          "name": "Rarity Mindset",
-          "description": "A dependable grimoire that clears quests well is often better than endless rerolling for a dream result you may not see for hours."
+          "label": "How current Clover Origins codes feed the system",
+          "body": "The live code pool already pushes Grimoire progression. 1KLIKES! gives 10 Grimoire Spins, while BETARELEASE! and SHUTDOWNSORRY! both give Grimoire-related starter rewards alongside yen and stat resets."
         },
         {
-          "name": "Commit Window",
-          "description": "Stat resets become high value only after your Clover Origins grimoire feels worth keeping. Test the roll first, then commit."
+          "label": "Why Clover Origins Grimoire timing matters",
+          "body": "Early progression comes from quests and enemy clears, but your first meaningful power spike comes when your Grimoire, stats, and movement tools begin to line up. That is why most players redeem codes before committing to a long early-game grind."
         }
-      ],
-      "highlights": [
-        "Reach the Wizard NPC",
-        "Spend free grimoire spins first",
-        "Treat Anti Magic as the long chase",
-        "Reset only after testing your build"
       ]
     },
     "lucidBlocksWorldRegions": {
       "title": "Clover Origins Leveling Guide",
-      "displayType": "routeCards",
-      "intro": "Fast leveling in Clover Origins comes from stacking quests, moving between efficient enemy packs, and treating build checkpoints like part of the route instead of as distractions. The strongest path is structured, not random.",
-      "regions": [
+      "displayType": "timeline",
+      "eyebrow": "Progression",
+      "subtitle": "The fastest start in Clover Origins comes from doing the right systems in order. Quests, enemy clears, codes, and your first Grimoire unlock all chain together.",
+      "intro": "New players waste the most time when they wander before the core systems open up. Clover Origins rewards a cleaner loop: pick your route, push quests, unlock your first Grimoire, then use free code resources to speed up your next jump in power.",
+      "items": [
         {
-          "name": "Starter Quest Hub",
-          "type": "Level 1-10",
-          "description": "Begin with the closest Clover Origins NPC quests and clear every overlapping objective before moving on. Early quest density matters more than fancy rerolls."
+          "step": 1,
+          "title": "Start with the opening Clover Origins path choice",
+          "description": "Clover Origins opens with the core good-versus-evil fantasy. Settle on your starting route first, because the early game is built around getting you into quests and combat instead of free-roaming aimlessly."
         },
         {
-          "name": "Open-World Enemy Loop",
-          "type": "Level 10-20",
-          "description": "Stay in areas where quest targets and enemy camps overlap so you gain levels, yen, and familiarity with your movement without extra travel waste."
+          "step": 2,
+          "title": "Prioritize Clover Origins quests and enemy clears",
+          "description": "Public guides describe leveling and progression around completing quests and defeating enemies. That is the main engine for your early levels, and it also sets up your first real system unlocks."
         },
         {
-          "name": "Wizard NPC Checkpoint",
-          "type": "Build Milestone",
-          "description": "As soon as your first Clover Origins leveling stretch feels stable, visit the Wizard NPC and secure your first grimoire before returning to longer quest chains."
+          "step": 3,
+          "title": "Unlock your first Clover Origins Grimoire fast",
+          "description": "After the early quest stretch and some leveling, visit the Wizard NPC to unlock and spin your first Grimoire. This is the point where your combat identity starts to take shape."
         },
         {
-          "name": "Daily and Weekly Cycle",
-          "type": "Repeatable XP",
-          "description": "Once Clover Origins dailies and weeklies fit into your account loop, they become one of the cleanest ways to keep progression steady between build decisions."
+          "step": 4,
+          "title": "Redeem Clover Origins codes before the long grind",
+          "description": "The current public code pool gives a strong early boost. 1KLIKES! gives 10k yen, 3 stat resets, 10 Grimoire Spins, 6 Broom Spins, and 6 Race Spins, while BETARELEASE! and SHUTDOWNSORRY! also function as early progression bundles."
+        },
+        {
+          "step": 5,
+          "title": "Push upgrades after your first Clover Origins build takes form",
+          "description": "Once your Grimoire is set, keep progressing through quests and fights while improving your Grimoire and Broom options. Daily and weekly quest loops become more valuable once your basic build is no longer empty."
         }
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
       "title": "Clover Origins Stats Guide",
-      "displayType": "statCards",
-      "intro": "Good Clover Origins stat allocation is about supporting your grimoire, keeping quests smooth, and saving resets for moments when they create real value. Early stat plans should stay practical and reversible.",
-      "creatures": [
+      "displayType": "stepGuide",
+      "eyebrow": "Build Setup",
+      "subtitle": "Clover Origins already gives early Stat Resets through public codes. The real advantage is not claiming them, but using them after your build direction becomes clear.",
+      "intro": "A good stats page for Clover Origins should solve one problem fast: when to commit, and when to reset. Because the live code economy already includes Stat Resets, the smartest players treat resets as timing tools instead of panic buttons.",
+      "items": [
         {
-          "name": "Primary Damage Stat",
-          "role": "Core Stat",
-          "description": "Put most early Clover Origins points into the stat that directly supports your grimoire's main damage pattern so your quest clears stay efficient."
+          "step": 1,
+          "title": "Claim the Clover Origins reset economy first",
+          "description": "The current code pool already gives reset tools. 500LIKES! gives 1 Stat Reset, while 1KLIKES!, BETARELEASE!, and SHUTDOWNSORRY! all include multiple Stat Resets in their early-game reward bundles."
         },
         {
-          "name": "Survivability Floor",
-          "role": "Defense Layer",
-          "description": "A small defensive baseline keeps Clover Origins farming cleaner because you spend less time getting punished by basic enemies while learning routes."
+          "step": 2,
+          "title": "Wait until your first Clover Origins Grimoire unlock",
+          "description": "Your first Grimoire arrives after the early quest-and-leveling stretch at the Wizard NPC. That makes it the cleanest point to stop guessing and start spending stat points with intention."
         },
         {
-          "name": "Mobility Value",
-          "role": "Utility Stat",
-          "description": "Movement matters in Clover Origins because quest pace and farming efficiency both improve when your repositioning is smoother."
+          "step": 3,
+          "title": "Use Clover Origins quests and combat to test the build",
+          "description": "Since progression comes from quests and defeating enemies, early gameplay gives you a practical test window. If the setup feels smooth, keep going; if the build feels awkward after a major roll, use a reset instead of forcing it."
         },
         {
-          "name": "Reset Timing",
-          "role": "Stat Reset",
-          "description": "The best time to use a Clover Origins stat reset is after you decide your grimoire is a keeper, not before you even know what build you want."
+          "step": 4,
+          "title": "Reset after major Clover Origins reroll changes",
+          "description": "A new Grimoire roll, a race reroll, or a fresh code bundle can change what your build wants to do. The best use of a Stat Reset is right after one of those turning points, not before them."
+        }
+      ],
+      "callouts": [
+        {
+          "title": "Current Clover Origins reset sources",
+          "description": "500LIKES!, 1KLIKES!, BETARELEASE!, and SHUTDOWNSORRY! already give enough reset flexibility to delay commitment until your build direction is clearer."
         },
         {
-          "name": "PvE First Split",
-          "role": "Questing Focus",
-          "description": "Early Clover Origins stat planning should favor PvE consistency because stable farming and questing create the resources that enable better later builds."
+          "title": "Best Clover Origins commit point",
+          "description": "The Wizard NPC checkpoint is the cleanest moment to stop improvising and start shaping a real stat plan around your first keeper."
         },
         {
-          "name": "PvP Pivot",
-          "role": "Late Adjustment",
-          "description": "Once your Clover Origins build stabilizes, you can start moving stats toward PvP-specific priorities instead of general progression efficiency."
+          "title": "Clover Origins reset rule",
+          "description": "Use resets after a meaningful build change, not as a reflex every time your account feels unfinished."
         }
       ]
     },
     "lucidBlocksMobilityGear": {
       "title": "Clover Origins Race Guide",
-      "displayType": "itemCards",
-      "intro": "Race spins matter in Clover Origins because they influence long-term account value, reroll pressure, and whether your early resources are being spent efficiently. Race decisions should support your grimoire plan instead of fighting it.",
+      "displayType": "comparisonTable",
+      "eyebrow": "Reroll Value",
+      "subtitle": "Race is part of the live reroll economy in Clover Origins, not a throwaway cosmetic. The current code pool already gives players room to test race value early.",
+      "intro": "A strong Race Guide for Clover Origins should focus on the decision players actually care about on day one: keep this roll, or spend rerolls now. Public code pages already confirm that race spins are a real part of early progression, which is why this topic deserves a homepage slot.",
       "items": [
         {
-          "name": "High-Value Utility Races",
-          "type": "Best Keeps",
-          "description": "Keep Clover Origins race rolls that immediately strengthen your progression loop instead of rerolling forever for a hypothetical perfect outcome."
+          "topic": "Why Clover Origins race matters",
+          "confirmedData": "Current public code guides describe race rerolls as part of trying a different fighting style, alongside Grimoire and Broom rerolls.",
+          "playerTakeaway": "Race affects build direction enough that rerolls are treated as real progression resources."
         },
         {
-          "name": "Comfortable Early Keeps",
-          "type": "Safe Progression",
-          "description": "A solid Clover Origins race that helps you quest smoothly is often more valuable than chasing a better roll before your account is stable."
+          "topic": "Best Clover Origins early reroll source",
+          "confirmedData": "1KLIKES! gives 6 Race Spins in the current public code list.",
+          "playerTakeaway": "New players can test multiple race outcomes before settling into a longer grind."
         },
         {
-          "name": "Hard Reroll Targets",
-          "type": "Long Chase",
-          "description": "Only push aggressive Clover Origins race rerolling if your codes, yen, and grimoire plan can support the extra variance."
+          "topic": "Other Clover Origins starter reroll bundles",
+          "confirmedData": "BETARELEASE! and SHUTDOWNSORRY! are both listed as early-game code bundles with yen, Stat Resets, and spin rewards.",
+          "playerTakeaway": "Claiming launch-period codes early gives you more freedom to keep or reroll without wasting progression time."
         },
         {
-          "name": "Synergy With Your Grimoire",
-          "type": "Build Match",
-          "description": "Your Clover Origins race should reinforce the strengths of the grimoire you actually plan to keep, not just look good in isolation."
-        },
-        {
-          "name": "Spin Discipline",
-          "type": "Resource Rule",
-          "description": "Save extra Clover Origins race spins when your build still has unanswered questions. Spending every roll immediately creates unnecessary pressure."
+          "topic": "Where to redeem Clover Origins race rerolls",
+          "confirmedData": "Codes are redeemed in-game through Menu, then the Info tab, with the code box at the top of the screen.",
+          "playerTakeaway": "You can secure your reroll resources immediately after logging in."
         }
-      ],
-      "unlockMilestones": [
-        "Spend free Clover Origins race spins first",
-        "Keep strong utility races",
-        "Reroll only after your grimoire plan is clear",
-        "Save extra spins for later updates or pivots"
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
@@ -829,124 +829,124 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Clover Origins Guides",
+      "description": "Complete Clover Origins guides covering beginner progression, quest routing, first grimoire timing, and practical build planning.",
+      "metaTitle": "Clover Origins Guides - Beginner Routes & Progression",
+      "metaDescription": "Browse Clover Origins guides for first-hour tips, leveling routes, quest flow, grimoire unlock timing, and clean early progression decisions.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "These Clover Origins guides explain how the main systems fit together, from early questing and leveling to grimoire timing and account progression.",
       "why": "Why read guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Title": "Learn Core Systems",
+        "step1Description": "Understand quests, grimoires, rerolls, and stat timing before you waste early resources",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step2Description": "Follow cleaner routes for leveling, first grimoire unlocks, and smoother account growth",
+        "step3Title": "Make Better Decisions",
+        "step3Description": "Use practical guide pages to choose what to keep, reroll, and build around"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+      "title": "Clover Origins Codes",
+      "description": "Track active Clover Origins codes, reward bundles, and redemption steps for grimoire spins, broom spins, race spins, yen, and stat resets.",
+      "metaTitle": "Clover Origins Codes - Active Rewards & Redeem Steps",
+      "metaDescription": "Check the latest Clover Origins codes, see what each code rewards, and learn the fastest way to redeem spins, yen, and stat resets.",
+      "categoryLabel": "CODE TRACKER",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "Clover Origins codes give launch-period rewards such as yen, stat resets, grimoire spins, broom spins, and race spins that shape your first build decisions.",
+      "why": "Why track codes?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Claim Early Value",
+        "step1Description": "Secure free spins, yen, and reset tools before your first long quest session",
+        "step2Title": "Understand Rewards",
+        "step2Description": "See which codes help grimoire progression, race rerolls, and broom upgrades most",
+        "step3Title": "Redeem Faster",
+        "step3Description": "Use the in-game Menu and Info tab flow without wasting time hunting for the code box"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Code Pages"
     },
     "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+      "title": "Clover Origins Grimoires",
+      "description": "Dive into Clover Origins grimoires, rare rolls, Anti Magic planning, and the choices that turn early spins into a stable build.",
+      "metaTitle": "Clover Origins Grimoires - Tier List & Roll Planning",
+      "metaDescription": "Explore Clover Origins grimoire guides covering tier lists, Anti Magic value, first unlock timing, and which rolls are worth keeping.",
+      "categoryLabel": "GRIMOIRE SYSTEM",
+      "whatIs": "What are Grimoires?",
+      "whatIsDescription": "Grimoires are the main Clover Origins identity system. They define your magic style, your reroll pressure, and the build choices that matter most in early progression.",
+      "why": "Why check grimoire guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Know the Chase Rolls",
+        "step1Description": "See where Anti Magic, Wind, Fire, Regen, and Reinforcement fit into practical progression",
+        "step2Title": "Plan Your Spins",
+        "step2Description": "Use your free grimoire spins at the right time instead of burning them blindly",
+        "step3Title": "Build With Intent",
+        "step3Description": "Match your grimoire to stats, race value, farming comfort, and later PvP goals"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Grimoire Guides"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+      "title": "Clover Origins Quests",
+      "description": "Follow Clover Origins quest routes, leveling checkpoints, Wizard NPC timing, and the objective loops that keep progression efficient.",
+      "metaTitle": "Clover Origins Quests - Route Order & Leveling Flow",
+      "metaDescription": "Use Clover Origins quest guides to plan early leveling, main story progression, daily loops, and first grimoire checkpoints.",
+      "categoryLabel": "QUEST ROUTES",
+      "whatIs": "What are Quests?",
+      "whatIsDescription": "Quest guides cover the route order, overlapping objectives, leveling flow, and milestone timing that make Clover Origins progression smoother.",
+      "why": "Why follow quest guides?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Level Faster",
+        "step1Description": "Stack quests and enemy clears so XP, yen, and route efficiency grow together",
+        "step2Title": "Hit Key Milestones",
+        "step2Description": "Reach the Wizard NPC and your first real build checkpoints at the right time",
+        "step3Title": "Reduce Wasted Travel",
+        "step3Description": "Use tighter routes that keep NPC turn-ins, enemy camps, and broom travel working together"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Quest Guides"
     },
     "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+      "title": "Clover Origins Builds",
+      "description": "Shape Clover Origins builds around grimoires, race value, stat timing, broom comfort, and the goals you care about most.",
+      "metaTitle": "Clover Origins Builds - Stats, Races & Grimoire Synergy",
+      "metaDescription": "Read Clover Origins build guides covering beginner setups, stat reset timing, race synergy, broom value, and PvE-to-PvP transitions.",
+      "categoryLabel": "BUILD PLANNING",
+      "whatIs": "What are Builds?",
+      "whatIsDescription": "Build pages explain how grimoires, race decisions, stat allocation, broom upgrades, and farming routes connect into a stable Clover Origins account.",
+      "why": "Why study builds?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Avoid Bad Commitments",
+        "step1Description": "Delay full commitment until your first grimoire and reroll results are worth keeping",
+        "step2Title": "Use Resets Well",
+        "step2Description": "Spend Clover Origins stat resets after meaningful changes instead of wasting them early",
+        "step3Title": "Support Your Goal",
+        "step3Description": "Tune your build for leveling, farming, path identity, or later PvP without fighting your own setup"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Build Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+      "title": "Clover Origins PvP",
+      "description": "Prepare for Clover Origins PvP with stable builds, better movement, cleaner stat timing, and realistic duel expectations.",
+      "metaTitle": "Clover Origins PvP - Arena Prep & Combat Readiness",
+      "metaDescription": "Use Clover Origins PvP guides to prepare your build, movement, stats, and grimoire plan before taking competitive fights.",
+      "categoryLabel": "PVP PREP",
+      "whatIs": "What is PvP?",
+      "whatIsDescription": "PvP pages focus on duel readiness, build stability, movement control, and the adjustments that matter after your PvE foundation is secure.",
+      "why": "Why check PvP guides?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Enter With Stability",
+        "step1Description": "Take PvP seriously only after your Clover Origins build stops changing every session",
+        "step2Title": "Sharpen Movement",
+        "step2Description": "Improve spacing, chase control, and broom-assisted positioning before forcing more fights",
+        "step3Title": "Refine Late",
+        "step3Description": "Use resets and late tweaks for real duel gains once your PvE route already works"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All PvP Guides"
     }
   }
 }
