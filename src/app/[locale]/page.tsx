@@ -13,7 +13,7 @@ interface PageProps {
 const DEFAULT_SITE_URL = 'https://www.cloverorigins.wiki'
 const SITE_NAME = 'Clover Origins Wiki'
 const SITE_DESCRIPTION =
-  'Clover Origins Wiki covers active codes, grimoire guides, race and broom rolls, quests, stat builds, and beginner tips for the Roblox Black Clover RPG.'
+  'Clover Origins Wiki covers active codes, grimoire tier lists, best magic picks, first grimoire unlocks, quest routes, and build advice for the Roblox Black Clover RPG.'
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale } = await params
@@ -29,18 +29,19 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       'Clover Origins Wiki',
       'Roblox',
       'codes',
-      'grimoires',
+      'grimoire tier list',
+      'best magic',
       'quests',
       'races',
       'brooms',
-      'stat build',
+      'build guide',
     ],
     alternates: buildLanguageAlternates('/', locale as Locale, siteUrl),
     openGraph: {
       type: 'website',
       url: pageUrl,
       siteName: SITE_NAME,
-      title: 'Clover Origins Wiki - Codes, Grimoires & Quests',
+      title: 'Clover Origins Wiki - Codes, Grimoire Tier List & Builds',
       description: SITE_DESCRIPTION,
       images: [
         {
@@ -53,7 +54,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Clover Origins Wiki - Codes, Grimoires & Quests',
+      title: 'Clover Origins Wiki - Codes, Grimoire Tier List & Builds',
       description: SITE_DESCRIPTION,
       images: [heroImageUrl],
     },
