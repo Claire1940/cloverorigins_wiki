@@ -28,6 +28,7 @@ import { scrollToSection } from "@/lib/scrollToSection";
 import { DynamicIcon } from "@/components/ui/DynamicIcon";
 import type { ContentItemWithType } from "@/lib/getLatestArticles";
 import type { ModuleLinkMap } from "@/lib/buildModuleLinkMap";
+import { buildLocalizedPath } from "@/lib/i18n-utils";
 
 // Lazy load heavy components
 const HeroStats = lazy(() => import("@/components/home/HeroStats"));
@@ -65,7 +66,7 @@ function LinkedTitle({
 
   return (
     <Link
-      href={`/${locale}${linkData.url}`}
+      href={buildLocalizedPath(linkData.url, locale as "en" | "pt" | "es" | "fr")}
       title={linkData.title}
       className={
         className ??

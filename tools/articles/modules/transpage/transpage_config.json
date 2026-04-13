@@ -1,5 +1,6 @@
 {
-  "api_key": "sk-vOqGcdrN8fL7NZCO0iVvPvcJ0RzsS1zqaFMjLPTmxSP7gaaE",
+  "api_key": "",
+  "api_key_env": "TRANS_MESSAGES_API_KEY",
   "api_base_url": "https://api.apifast.tech/v1",
   "model": "gemini-2.5-flash",
   "group": "default",
@@ -14,7 +15,7 @@
   "default_language": "en",
   "output_dir": "src/locales/",
 
-  "use_value_extraction": false,
+  "use_value_extraction": true,
 
   "protected_terms": {
     "game_names": [

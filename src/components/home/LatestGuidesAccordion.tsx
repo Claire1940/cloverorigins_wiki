@@ -2,6 +2,8 @@
 
 import Link from 'next/link'
 import type { ContentItem } from '@/lib/content'
+import { useTranslations } from 'next-intl'
+import { buildLocalizedPath } from '@/lib/i18n-utils'
 
 interface ContentItemWithType extends ContentItem {
   contentType: string
@@ -14,15 +16,25 @@ interface LatestGuidesAccordionProps {
   className?: string
 }
 
-function AccordionColumn({ articles, locale }: { articles: ContentItemWithType[]; locale: string }) {
+function AccordionColumn({
+  articles,
+  locale,
+  latestArticlesLabel,
+  readMoreLabel
+}: {
+  articles: ContentItemWithType[]
+  locale: string
+  latestArticlesLabel: string
+  readMoreLabel: string
+}) {
   return (
     <div
       className="bg-white/5 border border-border rounded-xl overflow-hidden"
       role="region"
-      aria-label="Latest articles"
+      aria-label={latestArticlesLabel}
     >
       {articles.map((article, index) => {
-        const url = `/${locale}/${article.contentType}/${article.slug}`
+        const url = buildLocalizedPath(`/${article.contentType}/${article.slug}`, locale as 'en' | 'pt' | 'es' | 'fr')
         const detailsId = `article-${article.contentType}-${article.slug}`
 
         return (
@@ -88,7 +100,7 @@ function AccordionColumn({ articles, locale }: { articles: ContentItemWithType[]
                 href={url}
                 className="pl-4 text-xs text-[hsl(var(--nav-theme-light))] hover:underline inline-flex items-center gap-1"
               >
-                Read more →
+                {readMoreLabel} →
               </Link>
             </div>
           </details>
@@ -104,6 +116,7 @@ export function LatestGuidesAccordion({
   max = 30,
   className = ''
 }: LatestGuidesAccordionProps) {
+  const t = useTranslations()
   const displayArticles = articles.slice(0, max)
 
   if (displayArticles.length === 0) {
@@ -121,18 +134,29 @@ export function LatestGuidesAccordion({
         {/* 标题 */}
         <div className="text-center mb-12 scroll-reveal">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Latest <span className="text-[hsl(var(--nav-theme-light))]">Updates</span>
+            {t('common.latestUpdatesTitle')}{' '}
+            <span className="text-[hsl(var(--nav-theme-light))]">{t('common.latestUpdatesHighlight')}</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            Discover the newest guides, tips, and content
+            {t('common.latestUpdatesSubtitle')}
           </p>
         </div>
 
         {/* 双列手风琴 */}
         <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-6">
-          <AccordionColumn articles={leftColumn} locale={locale} />
+          <AccordionColumn
+            articles={leftColumn}
+            locale={locale}
+            latestArticlesLabel={t('common.latestArticles')}
+            readMoreLabel={t('common.readMore')}
+          />
           {rightColumn.length > 0 && (
-            <AccordionColumn articles={rightColumn} locale={locale} />
+            <AccordionColumn
+              articles={rightColumn}
+              locale={locale}
+              latestArticlesLabel={t('common.latestArticles')}
+              readMoreLabel={t('common.readMore')}
+            />
           )}
         </div>
 

@@ -33,6 +33,7 @@ import argparse
 import urllib.request
 import urllib.error
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from copy import deepcopy
 from pathlib import Path
 from typing import Optional
 
@@ -64,20 +65,41 @@ def load_config() -> dict:
     with open(CONFIG_PATH, 'r', encoding='utf-8') as f:
         return json.load(f)
 
+
+def resolve_api_settings(config: dict) -> tuple[str, str, str, float]:
+    base = config['api_base_url'].rstrip('/')
+    if base.endswith('/chat/completions'):
+        api_url = base
+    else:
+        api_url = f"{base}/chat/completions"
+
+    api_key = (
+        os.environ.get(config.get('api_key_env', 'TRANS_MESSAGES_API_KEY'))
+        or os.environ.get('APIFAST_API_KEY')
+        or os.environ.get('OPENAI_API_KEY')
+        or config.get('api_key', '')
+    ).strip()
+
+    if not api_key:
+        raise RuntimeError(
+            "缺少翻译 API key。请设置环境变量 "
+            f"{config.get('api_key_env', 'TRANS_MESSAGES_API_KEY')}。"
+        )
+
+    model = config.get('model', 'gemini-2.5-flash')
+    temperature = config.get('temperature', 0.1)
+    return api_url, api_key, model, temperature
+
 # ─── API 调用 ─────────────────────────────────────────────────────────────────
 
 
 def call_api(content: str, lang_name: str, config: dict, timeout: int = 120, retries: int = 3) -> Optional[str]:
     """调用翻译 API，失败返回 None"""
-    base = config['api_base_url'].rstrip('/')
-    # 兼容各种写法：/v1、/v1/、/v1/chat/completions 均可正常工作
-    if base.endswith('/chat/completions'):
-        api_url = base
-    else:
-        api_url = f"{base}/chat/completions"
-    api_key = config['api_key']
-    model = config.get('model', 'gemini-2.5-flash')
-    temperature = config.get('temperature', 0.1)
+    try:
+        api_url, api_key, model, temperature = resolve_api_settings(config)
+    except RuntimeError as e:
+        print(f"    [FAIL] {e}")
+        return None
 
     # 构建专有名词保护列表
     protected = config.get('protected_terms', {})
@@ -122,6 +144,66 @@ def call_api(content: str, lang_name: str, config: dict, timeout: int = 120, ret
 
     return None
 
+
+def call_values_api(
+    items: list[dict],
+    lang_name: str,
+    config: dict,
+    timeout: int = 120,
+    retries: int = 3
+) -> Optional[str]:
+    """调用 API 翻译值抽取列表，失败返回 None"""
+    try:
+        api_url, api_key, model, temperature = resolve_api_settings(config)
+    except RuntimeError as e:
+        print(f"    [FAIL] {e}")
+        return None
+
+    protected = config.get('protected_terms', {})
+    protected_list = (
+        protected.get('game_names', []) +
+        protected.get('character_names', []) +
+        protected.get('technical_terms', [])
+    )
+    protect_note = f"\nKeep these terms unchanged: {', '.join(protected_list)}" if protected_list else ''
+
+    prompt = (
+        f"Translate the following JSON array values to {lang_name}.\n"
+        "IMPORTANT: Return ONLY valid JSON without markdown code blocks.\n"
+        "Keep every object's id unchanged.\n"
+        "Translate ONLY the text field.\n"
+        "Do not add, remove, or reorder items."
+        f"{protect_note}\n\n"
+        f"{json.dumps(items, ensure_ascii=False, indent=2)}"
+    )
+
+    payload = json.dumps({
+        "model": model,
+        "messages": [{"role": "user", "content": prompt}],
+        "max_tokens": config.get('max_tokens', 8192),
+        "temperature": temperature,
+    }).encode('utf-8')
+
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {api_key}",
+    }
+
+    for attempt in range(1, retries + 1):
+        try:
+            req = urllib.request.Request(api_url, data=payload, headers=headers, method='POST')
+            with urllib.request.urlopen(req, timeout=timeout) as resp:
+                result = json.loads(resp.read().decode('utf-8'))
+                return result['choices'][0]['message']['content']
+        except Exception as e:
+            print(f"    [retry {attempt}/{retries}] {e}")
+            if attempt < retries:
+                retry_wait = 5 * attempt
+                print(f"    [WAIT] 等待 {retry_wait}s 后重试...")
+                time.sleep(retry_wait)
+
+    return None
+
 # ─── JSON 清理 ────────────────────────────────────────────────────────────────
 
 
@@ -134,6 +216,51 @@ def clean_json_response(text: str) -> str:
     # 移除 JSON 字符串中的非法控制字符（保留 \t \n \r）
     text = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', text)
     return text.strip()
+
+
+def extract_string_values(obj, path=()):
+    """递归提取所有字符串值，返回 [(path_tuple, value), ...]"""
+    items = []
+    if isinstance(obj, str):
+        items.append((path, obj))
+    elif isinstance(obj, dict):
+        for key, value in obj.items():
+            items.extend(extract_string_values(value, path + (key,)))
+    elif isinstance(obj, list):
+        for idx, value in enumerate(obj):
+            items.extend(extract_string_values(value, path + (idx,)))
+    return items
+
+
+def assign_path_value(obj, path, value):
+    target = obj
+    for key in path[:-1]:
+        target = target[key]
+    target[path[-1]] = value
+
+
+def split_value_items(items: list, chunk_count: int = 10) -> list[list]:
+    """按字符串总长度近似均匀分块。"""
+    total_weight = sum(max(1, len(value)) for _, value in items)
+    target = max(1, total_weight // chunk_count)
+
+    chunks = []
+    current = []
+    current_weight = 0
+
+    for item in items:
+        weight = max(1, len(item[1]))
+        if current and current_weight + weight > target and len(chunks) < chunk_count - 1:
+            chunks.append(current)
+            current = []
+            current_weight = 0
+        current.append(item)
+        current_weight += weight
+
+    if current:
+        chunks.append(current)
+
+    return chunks
 
 # ─── chunk 拆分 ───────────────────────────────────────────────────────────────
 
@@ -228,6 +355,50 @@ def translate_chunk_task(idx: int, total: int, chunk: dict, lang_name: str, conf
         return (idx, list(chunk.keys()), chunk)
 
 
+def translate_values_chunk_task(idx: int, total: int, chunk: list, lang_name: str, config: dict) -> tuple:
+    """值抽取模式下的单个 chunk 翻译任务，返回 (idx, [(path, translated_text), ...])"""
+    preview = ', '.join(str(path[-1]) for path, _ in chunk[:3])
+    suffix = '...' if len(chunk) > 3 else ''
+    print(f"    chunk {idx}/{total}: [{preview}{suffix}] 开始", flush=True)
+
+    request_items = [
+        {"id": str(i), "text": value}
+        for i, (_, value) in enumerate(chunk)
+    ]
+    result = call_values_api(request_items, lang_name, config)
+
+    if result:
+        cleaned = clean_json_response(result)
+        try:
+            parsed = json.loads(cleaned)
+            if not isinstance(parsed, list):
+                raise ValueError('返回结果不是 JSON 数组')
+
+            translated_pairs = []
+            for item in parsed:
+                if not isinstance(item, dict):
+                    raise ValueError('数组元素不是对象')
+                item_id = int(str(item.get('id')))
+                if item_id < 0 or item_id >= len(chunk):
+                    raise ValueError(f'非法 id: {item.get("id")}')
+                translated_text = item.get('text')
+                if not isinstance(translated_text, str):
+                    raise ValueError('text 不是字符串')
+                translated_pairs.append((chunk[item_id][0], translated_text))
+
+            if len(translated_pairs) != len(chunk):
+                raise ValueError('返回数量不匹配')
+
+            print(f"    chunk {idx}/{total}: [{preview}{suffix}] ✓")
+            return (idx, translated_pairs)
+        except Exception as e:
+            print(f"    chunk {idx}/{total}: [{preview}{suffix}] ✗ 值抽取解析失败({e})，英文兜底")
+            return (idx, [(path, value) for path, value in chunk])
+    else:
+        print(f"    chunk {idx}/{total}: [{preview}{suffix}] ✗ API失败，英文兜底")
+        return (idx, [(path, value) for path, value in chunk])
+
+
 def translate_language(
     lang: str,
     lang_name: str,
@@ -264,26 +435,50 @@ def translate_language(
         to_translate = en_data
 
     # 按 chunk_count 拆分
-    chunks = split_into_chunks(to_translate, chunk_count)
-    total = len(chunks)
-    print(f"  [开始] {lang.upper()} ({lang_name}) - {total} 个 chunk，并发度 {concurrency}")
+    use_value_extraction = config.get('use_value_extraction', False)
+    mode_label = '值抽取模式' if use_value_extraction else '完整 JSON 模式'
 
-    # 并发度 concurrency 执行所有 chunk
-    results = [None] * total
-    with ThreadPoolExecutor(max_workers=concurrency) as executor:
-        futures = {
-            executor.submit(translate_chunk_task, idx + 1, total, chunk, lang_name, config): idx
-            for idx, chunk in enumerate(chunks)
-        }
-        for future in as_completed(futures):
-            idx_result, _, translated_chunk = future.result()
-            results[idx_result - 1] = translated_chunk
+    if use_value_extraction:
+        value_items = extract_string_values(to_translate)
+        chunks = split_value_items(value_items, chunk_count)
+        total = len(chunks)
+        print(f"  [开始] {lang.upper()} ({lang_name}) - {total} 个 chunk，并发度 {concurrency}，{mode_label}")
 
-    # 按原始顺序 deep merge（同一顶层 key 可能来自多个 chunk）
-    translated: dict = {}
-    for r in results:
-        if r:
-            translated = deep_merge(translated, r)
+        results = [None] * total
+        with ThreadPoolExecutor(max_workers=concurrency) as executor:
+            futures = {
+                executor.submit(translate_values_chunk_task, idx + 1, total, chunk, lang_name, config): idx
+                for idx, chunk in enumerate(chunks)
+            }
+            for future in as_completed(futures):
+                idx_result, translated_pairs = future.result()
+                results[idx_result - 1] = translated_pairs
+
+        translated = deepcopy(to_translate)
+        for pairs in results:
+            if not pairs:
+                continue
+            for path, translated_text in pairs:
+                assign_path_value(translated, path, translated_text)
+    else:
+        chunks = split_into_chunks(to_translate, chunk_count)
+        total = len(chunks)
+        print(f"  [开始] {lang.upper()} ({lang_name}) - {total} 个 chunk，并发度 {concurrency}，{mode_label}")
+
+        results = [None] * total
+        with ThreadPoolExecutor(max_workers=concurrency) as executor:
+            futures = {
+                executor.submit(translate_chunk_task, idx + 1, total, chunk, lang_name, config): idx
+                for idx, chunk in enumerate(chunks)
+            }
+            for future in as_completed(futures):
+                idx_result, _, translated_chunk = future.result()
+                results[idx_result - 1] = translated_chunk
+
+        translated = {}
+        for r in results:
+            if r:
+                translated = deep_merge(translated, r)
 
     # incremental 模式：保留已有翻译，新翻译补充；overwrite 模式：完全替换
     if incremental:
@@ -342,6 +537,7 @@ def main():
     print("=" * 60)
     print(f"目标语言: {', '.join(target_langs)}")
     print(f"模式: {'增量' if args.incremental else '完整覆盖' if args.overwrite else '跳过已存在'}")
+    print(f"翻译策略: {'值抽取模式' if config.get('use_value_extraction', False) else '完整 JSON 模式'}")
     print(f"Chunk 数: {args.chunks}，并发度: {args.concurrency}")
     print("=" * 60 + "\n")
 

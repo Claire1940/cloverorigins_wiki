@@ -29,6 +29,18 @@ export function buildLanguageAlternates(path: string, locale: Locale, baseUrl: s
 }
 
 /**
+ * 构建带 locale 前缀的站内路径。
+ * 默认语言不带前缀，保持与 as-needed 路由一致。
+ */
+export function buildLocalizedPath(path: string, locale: Locale): string {
+  const normalizedPath = path.startsWith('/') ? path : `/${path}`
+
+  return locale === routing.defaultLocale
+    ? normalizedPath
+    : `/${locale}${normalizedPath}`
+}
+
+/**
  * 获取所有支持的语言列表
  * @returns 语言代码数组
  */
@@ -58,13 +70,17 @@ export function getDefaultLocale(): Locale {
  * 自动从语言代码生成显示名称，无需硬编码
  * @returns 语言代码到显示名称的映射
  */
-export function getLanguageDisplayNames(): Record<Locale, string> {
+export function getLanguageDisplayNames(displayLocale?: string): Record<Locale, string> {
   const result: Record<Locale, string> = {} as Record<Locale, string>
+  const displayNames =
+    typeof Intl !== 'undefined' && typeof Intl.DisplayNames !== 'undefined'
+      ? new Intl.DisplayNames(displayLocale ? [displayLocale] : undefined, {
+          type: 'language',
+        })
+      : null
 
-  // 动态生成显示名称：直接使用语言代码的大写形式
-  // 这样添加新语言时无需修改此文件
   routing.locales.forEach(locale => {
-    result[locale] = locale.toUpperCase()
+    result[locale] = displayNames?.of(locale) || locale.toUpperCase()
   })
 
   return result

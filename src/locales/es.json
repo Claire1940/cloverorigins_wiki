@@ -1,28 +1,28 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "description": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricación, biomas, logros, supervivencia, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "ogDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "twitterDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros y consejos de supervivencia para el sandbox surrealista de vóxeles en Steam."
+      "title": "Clover Origins Wiki - Códigos, Tier List de Grimorios y Builds",
+      "description": "Clover Origins Wiki cubre códigos activos, tier lists de grimorios, mejores selecciones de magia, rutas de misiones, guías de razas y escobas, y consejos de builds para el RPG de Black Clover en Roblox.",
+      "keywords": "Clover Origins, Clover Origins wiki, Roblox, códigos, tier list de grimorios, mejor magia, misiones, razas, escobas, guía de builds",
+      "ogTitle": "Clover Origins Wiki - Códigos, Tier List de Grimorios y Builds",
+      "ogDescription": "Clover Origins Wiki cubre códigos activos, tier lists de grimorios, mejores selecciones de magia, rutas de misiones, guías de razas y escobas, y consejos de builds para el RPG de Black Clover en Roblox.",
+      "twitterTitle": "Clover Origins Wiki - Códigos, Tier List de Grimorios y Builds",
+      "twitterDescription": "Clover Origins Wiki cubre códigos activos, tier lists de grimorios, mejores selecciones de magia, misiones, razas, escobas y consejos de builds para Clover Origins en Roblox."
     }
   },
   "nav": {
-    "codes": "Codes",
-    "guide": "Guide",
-    "grimoire": "Grimoire",
-    "map": "Map",
-    "release": "Release",
+    "codes": "Códigos",
+    "guide": "Guía",
+    "grimoire": "Grimorio",
+    "map": "Mapa",
+    "release": "Lanzamiento",
     "showcase": "Showcase",
-    "trailer": "Trailer"
+    "trailer": "Tráiler"
   },
   "common": {
     "home": "Inicio",
     "more": "Más",
-    "playNow": "Juega en Steam",
+    "playNow": "Jugar en Roblox",
     "switchLanguage": "Cambiar idioma",
     "switchTheme": "Cambiar tema",
     "lightMode": "Modo claro",
@@ -31,902 +31,1076 @@
     "notFoundDescription": "La página que buscas no existe.",
     "backToHome": "Volver al inicio",
     "relatedArticles": "Artículos relacionados",
-    "readMore": "Leer más"
+    "readMore": "Leer más",
+    "noArticlesYet": "Aún no hay artículos",
+    "moreWikis": "Más Wikis",
+    "advertisement": "Publicidad",
+    "latestArticles": "Últimos artículos",
+    "latestUpdatesTitle": "Lo último",
+    "latestUpdatesHighlight": "Actualizaciones",
+    "latestUpdatesSubtitle": "Descubre las guías, consejos y contenido más recientes"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de supervivencia de vóxeles",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explora biomas oníricos, fusiona objetos con Apotheosis, construye libremente y sobrevive a criaturas extrañas en este sandbox surrealista de mundo abierto en Steam.",
-    "getFreeCodesCTA": "Explorar guía de fabricación",
-    "playOnSteamCTA": "Jugar en Steam",
+    "badge": "RPG de Roblox inspirado en Black Clover",
+    "title": "Clover Origins Wiki",
+    "description": "Sigue códigos activos, grimorios, rerolls de razas y escobas, rutas de misiones, builds de estadísticas y progresión para principiantes en Clover Origins en Roblox.",
+    "getFreeCodesCTA": "Obtén códigos de Clover Origins",
+    "playOnSteamCTA": "Juega Clover Origins en Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Jugadores en línea"
+        "value": "4",
+        "label": "Códigos activos"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Pico de CCU"
+        "value": "248969",
+        "label": "Miembros de Funzy Labs"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Reseñas positivas"
+        "value": "2025-10-30",
+        "label": "Fecha de listado en Roblox"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Fecha de lanzamiento"
+        "value": "2",
+        "label": "Caminos morales"
       }
     }
   },
   "gameFeature": {
-    "title": "Jugabilidad de Lucid Blocks",
-    "description": "Explora biomas surrealistas, fusiona objetos con Apotheosis y sobrevive a criaturas extrañas en este sandbox de vóxeles onírico en Steam."
+    "title": "Gameplay de Clover Origins",
+    "description": "Realiza misiones en Clover Origins, desbloquea tu primer grimorio, haz reroll de razas y escobas, y perfecciona una build que sirva tanto para farmear como para PvP."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Recursos",
-    "subtitle": "Todo lo que necesitas para explorar, fabricar y sobrevivir en Lucid Blocks",
+    "title": "Clover Origins",
+    "titleHighlight": "Navegador de módulos",
+    "subtitle": "Ve directo a cada módulo de la página de inicio de Clover Origins, desde códigos y rutas para principiantes hasta builds, PvP y planificación del primer grimorio.",
     "cards": [
       {
+        "icon": "Descargar",
+        "title": "Códigos de Clover Origins",
+        "description": "Códigos activos, fichas de recompensa y pasos para canjear"
+      },
+      {
         "icon": "BookOpen",
-        "title": "Guía para principiantes",
-        "description": "Primeros pasos, exploración y progresión inicial"
-      },
-      {
-        "icon": "Sparkles",
-        "title": "Fabricación de Apotheosis",
-        "description": "Sistema de fusión libre y recetas iniciales"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Herramientas y armas",
-        "description": "Pico de escarcha, Azrael, __PROTECTED_6a765cb2__ y más"
-      },
-      {
-        "icon": "Package",
-        "title": "Almacenamiento e inventario",
-        "description": "Cubos de suministros, gabinetes y almacenamiento de Qualia"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia y construcción de bases",
-        "description": "Qualia personal y configuración de la base"
-      },
-      {
-        "icon": "Eye",
-        "title": "Regiones del mundo",
-        "description": "Fog Meadow, Ciénaga de la Esencia y más"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Criaturas y enemigos",
-        "description": "Maniquíes, arañas y cómo sobrevivir"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Equipo de movilidad",
-        "description": "__PROTECTED_6a765cb2__, Guante planeador, __PROTECTED_163b9bec__"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Cultivo y crecimiento",
-        "description": "Progresión de semillas y recolección de materiales"
+        "title": "Guía para principiantes de Clover Origins",
+        "description": "La ruta ideal de la primera hora para una cuenta nueva"
       },
       {
         "icon": "Star",
-        "title": "Mejores desbloqueos iniciales",
-        "description": "Mejoras prioritarias para la primera hora"
+        "title": "Tier List de Grimorios de Clover Origins",
+        "description": "Qué grimorios vale la pena conservar ahora mismo"
       },
       {
-        "icon": "ClipboardCheck",
-        "title": "Seguimiento de logros",
-        "description": "Los 19 logros y condiciones de Steam"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Preguntas frecuentes del modo un jugador",
-        "description": "Preguntas sobre plataformas, precio, cooperativo e idiomas"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck y controles",
-        "description": "Configuración de Proton 9.0.4 y consejos para el control"
-      },
-      {
-        "icon": "Settings",
-        "title": "Ajustes y accesibilidad",
-        "description": "Ocultar manos, __PROTECTED_38625270__ y opciones de pantalla"
-      },
-      {
-        "icon": "Clock",
-        "title": "Actualizaciones y notas del parche",
-        "description": "Correcciones recientes y notas de la hoja de ruta"
+        "icon": "Sparkles",
+        "title": "Guía de la mejor magia de Clover Origins",
+        "description": "Adapta tu magia a tus objetivos de farmeo, PvE y PvP"
       },
       {
         "icon": "Shield",
-        "title": "Solución de cierres inesperados",
-        "description": "Verificación de __PROTECTED_38625270__, ruta de registros y reporte de errores"
+        "title": "Guía de grimorios de Clover Origins",
+        "description": "Tiempos de desbloqueo, economía de giros y reglas de compromiso"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Guía de nivelación de Clover Origins",
+        "description": "Ciclos de misiones, puntos de control de XP y nivelación más rápida"
+      },
+      {
+        "icon": "ClipboardCheck",
+        "title": "Guía de estadísticas de Clover Origins",
+        "description": "Gasta bien los puntos y sincroniza los reinicios correctamente"
+      },
+      {
+        "icon": "Usuarios",
+        "title": "Guía de Razas de Clover Origins",
+        "description": "Rerolls de raza, decisiones de conservar o cambiar, y valor"
+      },
+      {
+        "icon": "Flecha derecha",
+        "title": "Guía de Escobas de Clover Origins",
+        "description": "Desbloquea el viaje en escoba, compara el valor de los giros gratuitos y planifica mejoras de movilidad según las misiones"
+      },
+      {
+        "icon": "Ojo",
+        "title": "Guía de Misiones de Clover Origins",
+        "description": "Sigue la línea de misiones inicial, el primer punto de control del grimorio y la ruta diaria/semanal"
+      },
+      {
+        "icon": "Martillo",
+        "title": "Guía de Farmeo de Clover Origins",
+        "description": "Empieza con códigos, acumula misiones con eliminaciones y convierte el yen en progreso a largo plazo"
+      },
+      {
+        "icon": "Paquete",
+        "title": "Guía de las Mejores Builds de Clover Origins",
+        "description": "Compara cuatro builds ideales para principiantes para misiones, sustento y rolls raros"
+      },
+      {
+        "icon": "Triángulo de alerta",
+        "title": "Guía de Anti-Magia de Clover Origins",
+        "description": "Por qué la Anti-Magia es importante y cómo conseguirla de forma eficiente"
+      },
+      {
+        "icon": "Control de juego 2",
+        "title": "Guía de PvP de Clover Origins",
+        "description": "Preparación para la arena, estabilidad de la build y planificación de recursos de lanzamiento"
+      },
+      {
+        "icon": "Círculo de mensaje",
+        "title": "Guía de Caminos del Bien y del Mal de Clover Origins",
+        "description": "Compara ambos bandos antes de fijar tu ruta"
+      },
+      {
+        "icon": "Reloj",
+        "title": "Guía del Primer Grimorio de Clover Origins",
+        "description": "Llega al NPC Mago y evalúa tu primer roll real"
       }
     ]
   },
   "modules": {
     "lucidBlocksBeginnerGuide": {
-      "title": "Guía para principiantes de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "Comienza aprendiendo cómo se conectan la exploración, la fusión y la progresión. Lucid Blocks premia la experimentación, por lo que el progreso temprano proviene de recolectar materiales inusuales, probar combinaciones y desbloquear tu Qualia personal.",
-      "steps": [
-        {
-          "title": "Explora antes de comprometerte",
-          "description": "Camina hacia el exterior, mina bloques comunes y conserva cualquier botín extraño que encuentres. El progreso inicial se trata menos de misiones fijas y más de descubrir en qué se pueden convertir los materiales."
-        },
-        {
-          "title": "Desbloquea tu Qualia personal pronto",
-          "description": "Tu Qualia personal es uno de los hitos iniciales más importantes. Te brinda un lugar confiable para reagruparte y construir a su alrededor."
-        },
-        {
-          "title": "Usa Osmio para progresar rápido al inicio",
-          "description": "El Osmio es uno de los materiales iniciales más útiles. Una ruta inicial popular es combinar Osmio con palos para fabricar un Pico de Escarcha para minar rápido."
-        },
-        {
-          "title": "Registra las buenas fusiones",
-          "description": "Lleva un registro de las combinaciones exitosas en tu diario. Lucid Blocks tiene muchas rutas de fusión posibles, por lo que anotar los resultados útiles ahorra mucho tiempo."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis no requiere una lista de recetas fija.",
-        "La generación de mundo infinito significa que moverte hacia arriba o hacia lo profundo puede revelar materiales completamente diferentes.",
-        "Las herramientas de movimiento y el equipo de utilidad se convierten en una gran mejora de calidad de vida una vez que comienzas a desbloquearlos.",
-        "Perderse al principio es normal, pero las herramientas útiles, el almacenamiento y las opciones de movimiento crecen como bola de nieve rápidamente una vez que tus primeras buenas fusiones empiezan a funcionar."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Artesanía de Apotheosis en Lucid Blocks",
-      "displayType": "cards",
-      "intro": "Apotheosis es el sistema de fusión sin restricciones del juego. En lugar de memorizar un libro de recetas tradicional, combinas materiales, observas el resultado y construyes tu propio conocimiento de artesanía con el tiempo.",
-      "cards": [
-        {
-          "name": "Fusión de forma libre",
-          "description": "Apotheosis te permite fusionar diferentes objetos sin necesidad de seguir una lista de recetas fija."
-        },
-        {
-          "name": "Múltiples resultados útiles",
-          "description": "Diferentes materiales suelen orientarse hacia ciertos resultados. Los descubrimientos de la comunidad muestran que insumos similares pueden derivar en herramientas prácticas, almacenamiento o mejoras de combate."
-        },
-        {
-          "name": "Artesanía basada en el diario",
-          "description": "La mejor manera de aprender Apotheosis es registrar tus combinaciones exitosas. Tu diario se convertirá rápidamente en tu propia referencia de artesanía."
-        },
-        {
-          "name": "Fusiones iniciales probadas por la comunidad",
-          "description": "Ejemplos iniciales populares incluyen Osmio más Palo para un Pico de Escarcha, Palo más Apéndice de Tungsteno para Azrael, y Azrael más Magnetita para el Estoque de Zarcillo."
-        }
-      ],
-      "milestones": [
-        "Fusionar un objeto",
-        "Fusionar una alimaña",
-        "Fusionar un artefacto divino"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Herramientas y armas de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mezcla equipo de utilidad oficial con armas iniciales descubiertas por la comunidad. La mejor configuración suele ser una mezcla de minería rápida, travesía segura y una opción de combate confiable.",
+      "title": "Códigos de Clover Origins",
+      "displayType": "Tarjetas de códigos",
+      "intro": "Canjea los códigos actuales de Clover Origins por yen, reinicios de estadísticas y paquetes de reroll antes de decidirte por una build. Las cuentas iniciales más fuertes reclaman primero todas las recompensas de lanzamiento y luego usan esos giros para probar múltiples resultados de grimorio, raza y escoba.",
       "items": [
         {
-          "name": "Pico de Escarcha",
-          "type": "Herramienta de minería",
-          "description": "Un pico inicial rápido y económico hecho de Osmio y Palo. Los jugadores lo usan para acelerar la recolección inicial de materiales."
+          "code": "1KLIKES!",
+          "status": "Activo",
+          "tag": "Mejor código actual",
+          "rewards": [
+            "10,000 Yen",
+            "3 reinicios de estadísticas",
+            "10 giros de grimorio",
+            "6 giros de escoba",
+            "6 giros de raza"
+          ],
+          "bestUse": "Canjea esto en cuanto crees tu personaje para que puedas probar varios resultados iniciales de grimorio, escoba y raza antes de comprometerte con uno."
         },
         {
-          "name": "Azrael",
-          "type": "Arma inicial",
-          "description": "Una ruta práctica para un arma inicial fabricada con un Palo y un Apéndice de Tungsteno."
+          "code": "SHUTDOWNSORRY!",
+          "status": "Activo",
+          "tag": "Compensación de lanzamiento",
+          "rewards": [
+            "5,000+ Yen",
+            "3+ reinicios de estadísticas",
+            "5+ giros de grimorio",
+            "5+ giros de escoba",
+            "5+ giros de raza"
+          ],
+          "bestUse": "Usa esto para reconstruir tu personaje tras un primer roll débil o para realizar una segunda tanda de rerolls una vez que entiendas tu estilo de juego preferido."
         },
         {
-          "name": "Estoque de Zarcillo",
-          "type": "Arma mejorada",
-          "description": "Una continuación más fuerte creada al combinar Azrael con Magnetita. Es una de las rutas de combate inicial-media más útiles compartidas por los jugadores."
+          "code": "BETARELEASE!",
+          "status": "Activo",
+          "tag": "Paquete de inicio de lanzamiento",
+          "rewards": [
+            "5,000+ Yen",
+            "3+ reinicios de estadísticas",
+            "5+ giros de grimorio",
+            "5+ giros de escoba",
+            "5+ giros de raza"
+          ],
+          "bestUse": "Reclámalo antes de sesiones largas de misiones para que el progreso inicial no se vea limitado por poco yen o un primer roll de grimorio débil."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de travesía oficial que mejora enormemente el movimiento y la exploración vertical."
+          "code": "500LIKES!",
+          "status": "Activo",
+          "tag": "Código de utilidad",
+          "rewards": [
+            "1 reinicio de estadísticas gratis"
+          ],
+          "bestUse": "Guarda este reinicio hasta que termines tus primeros niveles y sepas si vale la pena basar tu build en tu grimorio actual."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de movimiento oficial que ayuda a cubrir terreno de forma más segura y eficiente."
-        },
-        {
-          "name": "Varita de Bola",
-          "type": "Arma de utilidad",
-          "description": "Un objeto de utilidad a distancia oficial que expande tus opciones de combate y acertijos."
-        },
-        {
-          "name": "Equipo de buceo",
-          "type": "Equipo de travesía",
-          "description": "Un objeto de utilidad oficial para llegar a áreas que de otro modo ralentizarían la exploración."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Destacados oficialmente como parte del conjunto de herramientas principal y útiles para atravesar amenazas u obstáculos."
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Almacenamiento e inventario de Lucid Blocks",
-      "displayType": "solutionCards",
-      "intro": "La presión del inventario comienza temprano en Lucid Blocks, por lo que construir almacenamiento debería ser uno de tus primeros objetivos. Ya destacan varias soluciones probadas por jugadores reales.",
-      "solutions": [
-        {
-          "name": "Cubo de Almacenamiento",
-          "role": "Almacenamiento tipo cofre",
-          "description": "Los Cubos de Almacenamiento son una de las soluciones prácticas más tempranas y los jugadores los tratan como el contenedor principal tipo cofre del juego."
-        },
-        {
-          "name": "Gabinete",
-          "role": "Almacenamiento de base simple",
-          "description": "Los gabinetes son otra opción de almacenamiento confirmada. Una receta inicial compartida usa 1 de Madera cortada y 1 de Cuerda."
-        },
-        {
-          "name": "Qualia personal",
-          "role": "Centro de almacenamiento a largo plazo",
-          "description": "Una vez desbloqueada, tu Qualia personal se convierte en un lugar natural para organizar materiales, fabricar en paz y expandir la configuración de tu base."
-        },
-        {
-          "name": "Seguimiento en el diario",
-          "role": "Eficiencia de inventario",
-          "description": "Registrar combinaciones útiles en tu diario reduce el desperdicio de materiales y facilita mucho la gestión del inventario."
-        }
-      ],
-      "managementTips": [
-        "Prioriza una opción de almacenamiento confiable antes de acumular botines raros.",
-        "Construye alrededor de tu Qualia personal una vez que esté disponible.",
-        "Mantén separados los materiales de artesanía, las herramientas de combate y el equipo de movimiento para que las mejoras sean más fáciles de planificar.",
-        "Usa tu diario como parte de la gestión del inventario, no solo para descubrir recetas."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Qualia y construcción de bases en Lucid Blocks",
-      "displayType": "cards",
-      "intro": "La Qualia es uno de los hitos de progresión más importantes en Lucid Blocks. Te brinda un espacio personal para reagruparte, almacenar materiales y convertir gradualmente el progreso de exploración en una verdadera base de operaciones.",
-      "cards": [
-        {
-          "name": "Qualia personal",
-          "description": "Desbloquear una Qualia es un hito inicial que te da un lugar más confiable al cual regresar mientras exploras el mundo exterior."
-        },
-        {
-          "name": "Construcción centrada en el almacenamiento",
-          "description": "Muchos jugadores comienzan usando su Qualia como un centro de almacenamiento antes de convertirla en una base más grande con espacios organizados para artesanía y construcción."
-        },
-        {
-          "name": "Construcción creativa de hogares",
-          "description": "Lucid Blocks admite la construcción creativa, y los jugadores ya están usando los espacios de Qualia para crear casas y diseños personalizados."
-        },
-        {
-          "name": "Centro de progresión",
-          "description": "Una base sólida te ayuda a separar el botín de exploración, los materiales de artesanía, las semillas, las herramientas y el equipo de movilidad para planificar mejor tus próximas mejoras."
+          "code": "Cómo canjear códigos de Clover Origins",
+          "status": "Guía",
+          "tag": "Pasos rápidos",
+          "rewards": [
+            "Únete al grupo de Roblox de Funzy Labs",
+            "Abre Clover Origins en Roblox",
+            "Abre el Menú",
+            "Toca la pestaña ! Info",
+            "Introduce el código y presiona Enter"
+          ],
+          "bestUse": "Canjea todos los códigos activos de Clover Origins antes de comenzar a hacer misiones en serio para que tus giros, yen y restablecimientos de estadísticas estén listos cuando comiencen las verdaderas elecciones de build."
         }
       ],
       "highlights": [
-        "Entrar en una qualia",
-        "Almacenar materiales de forma segura",
-        "Expandir de la utilidad a la decoración",
-        "Usar el espacio de la base para apoyar la artesanía y el cultivo"
+        "Los códigos de lanzamiento y de metas de \"me gusta\" son más efectivos en cuentas nuevas de Clover Origins.",
+        "Gasta los giros gratuitos de grimorio, escoba y raza antes de comprar cualquier cosa con yen.",
+        "Guarda tus restablecimientos de estadísticas hasta que entiendas qué grimorio y camino quieres conservar.",
+        "Únete primero al grupo de Roblox de Funzy Labs para que el canje de códigos de Clover Origins funcione correctamente."
+      ]
+    },
+    "lucidBlocksApotheosisCrafting": {
+      "title": "Guía para principiantes de Clover Origins",
+      "displayType": "pasos",
+      "intro": "El mejor comienzo en Clover Origins es simple: asegura los regalos, haz misiones de forma constante, desbloquea tu primer grimorio y evita desperdiciar restablecimientos en una build que aún no entiendes. Una progresión limpia es mejor que rerolls llamativos en la primera hora.",
+      "steps": [
+        {
+          "step": 1,
+          "label": "Elige tu bando y entra en Clover Origins",
+          "details": "Clover Origins comienza con la división entre el bien y el mal que define tu partida como un Caballero Mágico o un Mago malvado. Toma esa decisión primero y luego aprende a usar la interfaz antes de gastar algo valioso."
+        },
+        {
+          "step": 2,
+          "label": "Canjea todos los códigos de Clover Origins de inmediato",
+          "details": "Abre el Menú, toca la pestaña de ! Info y reclama las recompensas disponibles. El yen gratuito, los restablecimientos de estadísticas y los paquetes de reroll eliminan la mayor parte de la presión inicial en una cuenta nueva."
+        },
+        {
+          "step": 3,
+          "label": "Haz misiones antes de intentar demasiados rerolls",
+          "details": "La progresión inicial en Clover Origins proviene de las misiones y de farmear enemigos, así que sube algunos niveles y aprende tus movimientos antes de agotar cada restablecimiento y giro."
+        },
+        {
+          "step": 4,
+          "label": "Desbloquea tu primer grimorio con el NPC Wizard",
+          "details": "Una vez que tus niveles iniciales se sientan estables, dirígete al NPC Wizard y realiza tu primer giro real de grimorio. Ese es el primer momento que define tu build en un perfil nuevo de Clover Origins."
+        },
+        {
+          "step": 5,
+          "label": "Mantén los recursos de utilidad de alto valor en reserva",
+          "details": "Los restablecimientos de estadísticas son más valiosos después de decidir si vale la pena conservar tu grimorio actual. No agotes cada restablecimiento en el momento en que lo recibas."
+        },
+        {
+          "step": 6,
+          "label": "Usa el yen para progresar en lugar de hacer rerolls por impulso",
+          "details": "El yen sirve para mejoras vinculadas a tu grimorio y mejores opciones de escoba, así que gástalo en una progresión más fluida en lugar de compras aleatorias que no hagan avanzar tu cuenta."
+        },
+        {
+          "step": 7,
+          "label": "Incorpora las misiones diarias y semanales a tu rutina",
+          "details": "Una vez que tengas lo básico, el ritmo de las misiones diarias y semanales se convierte en la forma más limpia de mantener el progreso en Clover Origins sin tiempos muertos."
+        },
+        {
+          "step": 8,
+          "label": "Deja el PvP para después de que tu build se estabilice",
+          "details": "El PvP existe en Clover Origins, pero tiene más sentido una vez que tienes un grimorio que realmente quieres conservar, una configuración de estadísticas más limpia y suficiente práctica con el movimiento y las habilidades."
+        }
+      ],
+      "quickTips": [
+        "Canjea todos los códigos antes de tu primera sesión larga de misiones.",
+        "Prueba tu grimorio y movimiento antes de gastar restablecimientos de estadísticas adicionales.",
+        "Trata el yen como combustible para el progreso, no como dinero para gastos de pánico.",
+        "Una ruta tranquila durante la primera hora hace que las elecciones posteriores de raza, escoba y PvP sean mucho más claras."
+      ]
+    },
+    "lucidBlocksToolsAndWeapons": {
+      "title": "Tier List de Grimorios de Clover Origins",
+      "displayType": "tierGrid",
+      "intro": "El conjunto público más claro de grimorios de Clover Origins apunta a una tier list simple en la página de inicio: un giro verdaderamente codiciado, dos opciones confiables para conservar a largo plazo y dos opciones de progresión más seguras que son lo suficientemente buenas para empezar.",
+      "items": [
+        {
+          "tier": "S",
+          "name": "Anti-Magia",
+          "role": "El giro definitivo a buscar",
+          "summary": "Anti-Magia es el objetivo de reroll premium en Clover Origins porque los materiales oficiales del juego lo presentan como el resultado raro más destacado. Si lo obtienes temprano, suele ser el giro por el que vale la pena construir tu personaje en lugar de descartarlo.",
+          "keepOrReroll": "Conservar"
+        },
+        {
+          "tier": "A",
+          "name": "Viento",
+          "role": "Elección de progresión equilibrada",
+          "summary": "El Viento es uno de los grimorios de Clover Origins más confiables para la progresión general. Es una opción muy segura de conservar si quieres una ruta inicial fuerte sin pasar una eternidad buscando el giro más raro.",
+          "keepOrReroll": "Normalmente conservar"
+        },
+        {
+          "tier": "A",
+          "name": "Fuego",
+          "role": "Giro ofensivo directo",
+          "summary": "El Fuego se ajusta a la fantasía de daño directo que muchos jugadores de Clover Origins buscan. Es una de las opciones iniciales más claras si tu objetivo es completar misiones rápido y ejercer una presión agresiva en PvE.",
+          "keepOrReroll": "Normalmente conservar"
+        },
+        {
+          "tier": "B",
+          "name": "Refuerzo",
+          "role": "Opción estable de estilo bruiser",
+          "summary": "El Refuerzo es fácil de recomendar a los jugadores de Clover Origins que buscan combates más estables, mayor comodidad y menos riesgo mientras aprenden el juego. No es el giro principal a buscar, pero sigue siendo una opción práctica para conservar al principio.",
+          "keepOrReroll": "Conservar si te sientes cómodo"
+        },
+        {
+          "tier": "B",
+          "name": "Regeneración",
+          "role": "Ruta de sustento permisiva",
+          "summary": "La Regeneración funciona bien para una progresión en solitario más tranquila en Clover Origins, ya que ofrece a los nuevos jugadores una ruta más permisiva al realizar misiones y farmear enemigos. Es confiable, aunque no sea la opción más prestigiosa.",
+          "keepOrReroll": "Conservar para sustento"
+        }
+      ],
+      "notes": [
+        "Anti-Magia es el giro a buscar a largo plazo en Clover Origins.",
+        "Viento y Fuego son las opciones iniciales más seguras para una progresión eficiente.",
+        "Refuerzo y Regeneración están bien si valoras la comodidad por encima del hype.",
+        "No gastes cada restablecimiento buscando la perfección antes de entender tu build."
+      ]
+    },
+    "lucidBlocksStorageAndInventory": {
+      "title": "Guía de la Mejor Magia de Clover Origins",
+      "displayType": "recommendationCards",
+      "intro": "La mejor magia en Clover Origins es la que se adapta a cómo planeas completar misiones, farmear enemigos y decidir si vale la pena gastar un reroll. Elige primero por estilo de juego y segundo por rareza.",
+      "items": [
+        {
+          "tier": "Tier S",
+          "name": "Anti-Magia",
+          "bestFor": "Jugadores principales a largo plazo y rerollers constantes",
+          "whyPickIt": "Anti-Magia es el resultado más buscado de Clover Origins porque combina rareza con una identidad de alto nivel. Si la obtienes, la respuesta habitual es conservarla y armar tu build en torno a ella.",
+          "tradeoff": "Desventaja: podrías pasar mucho tiempo buscándola."
+        },
+        {
+          "tier": "Tier A",
+          "name": "Fuego",
+          "bestFor": "Jugadores que buscan presión directa y completar misiones de forma eficiente",
+          "whyPickIt": "Fuego es una de las mejores opciones de magia en Clover Origins si tu objetivo es el daño directo y un farmeo inicial rápido sin pensar demasiado en cada rotación.",
+          "tradeoff": "Desventaja: es más segura que llamativa, no es el giro de prestigio raro."
+        },
+        {
+          "tier": "Tier A",
+          "name": "Viento",
+          "bestFor": "Progresión equilibrada y un estilo de juego versátil en general",
+          "whyPickIt": "Viento es una recomendación sólida y generalista porque se encuentra en el grupo de magia visible de Clover Origins y se adapta bien tanto al farmeo como a la progresión a largo plazo.",
+          "tradeoff": "Desventaja: los cazadores de rerolls pueden encontrarla menos emocionante que la Anti-Magia."
+        },
+        {
+          "tier": "Tier B",
+          "name": "Regeneración",
+          "bestFor": "Subida de nivel en solitario permisiva e inicios con mucho sustento",
+          "whyPickIt": "Regeneración es una opción de magia muy útil en Clover Origins cuando buscas un inicio más seguro, con menos estrés y un poco más de margen para aprender el movimiento y el ritmo de las misiones.",
+          "tradeoff": "Desventaja: rara vez es el giro de mayor valor si lo único que te importa es obtener lo más codiciado."
+        },
+        {
+          "tier": "Tier B",
+          "name": "Refuerzo",
+          "bestFor": "Durabilidad ideal para principiantes y combates más estables",
+          "whyPickIt": "Refuerzo tiene más sentido para los jugadores de Clover Origins que quieren estabilizar los combates iniciales y aprender el juego sin forzar decisiones agresivas centradas solo en el daño.",
+          "tradeoff": "Desventaja: es más algo práctico para conservar que un elemento destacado del meta para presumir."
+        }
+      ],
+      "pickingTips": [
+        "Elige la magia de Clover Origins por la comodidad al farmear y la velocidad en las misiones, no solo por la rareza.",
+        "Obtener algo práctico para conservar desde el principio es mejor que agotar cada reinicio el primer día.",
+        "Usa los reinicios de estadísticas solo después de saber si tu plan de magia y grimorio coinciden.",
+        "La magia adecuada es aquella con la que realmente puedes progresar durante varias sesiones."
+      ]
+    },
+    "lucidBlocksQualiaAndBaseBuilding": {
+      "title": "Guía de Grimorios de Clover Origins",
+      "displayType": "acordeón",
+      "eyebrow": "Sistema central",
+      "subtitle": "El sistema de Grimorios es el centro de la identidad de combate en Clover Origins. Conecta tus misiones iniciales, la economía de giros y la dirección de tu build a largo plazo.",
+      "intro": "En Clover Origins, tu Grimorio no es una característica secundaria. Es el sistema de poder principal que define cómo crece tu personaje, qué tipo de magia usas y cuándo tus rerolls realmente importan. El momento más inteligente para aprender sobre él es temprano, porque los primeros códigos ya alimentan directamente la progresión del Grimorio.",
+      "items": [
+        {
+          "label": "Qué hace el sistema de Grimorio de Clover Origins",
+          "body": "El Grimorio es el sistema de poder principal basado en giros en Clover Origins. Las guías públicas del juego describen la progresión en torno a tipos de magia como Fuego, Viento, Regeneración y la rara Anti Magia, razón por la cual los giros de Grimorio están en el centro de las decisiones de fuerza y rerolls."
+        },
+        {
+          "label": "Cuándo desbloqueas tu primer Grimorio de Clover Origins",
+          "body": "Después de progresar a través de las misiones iniciales y subir de nivel, puedes visitar al NPC Mago para desbloquear y girar tu primer Grimorio. Este es el punto donde tu build comienza a sentirse personal en lugar de genérica."
+        },
+        {
+          "label": "Cómo los códigos actuales de Clover Origins alimentan el sistema",
+          "body": "El conjunto de códigos activos ya impulsa la progresión del Grimorio. ¡1KLIKES! otorga 10 Giros de Grimorio, mientras que ¡BETARELEASE! y ¡SHUTDOWNSORRY! otorgan recompensas iniciales relacionadas con el Grimorio junto con yenes y reinicios de estadísticas."
+        },
+        {
+          "label": "Por qué el momento del Grimorio en Clover Origins es importante",
+          "body": "La progresión temprana proviene de misiones y eliminación de enemigos, pero tu primer aumento significativo de poder ocurre cuando tu Grimorio, estadísticas y herramientas de movimiento comienzan a alinearse. Es por eso que la mayoría de los jugadores canjean códigos antes de comprometerse con un largo farmeo al inicio del juego."
+        }
       ]
     },
     "lucidBlocksWorldRegions": {
-      "title": "Regiones del mundo de Lucid Blocks",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks utiliza generación de mundo infinito, por lo que los jugadores siguen descubriendo nuevos entornos y estructuras. Algunos lugares con nombre ya aparecen en los logros y en las discusiones de la comunidad.",
-      "regions": [
+      "title": "Guía de Nivelación de Clover Origins",
+      "displayType": "cronología",
+      "eyebrow": "Progresión",
+      "subtitle": "El inicio más rápido en Clover Origins proviene de realizar los sistemas correctos en orden. Las misiones, la eliminación de enemigos, los códigos y el desbloqueo de tu primer Grimorio se encadenan entre sí.",
+      "intro": "Los jugadores nuevos pierden más tiempo cuando deambulan antes de que se abran los sistemas principales. Clover Origins recompensa un ciclo más limpio: elige tu ruta, avanza en las misiones, desbloquea tu primer Grimorio y luego usa los recursos de códigos gratuitos para acelerar tu próximo salto de poder.",
+      "items": [
         {
-          "name": "Fog Meadow",
-          "type": "Área destacada por la comunidad",
-          "description": "Fog Meadow ya es conocida entre los jugadores como un área tensa asociada con amenazas ocultas y encuentros peligrosos."
+          "step": 1,
+          "title": "Comienza con la elección de camino inicial de Clover Origins",
+          "description": "Clover Origins comienza con la fantasía central del bien contra el mal. Decide tu ruta inicial primero, porque el inicio del juego está diseñado para llevarte a misiones y combate en lugar de deambular sin rumbo."
         },
         {
-          "name": "Línea ley de Tiamana",
-          "type": "Punto de referencia de descubrimiento",
-          "description": "La línea ley de tiamana es lo suficientemente importante como para tener su propio hito de logro, lo que la convierte en uno de los descubrimientos mundiales con nombre más claros hasta ahora."
+          "step": 2,
+          "title": "Prioriza las misiones y la eliminación de enemigos en Clover Origins",
+          "description": "Las guías públicas describen el nivelado y la progresión en torno a completar misiones y derrotar enemigos. Ese es el motor principal para tus niveles iniciales, y también prepara tus primeros desbloqueos reales del sistema."
         },
         {
-          "name": "Clonaqualia",
-          "type": "Espacio de construcción",
-          "description": "Los jugadores ya están usando Clonaqualia como un lugar para construir casas, almacenar materiales y experimentar con diseños más permanentes."
+          "step": 3,
+          "title": "Desbloquea tu primer Grimoire de Clover Origins rápido",
+          "description": "Después del tramo inicial de misiones y algo de nivelado, visita al NPC Wizard para desbloquear y girar tu primer Grimoire. Este es el punto donde tu identidad de combate comienza a tomar forma."
         },
         {
-          "name": "Ciénaga de Esencia",
-          "type": "Área de recolección",
-          "description": "La Ciénaga de Esencia está siendo compartida por los jugadores como una ubicación útil para recolectar recursos, especialmente para luchar contra slimes y ganar experiencia."
+          "step": 4,
+          "title": "Canjea códigos de Clover Origins antes del largo farmeo",
+          "description": "El conjunto actual de códigos públicos otorga un fuerte impulso inicial. ¡1KLIKES! da 10k de yen, 3 reinicios de estadísticas, 10 giros de Grimoire, 6 giros de Broom y 6 giros de Race, mientras que ¡BETARELEASE! y ¡SHUTDOWNSORRY! también funcionan como paquetes de progresión temprana."
+        },
+        {
+          "step": 5,
+          "title": "Impulsa las mejoras después de que tu primera build de Clover Origins tome forma",
+          "description": "Una vez que tu Grimoire esté listo, sigue progresando a través de misiones y combates mientras mejoras tus opciones de Grimoire y Broom. Los ciclos de misiones diarias y semanales se vuelven más valiosos una vez que tu build básica ya no está vacía."
         }
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
-      "title": "Criaturas y enemigos de Lucid Blocks",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mezcla criaturas surreales con peligros reales. Las descripciones oficiales y las publicaciones de la comunidad apuntan a un mundo lleno de vida extraña, amenazas hostiles y algunos encuentros destacados que los jugadores recuerdan rápidamente.",
-      "creatures": [
+      "title": "Guía de estadísticas de Clover Origins",
+      "displayType": "guíaPasoAPaso",
+      "eyebrow": "Configuración de Build",
+      "subtitle": "Clover Origins ya otorga reinicios de estadísticas tempranos a través de códigos públicos. La verdadera ventaja no es reclamarlos, sino usarlos después de que la dirección de tu build sea clara.",
+      "intro": "Una buena página de estadísticas para Clover Origins debería resolver un problema rápido: cuándo comprometerse y cuándo reiniciar. Debido a que la economía de códigos actual ya incluye reinicios de estadísticas, los jugadores más inteligentes tratan los reinicios como herramientas de tiempo en lugar de botones de pánico.",
+      "items": [
         {
-          "name": "Maniquíes",
-          "role": "Enemigo hostil",
-          "description": "Los maniquíes son uno de los enemigos nombrados oficialmente en el mundo y parte del catálogo de amenazas surreales del juego."
+          "step": 1,
+          "title": "Reclama primero la economía de reinicios de Clover Origins",
+          "description": "El conjunto actual de códigos ya otorga herramientas de reinicio. ¡500LIKES! da 1 reinicio de estadísticas, mientras que ¡1KLIKES!, ¡BETARELEASE! y ¡SHUTDOWNSORRY! incluyen múltiples reinicios de estadísticas en sus paquetes de recompensas para el inicio del juego."
         },
         {
-          "name": "Geles blandos",
-          "role": "Enemigo hostil",
-          "description": "Los geles blandos son otro tipo de enemigo nombrado oficialmente y ayudan a definir el extraño estilo biológico del juego."
+          "step": 2,
+          "title": "Espera hasta el desbloqueo de tu primer Grimoire de Clover Origins",
+          "description": "Tu primer Grimoire llega después del tramo inicial de misiones y nivelado con el NPC Wizard. Eso lo convierte en el punto más claro para dejar de adivinar y comenzar a gastar puntos de estadísticas con intención."
         },
         {
-          "name": "Seres de dimensiones superiores",
-          "role": "Enemigo hostil",
-          "description": "Estos seres se presentan como parte del catálogo de enemigos más abstractos e inquietantes del mundo."
+          "step": 3,
+          "title": "Usa las misiones y el combate de Clover Origins para probar la build",
+          "description": "Dado que la progresión proviene de las misiones y de derrotar enemigos, el juego temprano te brinda una ventana de prueba práctica. Si la configuración se siente fluida, continúa; si la build se siente incómoda después de un giro importante, usa un reinicio en lugar de forzarla."
         },
         {
-          "name": "Arañas colosales",
-          "role": "Amenaza mayor",
-          "description": "Las arañas son uno de los enemigos más temidos de inmediato en las discusiones de la comunidad y son claramente un peligro memorable."
+          "step": 4,
+          "title": "Reinicia después de cambios importantes de reroll en Clover Origins",
+          "description": "Un nuevo giro de Grimorio, un reroll de raza o un nuevo paquete de códigos pueden cambiar lo que tu build busca hacer. El mejor uso de un Stat Reset es justo después de uno de esos puntos de inflexión, no antes."
+        }
+      ],
+      "callouts": [
+        {
+          "title": "Fuentes actuales de reset en Clover Origins",
+          "description": "500LIKES!, 1KLIKES!, BETARELEASE! y SHUTDOWNSORRY! ya otorgan suficiente flexibilidad de reset para retrasar el compromiso hasta que la dirección de tu build sea más clara."
         },
         {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "Criatura con nombre",
-          "description": "__PROTECTED_26ee183b__ es lo suficientemente notable como para tener su propio logro, lo que lo convierte en uno de los encuentros con criaturas nombradas más claros del juego."
+          "title": "El mejor punto de compromiso en Clover Origins",
+          "description": "El punto de control del NPC Mago es el momento más oportuno para dejar de improvisar y empezar a diseñar un plan de estadísticas real en torno a tu primera elección definitiva."
         },
         {
-          "name": "Alimañas adorables",
-          "role": "Criatura interactuable",
-          "description": "Las alimañas no solo son parte de la progresión de fusión, también se les puede cambiar el nombre, dándoles un papel más personal que a los enemigos estándar."
-        },
-        {
-          "name": "Criatura blasfema",
-          "role": "Amenaza de élite",
-          "description": "La criatura blasfema está vinculada a un logro de combate dedicado, lo que la marca como un encuentro enemigo significativo."
+          "title": "Regla de reset de Clover Origins",
+          "description": "Usa los resets después de un cambio significativo en tu build, no como un reflejo cada vez que sientas que tu cuenta está incompleta."
         }
       ]
     },
     "lucidBlocksMobilityGear": {
-      "title": "Equipo de movilidad de Lucid Blocks",
-      "displayType": "itemCards",
-      "intro": "Las mejoras de movimiento son uno de los mayores saltos en la calidad de vida en Lucid Blocks. Una vez que desbloqueas tus primeras herramientas de travesía, la exploración se vuelve más rápida, segura y mucho más gratificante.",
+      "title": "Guía de Razas de Clover Origins",
+      "displayType": "Tabla de comparación",
+      "eyebrow": "Valor del Reroll",
+      "subtitle": "La raza es parte de la economía de reroll activa en Clover Origins, no un cosmético desechable. El conjunto de códigos actuales ya les da a los jugadores margen para probar el valor de la raza desde el principio.",
+      "intro": "Una buena Guía de Razas para Clover Origins debe enfocarse en la decisión que realmente les importa a los jugadores el primer día: quedarse con este giro o gastar rerolls ahora. Las páginas de códigos públicos ya confirman que los giros de raza son una parte real del progreso inicial, por lo que este tema merece un lugar en la página de inicio.",
       "items": [
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de travesía",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y tiene su propio logro dedicado."
+          "topic": "Por qué importa la raza en Clover Origins",
+          "confirmedData": "Las guías de códigos públicos actuales describen los rerolls de raza como parte de probar un estilo de lucha diferente, junto con los rerolls de Grimorio y Escoba.",
+          "playerTakeaway": "La raza afecta la dirección de la build lo suficiente como para que los rerolls sean tratados como recursos de progreso reales."
         },
         {
-          "name": "Guante planeador",
-          "type": "Movilidad aérea",
-          "description": "El guante planeador permite un viaje mucho más fluido y es otro hito importante de progresión con su propio logro."
+          "topic": "La mejor fuente de reroll inicial en Clover Origins",
+          "confirmedData": "1KLIKES! otorga 6 giros de raza en la lista de códigos públicos actual.",
+          "playerTakeaway": "Los jugadores nuevos pueden probar múltiples resultados de raza antes de establecerse en un farmeo más largo."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de travesía",
-          "description": "Los planeadores abeja se destacan oficialmente como parte del conjunto de herramientas de movimiento del juego para cubrir terreno de manera más eficiente."
+          "topic": "Otros paquetes de reroll iniciales de Clover Origins",
+          "confirmedData": "BETARELEASE! y SHUTDOWNSORRY! figuran como paquetes de códigos para el inicio del juego con yenes, Stat Resets y recompensas de giros.",
+          "playerTakeaway": "Reclamar los códigos del periodo de lanzamiento temprano te da más libertad para conservar o hacer reroll sin perder tiempo de progreso."
         },
         {
-          "name": "Varita de Bola",
-          "type": "Equipo de utilidad",
-          "description": "Las varitas de bola son una de las herramientas especiales destacadas oficialmente y expanden la forma en que te mueves o interactúas con el mundo."
-        },
-        {
-          "name": "Equipo de buceo",
-          "type": "Equipo de exploración",
-          "description": "El equipo de buceo figura oficialmente como parte del conjunto de utilidad principal para llegar a áreas que de otro modo serían más difíciles de explorar."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Los explosivos están destacados oficialmente y vinculados a un hito de logro, lo que los hace parte de la progresión de utilidad principal del juego."
+          "topic": "Dónde canjear los rerolls de raza de Clover Origins",
+          "confirmedData": "Los códigos se canjean dentro del juego a través del Menú, luego en la pestaña Info, con el cuadro de código en la parte superior de la pantalla.",
+          "playerTakeaway": "Puedes asegurar tus recursos de reroll inmediatamente después de iniciar sesión."
         }
-      ],
-      "unlockMilestones": [
-        "Dominar un gancho",
-        "Volar con el guante planeador",
-        "Empuñar una varita de proyectiles",
-        "Empuñar un explosivo"
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
-      "title": "Cultivo y crecimiento en Lucid Blocks",
-      "displayType": "mixedCards",
-      "intro": "El crecimiento es parte de la progresión real en Lucid Blocks. El cultivo no se trata solo de plantar y cosechar, sino también de establecer rutas de materiales repetibles que mantengan el flujo de tus herramientas, armas y opciones de artesanía.",
-      "sections": [
+      "title": "Guía de Escobas de Clover Origins",
+      "displayType": "Tarjetas de escobas",
+      "eyebrow": "Movilidad",
+      "subtitle": "El viaje en escoba ya es parte del ciclo de progresión de Clover Origins, y los códigos de la era de lanzamiento otorgan activamente giros de escoba a los jugadores. Esta guía muestra qué hace el sistema, dónde encaja en la progresión y qué rerolls gratuitos son importantes ahora mismo.",
+      "intro": "En Clover Origins, el viaje en escoba se encuentra junto a las misiones, grimorios, desplazamientos, yen y otros sistemas de progresión. El ciclo público actual señala la progresión de la escoba como una ruta de mejora centrada en el movimiento que se vuelve más útil cuanto más a menudo realizas misiones y te mueves entre objetivos.",
+      "items": [
         {
-          "name": "Progresión de semillas",
-          "description": "Plantar y fertilizar semillas es un hito real en el juego, y cosechar una nuez completamente crecida es parte de la misma ruta de crecimiento."
+          "heading": "Qué hace el sistema de escobas",
+          "description": "El viaje en escoba es uno de los sistemas de progresión que los jugadores desbloquean a medida que avanzan en Clover Origins. Las guías públicas lo sitúan junto al desplazamiento como una herramienta de movilidad que facilita el viaje y el trazado de rutas generales.",
+          "bullets": [
+            "El viaje en escoba se menciona como un sistema desbloqueable en la cobertura actual de Clover Origins.",
+            "Las mejores escobas son parte del ciclo de mejora más amplio vinculado al yen y a los giros.",
+            "La movilidad importa más una vez que tu ruta de misiones comienza a enviarte a través de múltiples objetivos."
+          ]
         },
         {
-          "name": "Recolección de materiales",
-          "description": "Un ciclo práctico de recolección inicial es crear Cápsulas de Mercurio, que generan pequeños slimes que sueltan zarcillos y viscosidad para materiales de artesanía repetibles."
+          "heading": "Dónde encaja la progresión de la escoba",
+          "description": "La progresión inicial todavía comienza con misiones y muertes de enemigos. El viaje en escoba se vuelve más valioso después de ese tramo inicial, cuando la velocidad de movimiento comienza a afectar la rapidez con la que puedes encadenar objetivos.",
+          "bullets": [
+            "La progresión de Clover Origins se basa actualmente en completar misiones y derrotar enemigos.",
+            "Después del tramo inicial de nivelación, los jugadores comienzan a abrir más sistemas como grimorios, viajes en escoba y desplazamientos.",
+            "Trata la progresión de la escoba como una mejora de viaje, no como tu primer aumento de poder."
+          ]
         },
         {
-          "name": "Sustento de herramientas",
-          "description": "La recolección de recursos se vuelve mucho más fuerte una vez que puedes reunir consistentemente Osmio, fragmentos de vidrio, plantas y materiales de slime para artesanías posteriores."
+          "heading": "Giros de escoba gratuitos actuales",
+          "description": "La forma más fácil de interactuar con el sistema de escobas en este momento es a través de códigos activos. Estas recompensas de lanzamiento otorgan suficientes giros de escoba para probar el sistema sin gastar todo tu progreso en él.",
+          "rewards": [
+            {
+              "code": "1KLIKES!",
+              "details": "6 giros de escoba, 10k yen, 3 restablecimientos de estadísticas, 10 giros de grimorio y 6 giros de raza"
+            },
+            {
+              "code": "SHUTDOWNSORRY!",
+              "details": "5k+ yen, 3+ restablecimientos de estadísticas, 5+ giros de grimorio, 5+ giros de escoba y 5+ giros de raza"
+            },
+            {
+              "code": "BETARELEASE!",
+              "details": "5k+ yen, 3+ restablecimientos de estadísticas, 5+ giros de grimorio, 5+ giros de escoba y 5+ giros de raza"
+            }
+          ]
         },
         {
-          "name": "Rutina de base",
-          "description": "La mejor configuración de cultivo apoya más que solo la comida. Debería abastecer tu almacenamiento, herramientas de movimiento, mejoras de armas y futuros experimentos de fusión."
+          "heading": "Para qué sirven los giros de escoba",
+          "description": "Los rastreadores de recompensas actuales describen los giros de escoba como la moneda de reroll que desbloquea o mejora las opciones de movilidad. Son recursos orientados al movimiento, mientras que los giros de grimorio y los restablecimientos de estadísticas siguen siendo las herramientas principales para definir tu dirección de combate.",
+          "bullets": [
+            "Giros de Escoba: desbloquea o mejora las opciones de movilidad.",
+            "Giros de Grimorio: tira para obtener tipos de magia y habilidades.",
+            "Giros de Raza: vuelve a tirar para obtener bonificaciones de raza.",
+            "Restablecimiento de Estadísticas: reconstruye tu personaje sin reiniciar."
+          ]
         }
-      ],
-      "growthMilestones": [
-        "Fertilizar una semilla",
-        "Cosechar una nuez completamente crecida",
-        "Crear ciclos de materiales repetibles",
-        "Convertir el cultivo en progresión a largo plazo"
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
-      "title": "Mejores desbloqueos iniciales de Lucid Blocks",
-      "displayType": "priorityCards",
-      "intro": "Los desbloqueos iniciales más fuertes son aquellos que mejoran la seguridad, el almacenamiento y el movimiento. En Lucid Blocks, unas pocas mejoras prácticas pueden hacer que el resto del juego sea mucho más fluido.",
-      "priorities": [
+      "title": "Guía de Misiones de Clover Origins",
+      "displayType": "Cronología de misiones",
+      "eyebrow": "Progresión",
+      "subtitle": "El flujo de misiones es la base de la progresión inicial en Clover Origins. La ruta actual es sencilla: sigue la cadena de misiones inicial, sube de nivel mediante misiones y eliminando enemigos, desbloquea tu primer grimorio y luego integra las misiones repetibles en tu ciclo normal.",
+      "intro": "El ciclo de progresión público de Clover Origins no está diseñado para deambular sin rumbo en combates aleatorios. El progreso avanza más rápido cuando las misiones, las eliminaciones de enemigos y los hitos de desbloqueo se juegan juntos en secuencia, y las misiones diarias y semanales cobran mayor importancia una vez que se abre el camino inicial.",
+      "items": [
         {
-          "name": "Qualia personal",
-          "priority": "Esencial",
-          "description": "Tan pronto como obtengas acceso a tu Qualia personal, tu partida se volverá mucho más estable. Actúa como un centro confiable para el almacenamiento, la construcción y el reagrupamiento."
+          "step": 1,
+          "heading": "Elige tu camino y comienza la línea de misiones inicial",
+          "description": "Clover Origins comienza con el jugador eligiendo entre los caminos del bien y del mal. Una vez tomada esa decisión, la verdadera progresión comienza a través de las misiones en lugar del recorrido libre.",
+          "bullets": [
+            "Primero elige tu bando.",
+            "Ve directo a las misiones iniciales.",
+            "Trata el área inicial como la preparación para tus primeros sistemas reales."
+          ]
         },
         {
-          "name": "Pico de Escarcha",
-          "priority": "Muy alta",
-          "description": "Una herramienta de minería inicial rápida y barata hecha de Osmio y Palo. Es una de las mejoras más útiles para acelerar la recolección inicial de recursos."
+          "step": 2,
+          "heading": "Sube de nivel mediante misiones y derrotando enemigos simultáneamente",
+          "description": "Las guías de progresión actuales describen el aumento de nivel como una mezcla de completar misiones y derrotar enemigos. La entrega de misiones y el combate están pensados para complementarse, no para reemplazarse.",
+          "bullets": [
+            "Usa los objetivos de las misiones para decidir dónde farmear.",
+            "Usa las eliminaciones de enemigos para apoyar el progreso de las misiones y el aumento de nivel.",
+            "No separes el combate de las misiones en el juego temprano."
+          ]
         },
         {
-          "name": "Cubo de Almacenamiento",
-          "priority": "Muy alta",
-          "description": "La presión del inventario comienza pronto, por lo que obtener tu primer contenedor confiable tipo cofre es una mejora importante de calidad de vida."
+          "step": 3,
+          "heading": "Sigue la ruta inicial hasta desbloquear tu primer grimorio",
+          "description": "Tras progresar en las misiones iniciales y subir de nivel, los jugadores pueden visitar al NPC Mago para desbloquear y girar por su primer grimorio. Este es uno de los primeros hitos importantes de progresión en Clover Origins.",
+          "bullets": [
+            "Termina primero el tramo de misiones iniciales.",
+            "Alcanza el requisito de nivel mediante misiones y combate.",
+            "Visita al NPC Mago para desbloquear y girar tu primer grimorio."
+          ]
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "Alta",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y rápidamente hace que la exploración sea más rápida y segura."
+          "step": 4,
+          "heading": "Añade misiones diarias y semanales a tu ruta",
+          "description": "Una vez establecido el camino de misiones inicial, las misiones diarias y semanales pasan a formar parte del ciclo de progresión público de Clover Origins. Estas son las tareas repetibles que mantienen tu cuenta en movimiento tras los primeros desbloqueos.",
+          "bullets": [
+            "Las misiones diarias ayudan a que las sesiones cortas sean productivas.",
+            "Las misiones semanales añaden objetivos más grandes a mediano plazo.",
+            "Estas misiones combinan bien con el farmeo de enemigos y las mejoras de viaje."
+          ]
         },
         {
-          "name": "Guante planeador",
-          "priority": "Alta",
-          "description": "El guante planeador añade otro gran impulso a la movilidad y hace que el movimiento a larga distancia sea mucho más eficiente."
-        },
-        {
-          "name": "Varita de proyectiles o bombas",
-          "priority": "Alta",
-          "description": "Una herramienta a distancia o una opción explosiva te brinda una respuesta más segura ante enemigos peligrosos y encuentros tipo desafío."
+          "step": 5,
+          "heading": "Usa los recursos de lanzamiento para agilizar los pasos de misiones en los que te hayas estancado.",
+          "description": "Si el progreso de una misión se ralentiza, los códigos actuales proporcionan exactamente los recursos que ayudan a recuperar el impulso: yen, giros de grimorio, giros de escoba, giros de raza y restablecimientos de estadísticas.",
+          "bullets": [
+            "¡1KLIKES! otorga 10k de yen, 3 restablecimientos de estadísticas, 10 giros de grimorio, 6 giros de escoba y 6 giros de raza.",
+            "¡SHUTDOWNSORRY! otorga 5k+ de yen, 3+ restablecimientos de estadísticas, 5+ giros de grimorio, 5+ giros de escoba y 5+ giros de raza.",
+            "¡BETARELEASE! otorga 5k+ de yen, 3+ restablecimientos de estadísticas, 5+ giros de grimorio, 5+ giros de escoba y 5+ giros de raza."
+          ]
         }
       ]
     },
     "lucidBlocksAchievementTracker": {
-      "title": "Seguimiento de logros de Lucid Blocks",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks tiene actualmente 19 logros de Steam, y se dividen naturalmente en progresión de exploración, artesanía, movilidad, combate y crecimiento.",
-      "groups": [
+      "title": "Guía de farmeo de Clover Origins",
+      "displayType": "Cronograma de farmeo",
+      "eyebrow": "Farmeo",
+      "subtitle": "El farmeo eficiente en Clover Origins se basa en acumular los sistemas que el juego ya confirma: misiones, muertes de enemigos, misiones repetibles y códigos de lanzamiento. El objetivo es mantener el yen, los giros y la progresión avanzando al mismo tiempo.",
+      "intro": "En este momento, el farmeo en Clover Origins no se trata tanto de un exploit oculto, sino de ejecutar un ciclo de progresión fluido. Los jugadores obtienen mejores resultados combinando la finalización de misiones, la derrota de enemigos, los objetivos repetibles y las recompensas de códigos, en lugar de intentar farmear un solo sistema de forma aislada.",
+      "items": [
         {
-          "name": "Exploración",
-          "achievements": [
+          "step": 1,
+          "heading": "Comienza cada ruta de farmeo con códigos activos",
+          "description": "Los códigos de lanzamiento son la fuente actual más rápida de moneda inicial y rerolls. Canjéalos antes de una sesión larga de farmeo para que tu cuenta tenga suficiente yen y giros para seguir mejorando.",
+          "rewards": [
             {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "Entrar en una qualia."
+              "code": "¡1KLIKES!",
+              "details": "10k de yen, 3 restablecimientos de estadísticas, 10 giros de grimorio, 6 giros de escoba y 6 giros de raza"
             },
             {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "Descubrir una línea ley de tiamana."
+              "code": "¡SHUTDOWNSORRY!",
+              "details": "5k+ de yen, 3+ restablecimientos de estadísticas, 5+ giros de grimorio, 5+ giros de escoba y 5+ giros de raza"
             },
             {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "Superar un desafío de tiamana."
+              "code": "¡BETARELEASE!",
+              "details": "5k+ de yen, 3+ restablecimientos de estadísticas, 5+ giros de grimorio, 5+ giros de escoba y 5+ giros de raza"
             },
             {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "Logro oculto."
+              "code": "¡500LIKES!",
+              "details": "1 restablecimiento de estadísticas gratuito"
             }
-          ]
+          ],
+          "note": "Canjea los códigos antes de comenzar una sesión larga de obtención de yen."
         },
         {
-          "name": "Artesanía e invocación",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fusionar un objeto."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fusionar una alimaña."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fusionar un artefacto divino."
-            },
-            {
-              "title": "Arcángel β",
-              "description": "Invoca tu fe."
-            }
-          ]
+          "step": 2,
+          "heading": "Farmea completando misiones y eliminando enemigos al mismo tiempo",
+          "description": "Las guías actuales describen la progresión de Clover Origins como un ciclo combinado de misiones y combate. La ruta de farmeo más rápida suele ser la que te permite subir de nivel, completar objetivos y matar enemigos sin desviarte del camino de la misión.",
+          "bullets": [
+            "Las misiones le dan estructura a tu ruta.",
+            "Las derrotas de enemigos proporcionan la parte de combate de la progresión.",
+            "Este ciclo mantiene tanto los niveles como los recursos en constante avance."
+          ],
+          "note": "No separes el farmeo de la ruta de misiones al inicio del juego."
         },
         {
-          "name": "Movilidad y utilidad",
-          "achievements": [
-            {
-              "title": "Virtud α",
-              "description": "Volar con el guante planeador."
-            },
-            {
-              "title": "Virtud β",
-              "description": "Dominar un gancho."
-            },
-            {
-              "title": "Arcángel α",
-              "description": "Empuñar una varita de proyectiles."
-            },
-            {
-              "title": "Arcángel γ",
-              "description": "Empuñar un explosivo."
-            }
-          ]
+          "step": 3,
+          "heading": "Convierte el yen en progresión permanente",
+          "description": "El Yen no es solo dinero de bolsillo en Clover Origins. Las guías públicas lo vinculan directamente con las mejoras, especialmente para grimorios y mejores escobas, lo que significa que cada sesión de farmeo limpia debería terminar en sistemas de progresión más fuertes.",
+          "bullets": [
+            "Usa el yen para apoyar las mejoras en lugar de dejarlo acumulado.",
+            "Tanto la progresión del grimorio como la de la escoba se benefician de un mejor financiamiento.",
+            "El farmeo se vuelve más fluido una vez que las mejoras de viaje y combate comienzan a acumularse."
+          ],
+          "note": "El yen solo importa cuando se convierte en mejor combate y movimiento."
         },
         {
-          "name": "Combate y criaturas",
-          "achievements": [
-            {
-              "title": "Masacre de __PROTECTED_26ee183b__",
-              "description": "Derrotar osos burbuja inocentes."
-            },
-            {
-              "title": "Arcángel δ",
-              "description": "Eliminar una criatura blasfema."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "Morir."
-            },
-            {
-              "title": "Dominio γ",
-              "description": "Cambiar el nombre a una alimaña adorable."
-            }
-          ]
+          "step": 4,
+          "heading": "Mantén las misiones diarias y semanales en tu ruta normal",
+          "description": "Las misiones diarias y semanales ya forman parte de la estructura de progresión visible de Clover Origins. Estas tareas repetibles hacen que las sesiones de farmeo regulares sean más eficientes con el tiempo.",
+          "bullets": [
+            "Las misiones diarias ayudan a que las sesiones cortas de farmeo sigan siendo productivas.",
+            "Las misiones semanales añaden objetivos de progresión más grandes.",
+            "Las misiones repetibles son una mejor base que deambular al azar por el mundo abierto."
+          ],
+          "note": "Las misiones repetibles mantienen constante el farmeo de recursos."
         },
         {
-          "name": "Crecimiento y cultivo",
-          "achievements": [
-            {
-              "title": "Dominio α",
-              "description": "Fertilizar una semilla."
-            },
-            {
-              "title": "Dominio β",
-              "description": "Cosechar una nuez completamente crecida."
-            },
-            {
-              "title": "Dominio δ",
-              "description": "Logro oculto."
-            }
-          ]
+          "step": 5,
+          "heading": "Gasta los spins donde cambien el impulso a largo plazo",
+          "description": "Los rastreadores de recompensas actuales separan los spins en roles claros, lo que facilita las decisiones de farmeo en Clover Origins. Los spins de grimorio definen tus opciones de magia, los spins de escoba definen la movilidad, los spins de raza definen las bonificaciones y los reinicios de estadísticas te permiten corregir tu build sin empezar de cero.",
+          "bullets": [
+            "Spins de Grimorio: tira para obtener tipos de magia y habilidades.",
+            "Spins de Escoba: desbloquea o mejora las opciones de movilidad.",
+            "Spins de Raza: vuelve a tirar para obtener bonificaciones de raza de personaje.",
+            "Reinicios de Estadísticas: reasigna estadísticas sin reiniciar el progreso."
+          ],
+          "note": "Gasta los rerolls donde mejoren tus próximas sesiones."
         }
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Preguntas frecuentes sobre un solo jugador y plataformas de Lucid Blocks",
-      "displayType": "accordion",
-      "intro": "Estas son las preguntas principales sobre plataformas y acceso que los jugadores suelen hacer antes de comprar Lucid Blocks.",
-      "faqs": [
+      "title": "Guía de la Mejor Build de Clover Origins",
+      "displayType": "Tarjetas de builds",
+      "eyebrow": "Builds",
+      "subtitle": "Las mejores builds de Clover Origins en este momento no se tratan de una página de meta fija, sino de combinar tu tirada de grimorio, reinicios, spins de raza y progresión de escoba con la ruta que realmente juegas. Estas cuatro direcciones aptas para principiantes utilizan los sistemas que el juego expone abiertamente hoy en día.",
+      "intro": "La cobertura actual de Clover Origins confirma que las piezas centrales de la build ya importan: grimorios, spins de raza, reinicios de estadísticas, progresión de escoba, misiones y yen. Dado que el juego aún se encuentra en su fase de descubrimiento de etapa beta, las builds prácticas más fuertes son las que utilizan esos sistemas de manera eficiente en lugar de desperdiciar rerolls antes de que tu cuenta tenga una dirección clara.",
+      "items": [
         {
-          "question": "¿Es Lucid Blocks para un solo jugador?",
-          "answer": "Sí. Lucid Blocks es un juego para un solo jugador."
+          "heading": "Build de Progresión para Principiantes",
+          "bestFor": "Cuentas nuevas y estabilidad en la primera sesión",
+          "grimoirePlan": "Mantén un grimorio inicial útil en lugar de gastar cada giro de lanzamiento de inmediato. La cobertura pública ya menciona Fuego, Viento, Regen y el raro Anti Magic como parte del conjunto de magia actual.",
+          "racePlan": "Usa los giros de raza de Clover Origins después de saber qué grimorio conservarás realmente.",
+          "statPlan": "Gasta puntos para apoyar tu primera ruta estable, luego usa uno de los restablecimientos de estadísticas gratuitos si tu primera asignación no se siente bien.",
+          "broomPlan": "Trata las mejoras de escoba como apoyo para las rutas de misiones, no como tu primer aumento de daño.",
+          "whyItWorks": "El progreso en Clover Origins sigue centrado en las misiones, por lo que una configuración inicial estable supera a un enfoque basado en muchos giros para la mayoría de los jugadores nuevos."
         },
         {
-          "question": "¿Está planeado el multijugador o cooperativo?",
-          "answer": "No. No se planea multijugador para el lanzamiento ni para futuras actualizaciones."
+          "heading": "Build de Corredor de Misiones",
+          "bestFor": "Subida de nivel rápida y cadenas de objetivos más fluidas",
+          "grimoirePlan": "Crea tu build en torno a un grimorio con el que puedas completar misiones de Clover Origins de forma constante en lugar de buscar un giro perfecto demasiado pronto.",
+          "racePlan": "Gasta giros de raza solo cuando un nuevo giro mejore el equipamiento con el que ya estás haciendo misiones.",
+          "statPlan": "Usa los restablecimientos para organizar tus puntos una vez que tu ruta de misiones y elección de grimorio dejen de cambiar en cada sesión.",
+          "broomPlan": "Una vez que se desbloquea el viaje en escoba, la movilidad comienza a ahorrar tiempo real entre las entregas de misiones y los campamentos de enemigos.",
+          "whyItWorks": "Esta build se enfoca en la velocidad de los objetivos, el flujo de nivelación y un menor tiempo de inactividad en los viajes, en lugar de apostar todos los recursos a la vez."
         },
         {
-          "question": "¿Dónde puedo jugar Lucid Blocks?",
-          "answer": "Actualmente está disponible en Steam para Windows."
+          "heading": "Build de Sustento de Regen",
+          "bestFor": "Sesiones de PvE más seguras y menor tiempo de inactividad",
+          "grimoirePlan": "Regen es parte de la alineación de magia de Clover Origins visible actualmente y ya cuenta con cobertura de pruebas de lanzamiento dedicada, lo que la convierte en una de las direcciones más fáciles para construir si buscas una ruta de PvE más estable.",
+          "racePlan": "Mantén disponibles los giros de raza hasta que decidas que Regen es tu camino de grimorio a largo plazo.",
+          "statPlan": "Usa los restablecimientos de estadísticas una vez que estés totalmente comprometido a mantener la ruta enfocada en el sustento.",
+          "broomPlan": "La movilidad sigue siendo importante aquí porque los ciclos de misiones más seguros se vuelven mucho más fuertes cuando reduces el tiempo de viaje entre objetivos.",
+          "whyItWorks": "Una ruta orientada al sustento ayuda a los jugadores de Clover Origins a permanecer en ciclos de combate y farmeo por más tiempo sin tener que reconstruir su personaje cada pocos minutos."
         },
         {
-          "question": "¿Cuánto cuesta Lucid Blocks?",
-          "answer": "$9.99 en Steam."
-        },
-        {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello."
-        },
-        {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 o 9.0.4 es la configuración recomendada habitualmente para Steam Deck."
-        },
-        {
-          "question": "¿Lucid Blocks funciona en Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
-        },
-        {
-          "question": "¿Habrá soporte para Mac o Android?",
-          "answer": "Es posible que sean compatibles en el futuro, pero no son plataformas de lanzamiento actuales."
-        },
-        {
-          "question": "¿Lucid Blocks tiene traducciones?",
-          "answer": "No. Actualmente no hay traducciones planeadas."
-        },
-        {
-          "question": "¿Lucid Blocks seguirá recibiendo actualizaciones?",
-          "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
+          "heading": "Build de Búsqueda de Giros Raros",
+          "bestFor": "Jugadores que obtienen Anti Magic u otro giro destacado temprano",
+          "grimoirePlan": "Si obtienes Anti Magic, deja de hacer giros casuales y construye en torno a él. La cobertura actual de Clover Origins describe repetidamente a Anti Magic como un resultado extremadamente raro.",
+          "racePlan": "Usa los giros de raza restantes para apoyar el giro raro en lugar de reiniciar todo el plan del personaje.",
+          "statPlan": "Los restablecimientos de estadísticas gratuitos son más valiosos aquí porque te permiten reconstruir en torno a la obtención rara de inmediato.",
+          "broomPlan": "Mantén el progreso de la escoba en movimiento para que tu cuenta de Clover Origins con una tirada rara también gane mejor movilidad y eficiencia en las misiones.",
+          "whyItWorks": "Un grimorio raro cambia el valor de cada recurso restante, por lo que el mejor movimiento suele ser proteger la tirada y remodelar la cuenta en torno a ella."
         }
       ]
     },
     "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks en Steam Deck y controles",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks puede ejecutarse en Steam Deck, pero la configuración predeterminada puede necesitar ajustes. El teclado y el mouse siguen siendo la opción más fluida para los menús y el juego en general.",
+      "title": "Guía de Anti Magic de Clover Origins",
+      "displayType": "acordeón",
+      "eyebrow": "Tirada Rara",
+      "subtitle": "Anti Magic es una de las recompensas de búsqueda más claras en Clover Origins. Se sitúa por encima del grupo común de lanzamiento y cambia la forma en que los jugadores valoran cada reroll inicial.",
+      "intro": "Clover Origins empuja a los jugadores a un ciclo de progresión basado en giros con grimorios, yen, restablecimientos de estadísticas y progreso en misiones que se alimentan entre sí. Anti Magic destaca porque es el resultado raro hacia el que muchos jugadores quieren construir, pero la búsqueda más inteligente sigue comenzando con recursos gratuitos y una progresión constante.",
+      "highlights": [
+        "Canjea los códigos de lanzamiento antes de gastar cualquier reroll de pago.",
+        "Mantén el movimiento de las misiones y la eliminación de enemigos entre los intentos de búsqueda.",
+        "Trata un grimorio inicial fuerte como progreso, no como un fracaso."
+      ],
       "faqs": [
         {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 funciona bien, y Proton 9.0.4 es una solución compartida habitualmente para problemas en Steam Deck."
+          "question": "¿Por qué los jugadores de Clover Origins se preocupan tanto por Anti Magic?",
+          "answer": "Anti Magic es el resultado de búsqueda principal en Clover Origins porque combina rareza, prestigio y una identidad obvia a largo plazo. Es la tirada que hace que los jugadores se replanteen si deben seguir haciendo reroll o empezar a construir de inmediato."
         },
         {
-          "question": "¿Qué debo hacer si los controles de Steam Deck no funcionan?",
-          "answer": "Fuerza la compatibilidad y cambia el juego a Proton 9.0.4. Es posible que la configuración predeterminada no acepte correctamente la entrada del control."
+          "question": "¿Cómo obtienen los jugadores Anti Magic en Clover Origins?",
+          "answer": "Los jugadores buscan Anti Magic a través de la progresión de grimorios y recursos de reroll de Clover Origins. Eso hace que los códigos, el yen inicial, el progreso en las misiones y tus primeros giros útiles sean las herramientas de configuración más limpias para la búsqueda."
         },
         {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús del juego no están diseñados para ello."
+          "question": "¿Cuál es el plan de Anti Magic más limpio para el inicio del juego en Clover Origins?",
+          "answer": "La ruta más limpia de Clover Origins es canjear primero cada código activo, desbloquear tus primeros sistemas reales y usar giros gratuitos antes de comprometerte con rerolls más profundos. Eso te da la mejor combinación de progreso y valor de búsqueda."
         },
         {
-          "question": "¿Es posible el soporte para Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
+          "question": "¿Debería una cuenta de Clover Origins gastarlo todo inmediatamente buscando Anti Magic?",
+          "answer": "Normalmente no. Una mejor ruta inicial en Clover Origins es usar primero los recursos de lanzamiento, avanzar en las misiones de apertura, desbloquear tu primer grimorio y mantener el progreso de la cuenta en movimiento en lugar de estancarse en un solo resultado raro."
         },
         {
-          "question": "¿Cuál es la mejor configuración de entrada?",
-          "answer": "El teclado y el mouse son la opción más fluida para la navegación por los menús y el juego general momento a momento."
+          "question": "¿Qué debe hacer un jugador de Clover Origins después de no conseguir Anti Magic al principio?",
+          "answer": "Mantén una configuración funcional, continúa subiendo de nivel mediante misiones y combates contra enemigos, y reconstruye recursos a través de la progresión normal. No obtener Anti Magic al principio no impide que una cuenta de Clover Origins se vuelva fuerte."
         }
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
-      "title": "Ajustes y accesibilidad de Lucid Blocks",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks ya cuenta con algunos ajustes prácticos y notas de compatibilidad que son importantes de inmediato cuando los jugadores inician el juego por primera vez.",
-      "settings": [
+      "title": "Guía de PvP de Clover Origins",
+      "displayType": "Lista de tarjetas",
+      "eyebrow": "Combate",
+      "subtitle": "El PvP ya es parte de la propuesta pública de Clover Origins, pero se encuentra dentro de un ciclo de progresión más amplio. La mejor preparación proviene de combinar un primer grimorio, desbloqueos de movimiento, estadísticas útiles y recursos de códigos gratuitos antes de buscar combates más serios.",
+      "intro": "Clover Origins presenta el PvP como un campo de pruebas para tu build en lugar de un modo separado de la progresión. La mejor preparación inicial para el PvP es simplemente construir primero una base de cuenta más sólida.",
+      "items": [
         {
-          "name": "Ajustes de pantalla",
-          "type": "Opción de comodidad",
-          "description": "Los ajustes de pantalla incluyen una opción que permite a los jugadores ocultar las manos en pantalla."
+          "title": "Dónde encaja el PvP de Clover Origins",
+          "description": "El PvP funciona mejor después de que la cuenta ya comprende el ciclo RPG más amplio del juego.",
+          "bullets": [
+            "Trata el PvP como parte del camino de progresión más amplio de Clover Origins.",
+            "No apresures los duelos antes de que los puntos de control iniciales de misiones y grimorios estén listos.",
+            "Usa el PvP para probar una build estable, no para reemplazar la progresión principal."
+          ]
         },
         {
-          "name": "Compatibilidad de gráficos",
-          "type": "Requisito del sistema",
-          "description": "Se requiere soporte de __PROTECTED_38625270__ para que los gráficos se rendericen correctamente. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados y errores gráficos graves."
+          "title": "Lista de verificación de preparación para PvP de Clover Origins",
+          "description": "Antes de tratar el PvP como un objetivo principal, asegúrate de que la cuenta tenga los aspectos básicos establecidos.",
+          "bullets": [
+            "Progresa a través de las misiones iniciales de Clover Origins y sube de nivel.",
+            "Desbloquea y prueba tu primer grimorio antes de los duelos serios.",
+            "Reclama los códigos actuales para obtener yen, reinicios de estadísticas y paquetes de reroll."
+          ]
         },
         {
-          "name": "Preferencia de entrada",
-          "type": "Configuración de control",
-          "description": "Existe soporte para controles, pero el teclado y el mouse brindan una experiencia más fluida porque los menús no están diseñados para el uso de controles."
+          "title": "Qué suele decidir el PvP de Clover Origins al principio",
+          "description": "La mayoría de las victorias iniciales provienen de la calidad de la progresión en lugar de un combo aislado.",
+          "bullets": [
+            "Un mejor resultado de grimorio cambia tu nivel base de inmediato.",
+            "Los sistemas de movimiento importan porque el espaciado y el control de persecución deciden las aperturas limpias.",
+            "Los reinicios de estadísticas importan porque te permiten refinar las elecciones débiles de puntos iniciales."
+          ]
         },
         {
-          "name": "Soporte de idiomas",
-          "type": "Localización",
-          "description": "La configuración actual es solo en inglés y no hay traducciones planeadas en este momento."
+          "title": "Recursos útiles de lanzamiento de Clover Origins",
+          "description": "El conjunto actual de códigos otorga una ventaja real para la preparación de PvP.",
+          "bullets": [
+            "¡1KLIKES! es el paquete inicial más grande de Clover Origins para obtener yen y giros.",
+            "¡SHUTDOWNSORRY! ayuda a las reconstrucciones después de tiradas iniciales débiles.",
+            "¡BETARELEASE! y ¡500LIKES! ayudan a corregir errores iniciales de la build."
+          ]
         }
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Actualizaciones y notas del parche de Lucid Blocks",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks ya está recibiendo correcciones rápidas post-lanzamiento y pequeñas actualizaciones de usabilidad.",
-      "entries": [
+      "title": "Guía de los caminos del Bien y del Mal de Clover Origins",
+      "displayType": "acordeón",
+      "eyebrow": "Elección de camino",
+      "subtitle": "Clover Origins hace que la división entre el bien y el mal sea uno de sus ganchos de fantasía más claros. Las descripciones públicas presentan la elección como unirse a los Magic Knights para proteger el Reino Clover o abrazar el caos como un mago malvado.",
+      "intro": "La decisión del camino en Clover Origins se trata menos de ocultar los sistemas principales y más de establecer la fantasía de tu partida. Después de elegir tu bando, el ciclo de progresión general sigue girando en torno a misiones, enemigos, giros, tu primer grimorio, desbloqueos de movimiento y, eventualmente, PvP.",
+      "highlights": [
+        "Ambos bandos siguen compartiendo los mismos sistemas de progresión principales de Clover Origins.",
+        "Elige la ruta cuya fantasía realmente quieras mantener durante varias sesiones.",
+        "Tu elección de camino importa más cuando coincide con la identidad de tu build."
+      ],
+      "faqs": [
         {
-          "title": "Actualización 2.8.2",
-          "type": "Actualización de IU",
-          "description": "Se cambió el nombre de \"awaken\" (despertar) a \"exit\" (salir) en el menú principal."
+          "question": "¿Cuáles son los dos caminos de alineación de Clover Origins?",
+          "answer": "Clover Origins presenta dos alineaciones claras. La ruta del bien se une a los Caballeros Mágicos para proteger el Reino del Trébol, mientras que la ruta del mal se inclina hacia la fantasía de un mago más oscuro y una identidad más caótica."
         },
         {
-          "title": "Pequeño parche para cierres al iniciar",
-          "type": "Hotfix",
-          "description": "Se lanzó un parche dedicado para los jugadores cuyo juego se cerraba inesperadamente al iniciar."
+          "question": "¿Cuándo empieza a importar la elección del camino en Clover Origins?",
+          "answer": "La elección del camino en Clover Origins importa desde el encuadre inicial de la fantasía, y luego se traslada a cómo se sienten tus misiones, el estilo de juego de rol y, más tarde, la identidad de PvP en la cuenta."
         },
         {
-          "title": "Soporte de contenido post-lanzamiento",
-          "type": "Nota de hoja de ruta",
-          "description": "Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
+          "question": "¿Qué siguen compartiendo ambos caminos de Clover Origins?",
+          "answer": "Ambas rutas de Clover Origins siguen alimentando los mismos sistemas prácticos: misiones, farmeo de enemigos, crecimiento basado en giros, progresión del primer grimorio, viaje en escoba, desplazamientos rápidos y PvP. El camino enmarca principalmente la identidad y el tono de tu partida."
+        },
+        {
+          "question": "¿Quién debería elegir el bando del bien en Clover Origins?",
+          "answer": "Elige el bando del bien en Clover Origins si la fantasía de los Caballeros Mágicos y de protector del reino es la parte del juego en la que quieres enfocarte para las misiones, el estilo de tu build e identidad del personaje."
+        },
+        {
+          "question": "¿Quién debería elegir el bando del mal en Clover Origins?",
+          "answer": "Elige el bando del mal en Clover Origins si prefieres la fantasía de un mago del caos rebelde y quieres que tu partida lleve esa identidad más oscura a través de la progresión y el PvP posterior."
         }
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Solución de cierres inesperados y solución de problemas de Lucid Blocks",
-      "displayType": "steps",
-      "intro": "La mayoría de los problemas inmediatos de inicio y cierres deben revisarse en un orden sencillo: nivel de parche, soporte de gráficos, compatibilidad de plataforma y registros.",
+      "title": "Guía del primer grimorio de Clover Origins",
+      "eyebrow": "Hito para principiantes",
+      "subtitle": "Tu primer grimorio es uno de los primeros hitos importantes del juego. La ruta principal es constante: progresa a través del inicio del juego, sube de nivel y luego visita al NPC Mago para desbloquearlo y girar por él.",
+      "displayType": "pasos",
+      "intro": "Clover Origins trata el primer grimorio como el punto donde la configuración inicial se convierte en una progresión de build real. Una vez que hayas elegido tu alineación y completado suficiente contenido inicial, el siguiente objetivo principal es llegar al Wizard NPC, obtener tu primer giro y usar ese resultado para seguir avanzando en misiones, enemigos, desbloqueos de movimiento y, más adelante, PvP.",
       "steps": [
         {
-          "title": "Instala el último hotfix para cierres inesperados",
-          "description": "Si el juego se cierra al iniciar, actualiza primero y prueba de nuevo con el parche más reciente para cierres al inicio."
+          "step": 1,
+          "label": "Elige tu camino en Clover Origins",
+          "details": "Comienza eligiendo entre el bando del bien y el del mal. Esta es la elección de identidad inicial antes de que el ciclo de progresión más amplio de Clover Origins empiece a dar frutos.",
+          "action": "Elige la ruta cuya fantasía realmente quieras mantener."
         },
         {
-          "title": "Verifica el soporte de __PROTECTED_38625270__",
-          "description": "Lucid Blocks requiere soporte de __PROTECTED_38625270__. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados o problemas graves de renderizado."
+          "step": 2,
+          "label": "Impulsa la progresión inicial de Clover Origins",
+          "details": "El acceso temprano al grimorio en Clover Origins se obtiene progresando a través de misiones, derrotando enemigos y subiendo de nivel. Ese tramo inicial es la verdadera puerta hacia este hito.",
+          "action": "Concéntrate en las misiones y en derrotar enemigos simples hasta que tu cuenta se sienta estable."
         },
         {
-          "title": "Usa Proton 9.0.4 en Steam Deck",
-          "description": "Si la entrada o el comportamiento de inicio en Steam Deck fallan, fuerza la compatibilidad y cambia a Proton 9.0.4."
+          "step": 3,
+          "label": "Reclama los códigos de lanzamiento de Clover Origins",
+          "details": "Los paquetes de códigos actuales otorgan yen extra, restablecimiento de estadísticas, giros de grimorio, giros de escoba y giros de raza. Esas recompensas hacen que la primera configuración importante sea mucho más fácil de evaluar.",
+          "action": "Canjea los códigos disponibles antes de comprometerte con los rerolls iniciales."
         },
         {
-          "title": "Recopila registros de cierres (logs)",
-          "description": "Abre Ejecutar de Windows, pega %APPDATA%, ve a lucid blocks/logs y reúne los archivos .txt para solucionar el problema."
+          "step": 4,
+          "label": "Visita al Wizard NPC de Clover Origins",
+          "details": "Después del tramo inicial de nivelación, el Wizard NPC es el punto de control que desbloquea y gira tu primer grimorio real.",
+          "action": "Dirígete al Wizard NPC tan pronto como completes el farmeo inicial."
         },
         {
-          "title": "Reporta el problema correctamente",
-          "description": "Comparte los registros y los detalles del dispositivo a través del foro oficial de reportes de errores en Discord o en la página de la comunidad de Steam."
+          "step": 5,
+          "label": "Prueba tu primer resultado en Clover Origins",
+          "details": "Una vez desbloqueado el grimorio, la cuenta comienza a sentirse más centrada en la build. Ese es el momento de juzgar si el giro favorece tus misiones, farmeo y nivel de comodidad.",
+          "action": "Lleva el resultado de vuelta a las misiones y al combate de inmediato."
+        },
+        {
+          "step": 6,
+          "label": "Entra en el verdadero ciclo de Clover Origins",
+          "details": "Después del primer desbloqueo, el juego se abre a una progresión a largo plazo a través de misiones, peleas contra enemigos, mejor progresión de escobas, desbloqueos de movimiento y, eventualmente, PvP.",
+          "action": "Sigue subiendo de nivel, define tus estadísticas y gasta los giros posteriores con mayor intención."
         }
       ]
     }
   },
   "faq": {
-    "title": "Preguntas",
-    "titleHighlight": "frecuentes",
-    "subtitle": "Todo lo que necesitas saber sobre Lucid Blocks",
+    "title": "Clover Origins",
+    "titleHighlight": "Preguntas frecuentes",
+    "subtitle": "Respuestas rápidas sobre códigos de Clover Origins, grimorios, misiones, razas, escobas y planificación de builds.",
     "questions": [
       {
-        "question": "¿Es Lucid Blocks un juego para un solo jugador?",
-        "answer": "Sí. Lucid Blocks es un juego exclusivamente para un solo jugador, sin planes para multijugador o cooperativo."
+        "question": "¿Cómo canjeo los códigos de Clover Origins?",
+        "answer": "Abre Clover Origins, entra al Menú, toca la pestaña ! Info y envía cada código activo después de unirte al grupo de Roblox de Funzy Labs."
       },
       {
-        "question": "¿Qué es el sistema Apotheosis en Lucid Blocks?",
-        "answer": "Apotheosis es el sistema de creación por fusión de forma libre de Lucid Blocks. En lugar de seguir recetas fijas, combinas materiales y descubres tus propias rutas de creación."
+        "question": "¿Cuándo obtengo mi primer grimorio en Clover Origins?",
+        "answer": "Tu primer grimorio de Clover Origins llega después del tramo inicial de misiones cuando alcanzas al NPC Wizard y usas tu primer giro de grimorio."
       },
       {
-        "question": "¿Dónde puedo jugar Lucid Blocks?",
-        "answer": "Lucid Blocks está disponible actualmente en Steam para Windows. El soporte para Linux y Steam Deck está disponible a través de Proton 9.0."
+        "question": "¿Cuál es el mejor grimorio para conservar en Clover Origins?",
+        "answer": "Anti Magic es el giro más buscado de Clover Origins, mientras que Wind y Fire son las opciones fuertes más seguras para una progresión inicial práctica."
       },
       {
-        "question": "¿Cuánto cuesta Lucid Blocks?",
-        "answer": "Lucid Blocks cuesta $9.99 en Steam."
+        "question": "¿Debería usar los restablecimientos de estadísticas de Clover Origins de inmediato?",
+        "answer": "No. Los restablecimientos de estadísticas de Clover Origins son más efectivos después de probar tu grimorio y decidir si vale la pena conservar la build."
       },
       {
-        "question": "¿Lucid Blocks es compatible con controles?",
-        "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello. El teclado y el mouse son la opción más fluida."
+        "question": "¿Vale la pena ahorrar los giros de raza y escoba de Clover Origins?",
+        "answer": "Sí. Los giros gratuitos de raza y escoba de Clover Origins es mejor usarlos primero, pero los giros extra deben guardarse cuando el rumbo de tu build aún no esté decidido."
       },
       {
-        "question": "¿Recibirá actualizaciones Lucid Blocks?",
-        "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no se pretende que continúen con un calendario regular indefinido."
+        "question": "¿Cuándo debería empezar el PvP en Clover Origins?",
+        "answer": "Empieza el PvP de Clover Origins después de que tu grimorio, estadísticas y movimiento se sientan lo suficientemente estables como para no estar reconstruyendo los cimientos de tu cuenta."
       }
     ]
   },
   "cta": {
-    "title": "¿Listo para explorar Lucid Blocks?",
-    "description": "¡Únete a la comunidad de Lucid Blocks en Discord para ver guías, actualizaciones y discusiones!",
-    "joinCommunity": "Únete a Discord",
-    "joinGame": "Juega en Steam"
+    "title": "¿Listo para dominar Clover Origins?",
+    "description": "Únete a la comunidad de Clover Origins para recibir actualizaciones, lanzamientos de códigos y discusiones de estrategia.",
+    "joinCommunity": "Únete al Discord de Clover Origins",
+    "joinGame": "Juega Clover Origins en Roblox"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Tu centro completo de recursos para la fabricación, biomas, criaturas, logros y guías de supervivencia de Lucid Blocks.",
+    "title": "Clover Origins Wiki",
+    "description": "Tu centro de recursos completo para códigos, grimorios, misiones, razas, guías de escobas y builds de estadísticas de Clover Origins.",
     "resources": "Recursos",
     "community": "Comunidad",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Comunidad de Steam",
-    "steamStore": "Tienda de Steam",
+    "twitter": "Juego oficial de Roblox",
+    "steamCommunity": "Grupo de Roblox de Funzy Labs",
+    "steamStore": "YouTube de Funzy Labs",
     "about": "Acerca de",
     "privacy": "Política de privacidad",
     "terms": "Términos de servicio",
-    "copyrightNotice": "Derechos de autor",
-    "copyright": "© 2026 Wiki de Lucid Blocks. No afiliada con los desarrolladores de Lucid Blocks.",
-    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Clover Origins Wiki. No afiliado con Funzy Labs ni Roblox Corporation.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans para el juego de Roblox."
   },
   "pages": {
-    "guides": {
-      "title": "Guías de Lucid Blocks",
-      "description": "Guías completas de juego, desde conceptos básicos para principiantes hasta estrategias avanzadas de Apotheosis. Domina la supervivencia y la fabricación.",
-      "metaTitle": "Guías de Lucid Blocks - Estrategias de principiante a avanzado",
-      "metaDescription": "Guías completas de Lucid Blocks que cubren consejos para principiantes, el sistema Apotheosis, estrategias de supervivencia y tácticas expertas para dominar este sandbox surrealista.",
-      "categoryLabel": "GUÍAS DEL JUEGO",
-      "whatIs": "¿Qué son las guías?",
-      "whatIsDescription": "Guías exhaustivas que cubren mecánicas de juego, estrategias de supervivencia y el sistema de fabricación Apotheosis. Aprende todo, desde los primeros pasos hasta técnicas avanzadas.",
-      "why": "¿Por qué leer las guías?",
+    "codes": {
+      "title": "Códigos de Clover Origins",
+      "description": "Rastrea códigos activos de Clover Origins, giros gratis, recompensas de yen, restablecimientos de estadísticas y los pasos de canje más rápidos para cada actualización.",
+      "metaTitle": "Códigos de Clover Origins - Giros activos, yen y recompensas de restablecimiento",
+      "metaDescription": "Encuentra códigos activos de Clover Origins, detalles de recompensas y pasos rápidos de canje para giros gratis, yen y restablecimientos de estadísticas en el RPG de Roblox.",
+      "categoryLabel": "CANJEAR CÓDIGOS",
+      "whatIs": "¿Qué son los códigos de Clover Origins?",
+      "whatIsDescription": "Los códigos de Clover Origins son cadenas de recompensas canjeables que otorgan giros, yen, restablecimientos y otros potenciadores del periodo de lanzamiento que aceleran el progreso inicial de la cuenta.",
+      "why": "¿Por qué revisar los códigos de Clover Origins?",
       "whySteps": {
-        "step1Title": "Aprende las mecánicas principales",
-        "step1Description": "Entiende el sistema Apotheosis y evita errores comunes de principiante",
-        "step2Title": "Progresión rápida",
-        "step2Description": "Sigue caminos probados para sobrevivir y prosperar en este mundo surrealista",
-        "step3Title": "Domina las estrategias",
-        "step3Description": "Desarrolla tácticas avanzadas para la exploración y la fabricación"
+        "step1Title": "Reclama giros gratis",
+        "step1Description": "Usa los lanzamientos de códigos actuales para recolectar giros y restablecimientos extra antes de comprometerte con una build inicial débil.",
+        "step2Title": "Rastrea el valor de las recompensas",
+        "step2Description": "Mira qué códigos de Clover Origins dan las recompensas más útiles para grimorios, moneda y limpieza de cuenta.",
+        "step3Title": "Canjea más rápido",
+        "step3Description": "Sigue una ruta de canje clara para reclamar recompensas rápidamente y volver a las misiones, el farmeo y los rerolls."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías"
+      "featured": "Destacados y Esenciales",
+      "all": "Todos los Códigos"
     },
-    "crafting": {
-      "title": "Fabricación en Lucid Blocks",
-      "description": "Domina el sistema de fusión Apotheosis con mecánicas de esencia, recetas y estrategias de fabricación para objetos poderosos.",
-      "metaTitle": "Fabricación en Lucid Blocks - Sistema Apotheosis y recetas",
-      "metaDescription": "Domina el sistema de fabricación Apotheosis de Lucid Blocks. Aprende mecánicas de esencia, recetas de fusión y estrategias para crear herramientas y armas poderosas.",
-      "categoryLabel": "SISTEMA DE FABRICACIÓN",
-      "whatIs": "¿Qué es la fabricación?",
-      "whatIsDescription": "El sistema Apotheosis es una mecánica de fusión única impulsada por esencias donde combinas hasta seis objetos para descubrir nuevas recetas. Sin menús de fabricación fijos: la experimentación es la clave.",
-      "why": "¿Por qué dominar la fabricación?",
+    "guide": {
+      "title": "Guía de Clover Origins",
+      "description": "Comienza Clover Origins con un leveo más fluido, el momento ideal para el primer grimorio, preparación para desbloquear la escoba y rutas prácticas de misiones iniciales.",
+      "metaTitle": "Guía de Clover Origins - Progresión para Principiantes, Niveles y Consejos",
+      "metaDescription": "Lee la guía esencial de Clover Origins para el leveo de principiantes, rutas de misiones, tiempos de desbloqueo de grimorios, preparación de escobas y decisiones iniciales de build.",
+      "categoryLabel": "GUÍA PARA PRINCIPIANTES",
+      "whatIs": "¿Qué es la Guía de Clover Origins?",
+      "whatIsDescription": "La categoría Guía de Clover Origins cubre las primeras horas del juego, incluyendo hitos de nivel, flujo de misiones, desbloqueos de movilidad y las decisiones que definen el impulso inicial.",
+      "why": "¿Por qué leer la Guía de Clover Origins?",
       "whySteps": {
-        "step1Title": "Desbloquea objetos poderosos",
-        "step1Description": "Descubre herramientas esenciales, armas y equipo de movilidad a través de la fusión",
-        "step2Title": "Entiende las esencias",
-        "step2Description": "Aprende cómo se combinan las esencias de los objetos para crear resultados predecibles",
-        "step3Title": "Optimiza recursos",
-        "step3Description": "Usa mecánicas de dilución para maximizar la producción con materiales baratos"
+        "step1Title": "Aprende sobre la Primera Hora",
+        "step1Description": "Obtén una visión práctica de qué hacer primero para que tus niveles iniciales, misiones y desbloqueos se alineen correctamente.",
+        "step2Title": "Evita el Desperdicio Inicial",
+        "step2Description": "Gasta rerolls, yenes y reinicios con más propósito en lugar de quemar recursos valiosos antes de que tu build se estabilice.",
+        "step3Title": "Llega al Midgame más Rápido",
+        "step3Description": "Usa una planificación de rutas probada para pasar de misiones básicas a jefes, escobas y decisiones de grimorios más fuertes."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías de fabricación"
+      "featured": "Destacados y Esenciales",
+      "all": "Todas las Páginas de la Guía"
     },
-    "items": {
-      "title": "Objetos de Lucid Blocks",
-      "description": "Guías detalladas de objetos que cubren herramientas, armas, equipo de movilidad y soluciones de almacenamiento con recetas de fabricación y consejos de uso.",
-      "metaTitle": "Objetos de Lucid Blocks - Guía de herramientas, armas y equipo",
-      "metaDescription": "Base de datos completa de objetos para Lucid Blocks, incluyendo herramientas, armas, equipo de movilidad y almacenamiento. Aprende a fabricar y usar cada objeto de manera efectiva.",
-      "categoryLabel": "OBJETOS Y EQUIPAMIENTO",
-      "whatIs": "¿Qué son los objetos?",
-      "whatIsDescription": "Guías exhaustivas de herramientas, armas, equipo de movilidad y objetos funcionales. Aprende recetas de fabricación, estrategias de uso y combinaciones óptimas.",
-      "why": "¿Por qué consultar las guías de objetos?",
+    "grimoire": {
+      "title": "Grimorio de Clover Origins",
+      "description": "Compara los grimorios de Clover Origins, expectativas de rareza, prioridades de reroll y las opciones de magia que definen toda tu cuenta.",
+      "metaTitle": "Grimorio de Clover Origins - Tiradas de Magia, Rareza y Mejores Opciones",
+      "metaDescription": "Explora las páginas de grimorios de Clover Origins para conocer la rareza de la magia, tiempos de reroll, tiradas destacadas y consejos prácticos sobre qué conservar.",
+      "categoryLabel": "SISTEMA DE GRIMORIOS",
+      "whatIs": "¿Qué es el sistema de Grimorios de Clover Origins?",
+      "whatIsDescription": "El sistema de Grimorios de Clover Origins determina tu identidad mágica, influye en tu planificación de estadísticas e impulsa la mayor parte de la presión de rerolls que define la progresión.",
+      "why": "¿Por qué estudiar los Grimorios de Clover Origins?",
       "whySteps": {
-        "step1Title": "Aprende recetas de fabricación",
-        "step1Description": "Descubre cómo fabricar herramientas y armas esenciales usando Apotheosis",
-        "step2Title": "Optimiza tu equipamiento",
-        "step2Description": "Elige los mejores objetos para tu estilo de juego y etapa de progresión",
-        "step3Title": "Mejora tu supervivencia",
-        "step3Description": "Equípate con equipo de movilidad y armas para navegar por este mundo peligroso"
+        "step1Title": "Conoce las Tiradas Fuertes",
+        "step1Description": "Aprende qué grimorios destacan para el farmeo, movimiento, presión y valor de build a largo plazo.",
+        "step2Title": "Elige el Momento de tus Rerolls",
+        "step2Description": "Usa los giros limitados en momentos más inteligentes para no hacer reroll a ciegas después de cada resultado decepcionante.",
+        "step3Title": "Construye con Intención",
+        "step3Description": "Alinea tu plan de grimorio con misiones, estadísticas, comodidad con la escoba y el tipo de cuenta que quieres desarrollar."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los objetos"
+      "featured": "Destacados y Esenciales",
+      "all": "Todas las Páginas de Grimorios"
     },
-    "biomes": {
-      "title": "Biomas de Lucid Blocks",
-      "description": "Explora las regiones del mundo, características ambientales, ubicaciones de recursos y consejos de supervivencia para cada bioma.",
-      "metaTitle": "Biomas de Lucid Blocks - Regiones del mundo y exploración",
-      "metaDescription": "Explora los biomas de Lucid Blocks, incluyendo las Líneas Ley de Tiamana, Fog Meadow y regiones surrealistas. Encuentra recursos, evita peligros y navega por un mundo infinito.",
-      "categoryLabel": "REGIONES DEL MUNDO",
-      "whatIs": "¿Qué son los biomas?",
-      "whatIsDescription": "Guías de las diferentes regiones del mundo, características ambientales, distribución de recursos y zonas de peligro. Aprende qué esperar y cómo prepararte para cada área.",
-      "why": "¿Por qué explorar los biomas?",
+    "map": {
+      "title": "Mapa de Clover Origins",
+      "description": "Usa el centro del mapa de Clover Origins para entender las rutas de viaje, zonas de leveo, servicios de NPC y cómo cada región apoya la progresión.",
+      "metaTitle": "Mapa de Clover Origins - Zonas, rutas de NPC y diseño del mundo",
+      "metaDescription": "Explora las guías del mapa de Clover Origins para zonas de niveleo, rutas de puntos de interés, ubicaciones de NPC y viajes más fluidos por el mundo.",
+      "categoryLabel": "MAPA DEL MUNDO",
+      "whatIs": "¿Qué es el mapa de Clover Origins?",
+      "whatIsDescription": "La categoría del mapa de Clover Origins explica cómo está distribuido el mundo, dónde se encuentran los servicios importantes y qué regiones vale la pena visitar en cada etapa del progreso.",
+      "why": "¿Por qué usar el mapa de Clover Origins?",
       "whySteps": {
-        "step1Title": "Encuentra recursos",
-        "step1Description": "Localiza materiales raros y esencias específicas de cada región",
-        "step2Title": "Evita peligros",
-        "step2Description": "Entiende los riesgos ambientales y las criaturas hostiles",
-        "step3Title": "Planifica tu exploración",
-        "step3Description": "Prepara las herramientas y el equipo adecuados para cada tipo de bioma"
+        "step1Title": "Viaja de forma más inteligente",
+        "step1Description": "Reduce los movimientos innecesarios aprendiendo cómo se conectan los puntos de interés principales, las áreas de misiones y los NPC de servicios.",
+        "step2Title": "Sigue el orden de las zonas",
+        "step2Description": "Permanece en áreas que coincidan con tu nivel para que el combate, las recompensas de misiones y la eficiencia de la ruta se mantengan alineados.",
+        "step3Title": "Encuentra NPC clave",
+        "step3Description": "Llega más rápido a los vendedores, servicios de reinicio y puntos de control de progreso sabiendo dónde están las paradas útiles."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los biomas"
+      "featured": "Destacados y esenciales",
+      "all": "Todas las páginas del mapa"
     },
-    "building": {
-      "title": "Construcción en Lucid Blocks",
-      "description": "Domina las dimensiones personales Qualia, la construcción de bases, la gestión de almacenamiento y técnicas creativas de construcción.",
-      "metaTitle": "Construcción en Lucid Blocks - Qualia y construcción de bases",
-      "metaDescription": "Domina la construcción en Lucid Blocks con las dimensiones personales Qualia, construcción de bases, soluciones de almacenamiento y técnicas creativas de construcción.",
-      "categoryLabel": "CONSTRUCCIÓN Y BASES",
-      "whatIs": "¿Qué es la construcción?",
-      "whatIsDescription": "Guías sobre el sistema de dimensiones personales Qualia, construcción de bases, gestión de almacenamiento y construcción creativa. Aprende a crear tu refugio seguro en este mundo surrealista.",
-      "why": "¿Por qué construir bases?",
+    "release": {
+      "title": "Lanzamiento de Clover Origins",
+      "description": "Sigue la cobertura del lanzamiento de Clover Origins para conocer los tiempos de la beta, disponibilidad en plataformas, ventanas de actualización y noticias relevantes sobre el lanzamiento.",
+      "metaTitle": "Lanzamiento de Clover Origins - Fecha de la beta, actualizaciones y plataformas",
+      "metaDescription": "Consulta los detalles del lanzamiento de Clover Origins, tiempos de la beta, estado de actualizaciones, disponibilidad en plataformas e información de lanzamiento reunida en un solo lugar.",
+      "categoryLabel": "INFORMACIÓN DE LANZAMIENTO",
+      "whatIs": "¿Qué es la página de lanzamiento de Clover Origins?",
+      "whatIsDescription": "La categoría de lanzamiento de Clover Origins recopila información sobre tiempos, acceso y despliegue de las fases beta, actualizaciones de lanzamiento y el cronograma general que interesa a los jugadores.",
+      "why": "¿Por qué seguir las actualizaciones de lanzamiento de Clover Origins?",
       "whySteps": {
-        "step1Title": "Crea espacios seguros",
-        "step1Description": "Establece bases seguras para el almacenamiento y las operaciones de fabricación",
-        "step2Title": "Gestiona tus recursos",
-        "step2Description": "Organiza tus materiales de manera eficiente con soluciones de almacenamiento",
-        "step3Title": "Desbloquea Qualia",
-        "step3Description": "Accede a dimensiones de bolsillo personales para la máxima comodidad"
+        "step1Title": "Sigue los tiempos de la beta",
+        "step1Description": "Mantén juntos los hitos importantes del lanzamiento para saber cuándo ocurren las fases principales y las ventanas de acceso público.",
+        "step2Title": "Observa los planes de plataformas",
+        "step2Description": "Entiende dónde está disponible Clover Origins y cómo las notas de lanzamiento afectan la forma en que los jugadores pueden unirse.",
+        "step3Title": "Mantén el contexto de las actualizaciones",
+        "step3Description": "Usa la cobertura de lanzamiento para conectar anuncios, parches y cambios en el despliegue sin tener que buscar publicaciones dispersas."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías de construcción"
+      "featured": "Destacados y esenciales",
+      "all": "Todas las páginas de lanzamiento"
     },
-    "support": {
-      "title": "Soporte de Lucid Blocks",
-      "description": "Soporte técnico, compatibilidad de plataformas, optimización de rendimiento y solución de problemas comunes.",
-      "metaTitle": "Soporte de Lucid Blocks - Ayuda técnica y soluciones",
-      "metaDescription": "Obtén soporte técnico para Lucid Blocks, incluyendo la configuración de Steam Deck, soluciones a cierres inesperados, optimización de rendimiento y guías de compatibilidad de plataformas.",
-      "categoryLabel": "SOPORTE TÉCNICO",
-      "whatIs": "¿Qué es el soporte?",
-      "whatIsDescription": "Guías técnicas que cubren la compatibilidad de plataformas, optimización de rendimiento, soluciones a cierres inesperados y problemas comunes. Obtén ayuda con Steam Deck, preguntas sobre multijugador y ajustes.",
-      "why": "¿Por qué consultar el soporte?",
+    "showcase": {
+      "title": "Showcase de Clover Origins",
+      "description": "Mira la cobertura del showcase de Clover Origins para ver demostraciones de grimorios, clips de combate, grabaciones de prueba y resúmenes de funciones que muestran cómo se ven los sistemas en movimiento.",
+      "metaTitle": "Showcase de Clover Origins - Demos de jugabilidad y avances de magia",
+      "metaDescription": "Consulta las páginas del showcase de Clover Origins que cubren demos de grimorios, pruebas de jugabilidad, clips de movimiento y avances visuales de nuevas funciones.",
+      "categoryLabel": "SHOWCASE DEL JUEGO",
+      "whatIs": "¿Qué es la categoría de showcase de Clover Origins?",
+      "whatIsDescription": "La categoría de showcase de Clover Origins destaca grabaciones de jugabilidad, demostraciones de movimientos y avances visuales que ayudan a los jugadores a entender cómo se sienten realmente las actualizaciones y los sistemas en acción.",
+      "why": "¿Por qué ver los showcases de Clover Origins?",
       "whySteps": {
-        "step1Title": "Soluciona problemas técnicos",
-        "step1Description": "Resuelve cierres inesperados, problemas de rendimiento y de compatibilidad",
-        "step2Title": "Optimiza el rendimiento",
-        "step2Description": "Configura los ajustes para obtener la mejor experiencia en tu plataforma",
-        "step3Title": "Compatibilidad de plataformas",
-        "step3Description": "Aprende sobre Steam Deck, soporte para controles y requisitos del sistema"
+        "step1Title": "Mira los sistemas en movimiento",
+        "step1Description": "Usa las grabaciones del showcase para entender el ritmo, los efectos y el flujo del combate antes de crear una build basada en una función.",
+        "step2Title": "Compara estilos de magia",
+        "step2Description": "Observa cómo se ven los diferentes grimorios y opciones de movimiento durante las pruebas, el farmeo y los combates cortos.",
+        "step3Title": "Detecta nuevas funciones",
+        "step3Description": "Identifica cambios en mapas, visuales y actualizaciones mecánicas más rápido cuando el juego se muestra directamente en clips."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los artículos de soporte"
+      "featured": "Destacados y esenciales",
+      "all": "Todas las páginas de showcase"
+    },
+    "trailer": {
+      "title": "Tráiler de Clover Origins",
+      "description": "Mantente al día con las páginas de tráileres de Clover Origins para ver videos oficiales, análisis de teasers, revelaciones de nuevos mapas y el ritmo de marketing de las actualizaciones principales.",
+      "metaTitle": "Tráiler de Clover Origins - Videos oficiales, teasers y revelaciones",
+      "metaDescription": "Explora la cobertura de tráileres de Clover Origins para ver videos oficiales, análisis de teasers, revelaciones de mapas y tráileres de actualización relacionados con nuevos lanzamientos.",
+      "categoryLabel": "TRÁILER DE VIDEO",
+      "whatIs": "¿Qué es la sección de tráileres de Clover Origins?",
+      "whatIsDescription": "La sección de tráileres de Clover Origins se enfoca en teasers, videos de revelación y grabaciones de avance que enmarcan las próximas funciones, cambios en el mapa e hitos de actualizaciones importantes.",
+      "why": "¿Por qué seguir los tráileres de Clover Origins?",
+      "whySteps": {
+        "step1Title": "Entérate de las revelaciones",
+        "step1Description": "Usa los tráileres para ver los temas, zonas y aspectos visuales más importantes antes de que lleguen las notas del parche.",
+        "step2Title": "Lee el contexto del video",
+        "step2Description": "Las páginas de tráileres convierten clips cortos en contexto útil al explicar hacia qué apunta probablemente cada revelación para los jugadores.",
+        "step3Title": "Sigue los ciclos de hype",
+        "step3Description": "Mantente alineado con el ritmo de lanzamiento siguiendo el estreno de teasers, ventanas de anuncios y momentos importantes de avances."
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todas las páginas de tráileres"
     }
   }
 }
