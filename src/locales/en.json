@@ -102,22 +102,22 @@
       {
         "icon": "ArrowRight",
         "title": "Clover Origins Broom Guide",
-        "description": "Mobility spins, travel value, and upgrade timing"
+        "description": "Unlock broom travel, compare free spin value, and time mobility upgrades around quest routing"
       },
       {
         "icon": "Eye",
         "title": "Clover Origins Quest Guide",
-        "description": "Main story priority and repeatable quest loops"
+        "description": "Follow the opening quest line, first grimoire checkpoint, and daily-weekly route"
       },
       {
         "icon": "Hammer",
         "title": "Clover Origins Farming Guide",
-        "description": "Yen routes, reroll value, and efficient grind loops"
+        "description": "Start with codes, stack quests with kills, and turn yen into long-term progress"
       },
       {
         "icon": "Package",
         "title": "Clover Origins Best Build Guide",
-        "description": "Starter builds for safe progression and upgrades"
+        "description": "Compare four starter-friendly builds for questing, sustain, and rare rolls"
       },
       {
         "icon": "AlertTriangle",
@@ -498,169 +498,238 @@
     },
     "lucidBlocksFarmingAndGrowth": {
       "title": "Clover Origins Broom Guide",
-      "displayType": "mixedCards",
-      "intro": "Brooms are Clover Origins mobility progression. They affect travel time, quest efficiency, and how smoothly you can move between combat and NPC checkpoints, so broom spins should be treated as quality-of-life investments with real value.",
-      "sections": [
+      "displayType": "broomCards",
+      "eyebrow": "Mobility",
+      "subtitle": "Broom travel is already part of the Clover Origins progression loop, and launch-era codes actively feed players broom spins. This guide shows what the system does, where it fits in progression, and which free rerolls matter right now.",
+      "intro": "In Clover Origins, broom travel sits alongside quests, grimoires, dashing, yen, and other progression systems. The current public loop points to broom progression as a movement-focused upgrade path that becomes more useful the more often you are running quests and moving between objectives.",
+      "items": [
         {
-          "name": "First Broom Goal",
-          "description": "Your first Clover Origins broom should make route travel cleaner and less annoying. Early comfort matters more than chasing a perfect cosmetic result."
+          "heading": "What the broom system does",
+          "description": "Broom travel is one of the progression systems players unlock as they move deeper into Clover Origins. Public guides place it next to dashing as a mobility tool that makes travel and general routing easier.",
+          "bullets": [
+            "Broom travel is called out as an unlockable system in current Clover Origins coverage.",
+            "Better brooms are part of the broader upgrade loop tied to yen and spins.",
+            "Mobility matters more once your quest route starts sending you across multiple objectives."
+          ]
         },
         {
-          "name": "Spin Value",
-          "description": "Free Clover Origins broom spins from codes are the best way to test mobility upgrades without draining yen or sacrificing grimoire progress."
+          "heading": "Where broom progression fits",
+          "description": "Early progression still starts with quests and enemy kills. Broom travel becomes more valuable after that opening stretch, when movement speed starts affecting how quickly you can chain objectives together.",
+          "bullets": [
+            "Clover Origins progression is currently driven by completing quests and defeating enemies.",
+            "After the early leveling stretch, players begin opening more systems such as grimoires, broom travel, and dashing.",
+            "Treat broom progression as a travel upgrade, not as your first power spike."
+          ]
         },
         {
-          "name": "Travel Efficiency",
-          "description": "Better broom movement shortens the distance between Clover Origins quests, NPCs, and farming zones, which adds up fast across long sessions."
+          "heading": "Current free broom spins",
+          "description": "The easiest way to interact with the broom system right now is through active codes. These launch rewards give enough broom spins to test the system without spending all of your progress on it.",
+          "rewards": [
+            {
+              "code": "1KLIKES!",
+              "details": "6 broom spins, 10k yen, 3 stat resets, 10 grimoire spins, and 6 race spins"
+            },
+            {
+              "code": "SHUTDOWNSORRY!",
+              "details": "5k+ yen, 3+ stat resets, 5+ grimoire spins, 5+ broom spins, and 5+ race spins"
+            },
+            {
+              "code": "BETARELEASE!",
+              "details": "5k+ yen, 3+ stat resets, 5+ grimoire spins, 5+ broom spins, and 5+ race spins"
+            }
+          ]
         },
         {
-          "name": "Upgrade Timing",
-          "description": "Once your grimoire and stats feel stable, Clover Origins broom improvement becomes one of the easiest ways to increase overall progression comfort."
+          "heading": "What broom spins are for",
+          "description": "Current reward trackers describe broom spins as the reroll currency that unlocks or improves mobility options. They are movement-oriented resources, while grimoire spins and stat resets remain the main tools for shaping your combat direction.",
+          "bullets": [
+            "Broom Spins: unlock or improve mobility options.",
+            "Grimoire Spins: roll for magic types and abilities.",
+            "Race Spins: reroll race bonuses.",
+            "Stat Resets: rebuild your character without restarting."
+          ]
         }
-      ],
-      "growthMilestones": [
-        "Use free broom spins first",
-        "Favor travel comfort over hype",
-        "Upgrade movement after your build settles",
-        "Turn better travel into faster quest loops"
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
       "title": "Clover Origins Quest Guide",
-      "displayType": "priorityCards",
-      "intro": "Questing is the backbone of Clover Origins progression because it drives levels, introduces checkpoints, and creates the cleanest path toward your first real build decisions. Good quest order removes a lot of wasted time.",
-      "priorities": [
+      "displayType": "questTimeline",
+      "eyebrow": "Progression",
+      "subtitle": "Quest flow is the backbone of early Clover Origins progression. The current route is simple: follow the opening quest chain, level through quests and enemy kills, unlock your first grimoire, then fold repeatable quests into your normal loop.",
+      "intro": "The public Clover Origins progression loop is not built around wandering aimlessly for random fights. Progress advances fastest when quests, enemy kills, and unlock milestones are played together in sequence, with daily and weekly quests becoming more important once the early path opens up.",
+      "items": [
         {
-          "name": "Main Story Push",
-          "priority": "Essential",
-          "description": "The main Clover Origins quest line should stay at the center of your route because it unlocks progression and helps structure where you go next."
+          "step": 1,
+          "heading": "Choose your path and start the opening quest line",
+          "description": "Clover Origins begins with the player choosing between the paths of good and evil. Once that choice is made, the real progression starts through quests rather than free roaming.",
+          "bullets": [
+            "Pick your side first.",
+            "Move straight into the starter quests.",
+            "Treat the opening area as setup for your first real systems."
+          ]
         },
         {
-          "name": "Stacked NPC Quests",
-          "priority": "Very High",
-          "description": "Take Clover Origins quests that overlap in location and enemy targets so you level, farm, and finish objectives in the same movement loop."
+          "step": 2,
+          "heading": "Level through quests and enemy defeats together",
+          "description": "Current progression guides describe leveling as a mix of quest completion and defeating enemies. Quest hand-ins and combat are meant to feed each other, not replace each other.",
+          "bullets": [
+            "Use quest objectives to decide where to farm.",
+            "Use enemy kills to support quest progress and leveling.",
+            "Do not separate fighting from questing in the early game."
+          ]
         },
         {
-          "name": "Wizard NPC Timing",
-          "priority": "Very High",
-          "description": "Treat the first grimoire unlock as a key Clover Origins quest milestone and fit it into your route as soon as your level is ready."
+          "step": 3,
+          "heading": "Push the early route until your first grimoire unlock",
+          "description": "After progressing through the early quests and leveling up, players can visit the Wizard NPC to unlock and spin for their first grimoire. This is one of the first major Clover Origins progression checkpoints.",
+          "bullets": [
+            "Finish the early quest stretch first.",
+            "Reach the level requirement through quests and combat.",
+            "Visit the Wizard NPC to unlock and spin your first grimoire."
+          ]
         },
         {
-          "name": "Daily and Weekly Quests",
-          "priority": "High",
-          "description": "Once available, Clover Origins dailies and weeklies are efficient repeatable objectives that keep progression moving between build decisions."
+          "step": 4,
+          "heading": "Add daily and weekly quests to your route",
+          "description": "Once the early quest path is established, daily and weekly quests become part of the public Clover Origins progression loop. These are the repeatable tasks that keep your account moving after the first unlocks.",
+          "bullets": [
+            "Daily quests help keep short sessions productive.",
+            "Weekly quests add bigger medium-term goals.",
+            "These quests pair well with enemy farming and travel upgrades."
+          ]
         },
         {
-          "name": "Side Objective Cleanup",
-          "priority": "High",
-          "description": "Finish convenient Clover Origins side quests when they fit your path, but do not let them derail your main leveling and grimoire checkpoints."
-        },
-        {
-          "name": "PvP Delay",
-          "priority": "High",
-          "description": "Push Clover Origins questing first and leave PvP for later, when your stats, grimoire, and race choices are no longer experimental."
+          "step": 5,
+          "heading": "Use launch resources to smooth stuck quest steps",
+          "description": "If a quest stretch slows down, current codes provide exactly the resources that help recover momentum: yen, grimoire spins, broom spins, race spins, and stat resets.",
+          "bullets": [
+            "1KLIKES! gives 10k yen, 3 stat resets, 10 grimoire spins, 6 broom spins, and 6 race spins.",
+            "SHUTDOWNSORRY! gives 5k+ yen, 3+ stat resets, 5+ grimoire spins, 5+ broom spins, and 5+ race spins.",
+            "BETARELEASE! gives 5k+ yen, 3+ stat resets, 5+ grimoire spins, 5+ broom spins, and 5+ race spins."
+          ]
         }
       ]
     },
     "lucidBlocksAchievementTracker": {
       "title": "Clover Origins Farming Guide",
-      "displayType": "farmGroups",
-      "intro": "The best Clover Origins farming routes are repeatable, low-friction, and tied to real build value. Farm for yen, reroll value, and quest efficiency instead of grinding without a target.",
-      "groups": [
+      "displayType": "farmingTimeline",
+      "eyebrow": "Farming",
+      "subtitle": "Efficient farming in Clover Origins is built around stacking the systems the game already confirms: quests, enemy kills, repeatable quests, and launch codes. The goal is to keep yen, spins, and progression moving at the same time.",
+      "intro": "Right now, Clover Origins farming is less about one hidden exploit and more about running a clean progression loop. Players earn better results by combining quest completion, enemy defeats, repeatable objectives, and code rewards instead of trying to grind a single system in isolation.",
+      "items": [
         {
-          "name": "Yen Farming",
-          "achievements": [
+          "step": 1,
+          "heading": "Start every farming route with active codes",
+          "description": "Launch codes are the fastest current source of starting currency and rerolls. Claim them before a long farming session so your account has enough yen and spins to keep upgrading.",
+          "rewards": [
             {
-              "title": "Quest stack route",
-              "description": "Farm Clover Origins yen through quest chains that overlap enemy camps and travel routes instead of isolated fights."
+              "code": "1KLIKES!",
+              "details": "10k yen, 3 stat resets, 10 grimoire spins, 6 broom spins, and 6 race spins"
             },
             {
-              "title": "Stay in efficient zones",
-              "description": "The best Clover Origins farming spots are places where movement time is low and objective turn-ins stay close."
+              "code": "SHUTDOWNSORRY!",
+              "details": "5k+ yen, 3+ stat resets, 5+ grimoire spins, 5+ broom spins, and 5+ race spins"
             },
             {
-              "title": "Avoid downtime spending",
-              "description": "Do not interrupt Clover Origins farming loops with random rerolls every few minutes. Finish a clean route first."
+              "code": "BETARELEASE!",
+              "details": "5k+ yen, 3+ stat resets, 5+ grimoire spins, 5+ broom spins, and 5+ race spins"
+            },
+            {
+              "code": "500LIKES!",
+              "details": "1 free stat reset"
             }
-          ]
+          ],
+          "note": "Claim codes before you start a long yen session."
         },
         {
-          "name": "Spin Value",
-          "achievements": [
-            {
-              "title": "Use free spins first",
-              "description": "Clover Origins code rewards should handle your earliest race, broom, and grimoire experiments before you spend extra resources."
-            },
-            {
-              "title": "Farm after testing",
-              "description": "Once your Clover Origins build feels usable, farming becomes easier because your quest clears and enemy loops stay consistent."
-            },
-            {
-              "title": "Save reroll overflow",
-              "description": "If your current Clover Origins build works, saving extra spins can be smarter than chasing another risky pivot."
-            }
-          ]
+          "step": 2,
+          "heading": "Farm through quest completion and enemy kills together",
+          "description": "Current guides describe Clover Origins progression as a combined quest-and-combat loop. The fastest farming route is usually the one that lets you level, clear objectives, and kill enemies without leaving the quest path.",
+          "bullets": [
+            "Quests give structure to your route.",
+            "Enemy defeats supply the combat portion of progression.",
+            "This loop keeps both levels and resources moving forward."
+          ],
+          "note": "Do not split farming from quest routing in the early game."
         },
         {
-          "name": "Quest Farming",
-          "achievements": [
-            {
-              "title": "Pair quests with enemy packs",
-              "description": "Clover Origins quest farming is strongest when objectives and combat targets sit in the same loop."
-            },
-            {
-              "title": "Use broom comfort",
-              "description": "A better Clover Origins broom cuts dead time and makes every repeatable route more efficient."
-            },
-            {
-              "title": "Keep routes compact",
-              "description": "Short Clover Origins routes with clean resets beat long paths that waste movement and focus."
-            }
-          ]
+          "step": 3,
+          "heading": "Turn yen into permanent progression",
+          "description": "Yen is not just pocket cash in Clover Origins. Public guides tie it directly to upgrades, especially for grimoires and better brooms, which means every clean farming session should end in stronger progression systems.",
+          "bullets": [
+            "Use yen to support upgrades instead of letting it sit.",
+            "Grimoire progression and broom progression both benefit from better funding.",
+            "Farming becomes smoother once travel and combat upgrades start snowballing."
+          ],
+          "note": "Yen matters only when it becomes better combat and movement."
         },
         {
-          "name": "Build Sustain",
-          "achievements": [
-            {
-              "title": "Farm for your current build",
-              "description": "Target Clover Origins farming loops that support the grimoire and stat setup you actually use, not a hypothetical future build."
-            },
-            {
-              "title": "Stabilize before PvP",
-              "description": "Reliable Clover Origins farming creates the resource floor that makes later PvP pivots safer."
-            },
-            {
-              "title": "Think session to session",
-              "description": "The best Clover Origins farm is the one you can repeat across several sessions without burnout."
-            }
-          ]
+          "step": 4,
+          "heading": "Keep daily and weekly quests on your normal route",
+          "description": "Daily and weekly quests are already part of the visible Clover Origins progression structure. These repeatable tasks make regular farming sessions more efficient over time.",
+          "bullets": [
+            "Daily quests help short farming sessions stay productive.",
+            "Weekly quests add larger progression targets.",
+            "Repeatable quests are a better backbone than random open-world wandering."
+          ],
+          "note": "Repeatable quests keep resource farming consistent."
+        },
+        {
+          "step": 5,
+          "heading": "Spend spins where they change long-term momentum",
+          "description": "Current reward trackers separate spins into clear roles, which makes Clover Origins farming decisions easier. Grimoire spins shape your magic options, broom spins shape mobility, race spins shape bonuses, and stat resets let you correct your build without starting over.",
+          "bullets": [
+            "Grimoire Spins: roll for magic types and abilities.",
+            "Broom Spins: unlock or improve mobility options.",
+            "Race Spins: reroll character race bonuses.",
+            "Stat Resets: reallocate stats without restarting progress."
+          ],
+          "note": "Spend rerolls where they improve your next several sessions."
         }
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
       "title": "Clover Origins Best Build Guide",
-      "displayType": "accordion",
-      "intro": "Clover Origins builds only feel strong when grimoire choice, race value, stat allocation, and your preferred farming loop all point in the same direction. Use these answers to keep your build decisions practical.",
-      "faqs": [
+      "displayType": "buildCards",
+      "eyebrow": "Builds",
+      "subtitle": "The best Clover Origins builds right now are less about one fixed meta page and more about matching your grimoire roll, resets, race spins, and broom progression to the route you actually play. These four starter-friendly directions use the systems the game openly exposes today.",
+      "intro": "Current Clover Origins coverage confirms that the core build pieces already matter: grimoires, race spins, stat resets, broom progression, quests, and yen. Since the game is still in its beta-stage discovery phase, the strongest practical builds are the ones that use those systems efficiently instead of wasting rerolls before your account has a clear direction.",
+      "items": [
         {
-          "question": "What is the best beginner build in Clover Origins?",
-          "answer": "The best beginner Clover Origins build is one built around a grimoire you can safely keep, supported by practical stats and enough race or broom value to keep questing efficient."
+          "heading": "Starter Progression Build",
+          "bestFor": "New accounts and first-session stability",
+          "grimoirePlan": "Keep a usable early grimoire instead of burning every launch spin immediately. Public coverage already names Fire, Wind, Regen, and the rare Anti Magic as part of the current magic pool.",
+          "racePlan": "Use Clover Origins race spins after you know which grimoire you are actually keeping.",
+          "statPlan": "Spend points to support your first stable route, then use one of the free stat resets if your first allocation feels bad.",
+          "broomPlan": "Treat broom upgrades as support for quest routing, not your first damage spike.",
+          "whyItWorks": "Clover Origins progression is still quest-first, so a stable starter setup outperforms a reroll-heavy approach for most new players."
         },
         {
-          "question": "Should a Clover Origins build be chosen before the first grimoire?",
-          "answer": "No. In Clover Origins, the first grimoire should heavily influence your build because it tells you whether to commit, reroll, or hold your stat resets."
+          "heading": "Quest Runner Build",
+          "bestFor": "Fast leveling and smoother objective chains",
+          "grimoirePlan": "Build around a grimoire you can clear Clover Origins quests with consistently rather than chasing a perfect roll too early.",
+          "racePlan": "Spend race spins only when a reroll improves the loadout you are already questing with.",
+          "statPlan": "Use resets to clean up your points once your quest route and grimoire choice stop changing every session.",
+          "broomPlan": "Once broom travel is unlocked, mobility starts saving real time between quest hand-ins and enemy camps.",
+          "whyItWorks": "This build focuses on objective speed, leveling flow, and lower travel downtime instead of gambling all resources at once."
         },
         {
-          "question": "What makes a Clover Origins build worth keeping?",
-          "answer": "A Clover Origins build is worth keeping when it clears quests cleanly, feels comfortable in farming routes, and does not need constant resets to stay playable."
+          "heading": "Regen Sustain Build",
+          "bestFor": "Safer PvE sessions and lower downtime",
+          "grimoirePlan": "Regen is part of the currently visible Clover Origins magic lineup and already has dedicated launch testing coverage, which makes it one of the easiest directions to build around if you want a steadier PvE route.",
+          "racePlan": "Keep race rerolls available until you decide that Regen is your long-term grimoire path.",
+          "statPlan": "Use stat resets once you are fully committed to keeping the sustain-focused route.",
+          "broomPlan": "Mobility remains important here because safer quest loops become much stronger when you cut travel time between objectives.",
+          "whyItWorks": "A sustain-oriented route helps Clover Origins players stay in combat and farming loops longer without rebuilding every few minutes."
         },
         {
-          "question": "When should a Clover Origins build pivot for PvP?",
-          "answer": "Pivot your Clover Origins build toward PvP only after your grimoire, race, broom, and stat foundation feel stable enough that you are not still rebuilding the basics."
-        },
-        {
-          "question": "How should Clover Origins resets fit into build planning?",
-          "answer": "Treat Clover Origins resets as tools for refinement, not panic buttons. They are strongest when you already know the build direction you want to keep."
+          "heading": "Rare Roll Chase Build",
+          "bestFor": "Players who hit Anti Magic or another standout roll early",
+          "grimoirePlan": "If you land Anti Magic, stop casual rerolling and build around it. Current Clover Origins coverage repeatedly describes Anti Magic as an extremely rare outcome.",
+          "racePlan": "Use the remaining race spins to support the rare roll instead of restarting the whole character plan.",
+          "statPlan": "Free stat resets are most valuable here because they let you rebuild around the rare pull immediately.",
+          "broomPlan": "Keep broom progression moving so your rare-roll Clover Origins account also gains better mobility and quest efficiency.",
+          "whyItWorks": "A rare grimoire changes the value of every remaining resource, so the best move is usually to protect the roll and reshape the account around it."
         }
       ]
     },

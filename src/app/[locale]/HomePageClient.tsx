@@ -67,6 +67,17 @@ interface HomePageClientProps {
   locale: string;
 }
 
+const BROOM_CARD_ICONS = [ArrowRight, TrendingUp, Sparkles, Settings];
+const QUEST_STEP_ICONS = [MessageCircle, TrendingUp, BookOpen, Clock, Sparkles];
+const FARMING_STEP_ICONS = [
+  Sparkles,
+  ClipboardCheck,
+  TrendingUp,
+  Clock,
+  Settings,
+];
+const BUILD_CARD_ICONS = [Star, TrendingUp, BookOpen, AlertTriangle];
+
 export default function HomePageClient({
   latestArticles,
   moduleLinkMap,
@@ -77,6 +88,10 @@ export default function HomePageClient({
   const levelingGuide = t.modules.lucidBlocksWorldRegions;
   const statsGuide = t.modules.lucidBlocksCreaturesAndEnemies;
   const raceGuide = t.modules.lucidBlocksMobilityGear;
+  const broomGuide = t.modules.lucidBlocksFarmingAndGrowth;
+  const questGuide = t.modules.lucidBlocksBestEarlyUnlocks;
+  const farmingGuide = t.modules.lucidBlocksAchievementTracker;
+  const bestBuildGuide = t.modules.lucidBlocksSingleplayerAndPlatformFAQ;
   const sectionIds = [
     "codes",
     "beginner-guide",
@@ -97,7 +112,6 @@ export default function HomePageClient({
   ];
 
   // FAQ accordion states
-  const [faqExpanded, setFaqExpanded] = useState<number | null>(null);
   const [deckExpanded, setDeckExpanded] = useState<number | null>(null);
   const [grimoireExpanded, setGrimoireExpanded] = useState(0);
 
@@ -940,59 +954,89 @@ export default function HomePageClient({
       <section id="broom-guide" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-[hsl(var(--nav-theme-light))]">
+              <ArrowRight className="h-4 w-4" />
+              {broomGuide.eyebrow}
+            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               <LinkedTitle
                 linkData={moduleLinkMap["lucidBlocksFarmingAndGrowth"]}
                 locale={locale}
               >
-                {t.modules.lucidBlocksFarmingAndGrowth.title}
+                {broomGuide.title}
               </LinkedTitle>
             </h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
-              {t.modules.lucidBlocksFarmingAndGrowth.intro}
+            <p className="mx-auto max-w-3xl text-lg text-foreground/90">
+              {broomGuide.subtitle}
+            </p>
+            <p className="mx-auto mt-4 max-w-3xl text-muted-foreground">
+              {broomGuide.intro}
             </p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-            {t.modules.lucidBlocksFarmingAndGrowth.sections.map(
-              (s: any, index: number) => (
-                <div
+          <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
+            {broomGuide.items.map((item: any, index: number) => {
+              const Icon = BROOM_CARD_ICONS[index % BROOM_CARD_ICONS.length];
+
+              return (
+                <article
                   key={index}
-                  className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
+                  className="scroll-reveal group rounded-3xl border border-border bg-card/80 p-6 transition-all duration-300 hover:border-[hsl(var(--nav-theme)/0.45)] hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.08)]"
                 >
-                  <div className="flex items-center gap-2 mb-3">
-                    <TrendingUp className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                    <h3 className="font-bold">
-                      <LinkedTitle
-                        linkData={
-                          moduleLinkMap[
-                            `lucidBlocksFarmingAndGrowth::sections::${index}`
-                          ]
-                        }
-                        locale={locale}
-                      >
-                        {s.name}
-                      </LinkedTitle>
-                    </h3>
+                  <div className="mb-5 flex items-start justify-between gap-4">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.28)] bg-[hsl(var(--nav-theme)/0.12)]">
+                      <Icon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <span className="inline-flex rounded-full border border-[hsl(var(--nav-theme)/0.24)] bg-[hsl(var(--nav-theme)/0.08)] px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                      {item.rewards ? "Code rewards" : "Guide card"}
+                    </span>
                   </div>
-                  <p className="text-muted-foreground text-sm">
-                    {s.description}
+                  <h3 className="text-xl font-bold leading-snug">
+                    {item.heading}
+                  </h3>
+                  <p className="mt-3 text-sm leading-7 text-muted-foreground">
+                    {item.description}
                   </p>
-                </div>
-              ),
-            )}
-          </div>
-          <div className="scroll-reveal flex flex-wrap gap-3 justify-center">
-            {t.modules.lucidBlocksFarmingAndGrowth.growthMilestones.map(
-              (m: string, i: number) => (
-                <span
-                  key={i}
-                  className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm"
-                >
-                  <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
-                  {m}
-                </span>
-              ),
-            )}
+
+                  {Array.isArray(item.bullets) && (
+                    <ul className="mt-5 space-y-3">
+                      {item.bullets.map(
+                        (bullet: string, bulletIndex: number) => (
+                          <li
+                            key={bulletIndex}
+                            className="flex items-start gap-3"
+                          >
+                            <Check className="mt-1 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                            <span className="text-sm leading-7 text-muted-foreground">
+                              {bullet}
+                            </span>
+                          </li>
+                        ),
+                      )}
+                    </ul>
+                  )}
+
+                  {Array.isArray(item.rewards) && (
+                    <div className="mt-5 space-y-3">
+                      {item.rewards.map((reward: any, rewardIndex: number) => (
+                        <div
+                          key={rewardIndex}
+                          className="rounded-2xl border border-[hsl(var(--nav-theme)/0.22)] bg-[hsl(var(--nav-theme)/0.06)] p-4"
+                        >
+                          <div className="mb-2 flex items-center justify-between gap-3">
+                            <span className="inline-flex rounded-full border border-[hsl(var(--nav-theme)/0.28)] bg-[hsl(var(--nav-theme)/0.1)] px-3 py-1 text-xs font-semibold tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                              {reward.code}
+                            </span>
+                          </div>
+                          <p className="text-sm leading-7 text-muted-foreground">
+                            {reward.details}
+                          </p>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+                </article>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -1004,49 +1048,73 @@ export default function HomePageClient({
       >
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-[hsl(var(--nav-theme-light))]">
+              <BookOpen className="h-4 w-4" />
+              {questGuide.eyebrow}
+            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               <LinkedTitle
                 linkData={moduleLinkMap["lucidBlocksBestEarlyUnlocks"]}
                 locale={locale}
               >
-                {t.modules.lucidBlocksBestEarlyUnlocks.title}
+                {questGuide.title}
               </LinkedTitle>
             </h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
-              {t.modules.lucidBlocksBestEarlyUnlocks.intro}
+            <p className="mx-auto max-w-3xl text-lg text-foreground/90">
+              {questGuide.subtitle}
+            </p>
+            <p className="mx-auto mt-4 max-w-3xl text-muted-foreground">
+              {questGuide.intro}
             </p>
           </div>
-          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {t.modules.lucidBlocksBestEarlyUnlocks.priorities.map(
-              (p: any, index: number) => (
-                <div
-                  key={index}
-                  className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
-                >
-                  <div className="flex items-center gap-2 mb-3">
-                    <Star className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                    <span className="text-xs px-2 py-1 rounded-full border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.1)] text-[hsl(var(--nav-theme-light))]">
-                      {p.priority}
-                    </span>
-                  </div>
-                  <h3 className="font-bold mb-2">
-                    <LinkedTitle
-                      linkData={
-                        moduleLinkMap[
-                          `lucidBlocksBestEarlyUnlocks::priorities::${index}`
-                        ]
-                      }
-                      locale={locale}
-                    >
-                      {p.name}
-                    </LinkedTitle>
-                  </h3>
-                  <p className="text-muted-foreground text-sm">
-                    {p.description}
-                  </p>
-                </div>
-              ),
-            )}
+          <div className="scroll-reveal relative mx-auto max-w-4xl">
+            <div className="absolute bottom-0 left-6 top-0 hidden w-px bg-gradient-to-b from-[hsl(var(--nav-theme-light))] via-[hsl(var(--nav-theme)/0.35)] to-transparent md:block" />
+            <div className="space-y-6">
+              {questGuide.items.map((item: any, index: number) => {
+                const Icon = QUEST_STEP_ICONS[index % QUEST_STEP_ICONS.length];
+
+                return (
+                  <article key={index} className="relative md:pl-24">
+                    <div className="mb-4 flex items-center gap-3 md:absolute md:left-0 md:top-6 md:mb-0">
+                      <div className="flex h-12 w-12 items-center justify-center rounded-full border-2 border-[hsl(var(--nav-theme)/0.35)] bg-[hsl(var(--nav-theme)/0.14)]">
+                        <Icon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                    </div>
+                    <div className="rounded-3xl border border-border bg-card/80 p-6 transition-colors hover:border-[hsl(var(--nav-theme)/0.42)]">
+                      <div className="mb-3 flex flex-wrap items-center gap-3">
+                        <span className="inline-flex rounded-full border border-[hsl(var(--nav-theme)/0.24)] bg-[hsl(var(--nav-theme)/0.08)] px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                          Step {item.step}
+                        </span>
+                        <span className="text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground">
+                          Clover Origins quest route
+                        </span>
+                      </div>
+                      <h3 className="text-xl font-bold leading-snug">
+                        {item.heading}
+                      </h3>
+                      <p className="mt-3 text-sm leading-7 text-muted-foreground">
+                        {item.description}
+                      </p>
+                      <ul className="mt-5 space-y-3">
+                        {item.bullets.map(
+                          (bullet: string, bulletIndex: number) => (
+                            <li
+                              key={bulletIndex}
+                              className="flex items-start gap-3"
+                            >
+                              <Check className="mt-1 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                              <span className="text-sm leading-7 text-muted-foreground">
+                                {bullet}
+                              </span>
+                            </li>
+                          ),
+                        )}
+                      </ul>
+                    </div>
+                  </article>
+                );
+              })}
+            </div>
           </div>
         </div>
       </section>
@@ -1055,58 +1123,110 @@ export default function HomePageClient({
       <section id="farming-guide" className="scroll-mt-24 px-4 py-20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-[hsl(var(--nav-theme-light))]">
+              <ClipboardCheck className="h-4 w-4" />
+              {farmingGuide.eyebrow}
+            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               <LinkedTitle
                 linkData={moduleLinkMap["lucidBlocksAchievementTracker"]}
                 locale={locale}
               >
-                {t.modules.lucidBlocksAchievementTracker.title}
+                {farmingGuide.title}
               </LinkedTitle>
             </h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
-              {t.modules.lucidBlocksAchievementTracker.intro}
+            <p className="mx-auto max-w-3xl text-lg text-foreground/90">
+              {farmingGuide.subtitle}
+            </p>
+            <p className="mx-auto mt-4 max-w-3xl text-muted-foreground">
+              {farmingGuide.intro}
             </p>
           </div>
-          <div className="scroll-reveal space-y-6">
-            {t.modules.lucidBlocksAchievementTracker.groups.map(
-              (group: any, gi: number) => (
-                <div
-                  key={gi}
-                  className="p-6 bg-white/5 border border-border rounded-xl"
-                >
-                  <div className="flex items-center gap-2 mb-4">
-                    <ClipboardCheck className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
-                    <h3 className="font-bold text-lg">
-                      <LinkedTitle
-                        linkData={
-                          moduleLinkMap[
-                            `lucidBlocksAchievementTracker::groups::${gi}`
-                          ]
-                        }
-                        locale={locale}
-                      >
-                        {group.name}
-                      </LinkedTitle>
-                    </h3>
-                  </div>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                    {group.achievements.map((a: any, ai: number) => (
-                      <div
-                        key={ai}
-                        className="p-3 bg-white/5 border border-border rounded-lg"
-                      >
-                        <p className="font-semibold text-sm text-[hsl(var(--nav-theme-light))]">
-                          {a.title}
-                        </p>
-                        <p className="text-xs text-muted-foreground mt-1">
-                          {a.description}
-                        </p>
+          <div className="relative mx-auto max-w-5xl">
+            <div className="absolute bottom-0 left-7 top-0 hidden w-px bg-gradient-to-b from-[hsl(var(--nav-theme-light))] via-[hsl(var(--nav-theme)/0.35)] to-transparent lg:block" />
+            <div className="space-y-6">
+              {farmingGuide.items.map((item: any, index: number) => {
+                const Icon =
+                  FARMING_STEP_ICONS[index % FARMING_STEP_ICONS.length];
+
+                return (
+                  <div
+                    key={index}
+                    className="scroll-reveal relative grid gap-4 lg:grid-cols-[minmax(0,1fr)_240px] lg:pl-24"
+                  >
+                    <div className="mb-2 flex items-center gap-3 lg:absolute lg:left-0 lg:top-6 lg:mb-0">
+                      <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.14)]">
+                        <Icon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
                       </div>
-                    ))}
+                    </div>
+
+                    <article className="rounded-3xl border border-border bg-card/80 p-6 transition-colors hover:border-[hsl(var(--nav-theme)/0.42)]">
+                      <div className="mb-3 flex flex-wrap items-center gap-3">
+                        <span className="inline-flex rounded-full border border-[hsl(var(--nav-theme)/0.24)] bg-[hsl(var(--nav-theme)/0.08)] px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                          Step {item.step}
+                        </span>
+                        <span className="text-xs font-semibold uppercase tracking-[0.18em] text-muted-foreground">
+                          Clover Origins farming route
+                        </span>
+                      </div>
+                      <h3 className="text-xl font-bold leading-snug">
+                        {item.heading}
+                      </h3>
+                      <p className="mt-3 text-sm leading-7 text-muted-foreground">
+                        {item.description}
+                      </p>
+
+                      {Array.isArray(item.rewards) && (
+                        <div className="mt-5 grid grid-cols-1 gap-3 md:grid-cols-2">
+                          {item.rewards.map(
+                            (reward: any, rewardIndex: number) => (
+                              <div
+                                key={rewardIndex}
+                                className="rounded-2xl border border-[hsl(var(--nav-theme)/0.2)] bg-[hsl(var(--nav-theme)/0.06)] p-4"
+                              >
+                                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                                  {reward.code}
+                                </p>
+                                <p className="mt-2 text-sm leading-7 text-muted-foreground">
+                                  {reward.details}
+                                </p>
+                              </div>
+                            ),
+                          )}
+                        </div>
+                      )}
+
+                      {Array.isArray(item.bullets) && (
+                        <ul className="mt-5 space-y-3">
+                          {item.bullets.map(
+                            (bullet: string, bulletIndex: number) => (
+                              <li
+                                key={bulletIndex}
+                                className="flex items-start gap-3"
+                              >
+                                <Check className="mt-1 h-4 w-4 flex-shrink-0 text-[hsl(var(--nav-theme-light))]" />
+                                <span className="text-sm leading-7 text-muted-foreground">
+                                  {bullet}
+                                </span>
+                              </li>
+                            ),
+                          )}
+                        </ul>
+                      )}
+                    </article>
+
+                    <aside className="rounded-3xl border border-[hsl(var(--nav-theme)/0.22)] bg-[hsl(var(--nav-theme)/0.06)] p-5 lg:self-start">
+                      <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[hsl(var(--nav-theme-light))]">
+                        Side note
+                      </p>
+                      <p className="mt-3 text-sm leading-7 text-muted-foreground">
+                        {item.note}
+                      </p>
+                    </aside>
                   </div>
-                </div>
-              ),
-            )}
+                );
+              })}
+            </div>
           </div>
         </div>
       </section>
@@ -1118,6 +1238,10 @@ export default function HomePageClient({
       >
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
+            <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.08)] px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-[hsl(var(--nav-theme-light))]">
+              <Star className="h-4 w-4" />
+              {bestBuildGuide.eyebrow}
+            </div>
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
               <LinkedTitle
                 linkData={
@@ -1125,39 +1249,86 @@ export default function HomePageClient({
                 }
                 locale={locale}
               >
-                {t.modules.lucidBlocksSingleplayerAndPlatformFAQ.title}
+                {bestBuildGuide.title}
               </LinkedTitle>
             </h2>
-            <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
-              {t.modules.lucidBlocksSingleplayerAndPlatformFAQ.intro}
+            <p className="mx-auto max-w-3xl text-lg text-foreground/90">
+              {bestBuildGuide.subtitle}
+            </p>
+            <p className="mx-auto mt-4 max-w-3xl text-muted-foreground">
+              {bestBuildGuide.intro}
             </p>
           </div>
-          <div className="scroll-reveal space-y-2">
-            {t.modules.lucidBlocksSingleplayerAndPlatformFAQ.faqs.map(
-              (faq: any, index: number) => (
-                <div
+          <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
+            {bestBuildGuide.items.map((item: any, index: number) => {
+              const Icon = BUILD_CARD_ICONS[index % BUILD_CARD_ICONS.length];
+
+              return (
+                <article
                   key={index}
-                  className="border border-border rounded-xl overflow-hidden"
+                  className="scroll-reveal group rounded-3xl border border-border bg-card/80 p-6 transition-all duration-300 hover:border-[hsl(var(--nav-theme)/0.45)] hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.08)]"
                 >
-                  <button
-                    onClick={() =>
-                      setFaqExpanded(faqExpanded === index ? null : index)
-                    }
-                    className="w-full flex items-center justify-between p-5 text-left hover:bg-white/5 transition-colors"
-                  >
-                    <span className="font-semibold">{faq.question}</span>
-                    <ChevronDown
-                      className={`w-5 h-5 flex-shrink-0 transition-transform ${faqExpanded === index ? "rotate-180" : ""}`}
-                    />
-                  </button>
-                  {faqExpanded === index && (
-                    <div className="px-5 pb-5 text-muted-foreground text-sm">
-                      {faq.answer}
+                  <div className="mb-5 flex items-start justify-between gap-4">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-[hsl(var(--nav-theme)/0.28)] bg-[hsl(var(--nav-theme)/0.12)]">
+                      <Icon className="h-5 w-5 text-[hsl(var(--nav-theme-light))]" />
                     </div>
-                  )}
-                </div>
-              ),
-            )}
+                    <span className="inline-flex rounded-full border border-[hsl(var(--nav-theme)/0.24)] bg-[hsl(var(--nav-theme)/0.08)] px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                      Build {index + 1}
+                    </span>
+                  </div>
+                  <h3 className="text-2xl font-bold leading-tight">
+                    {item.heading}
+                  </h3>
+                  <p className="mt-3 text-sm font-medium text-foreground/90">
+                    {item.bestFor}
+                  </p>
+
+                  <div className="mt-6 space-y-4">
+                    <div>
+                      <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                        Grimoire Plan
+                      </p>
+                      <p className="mt-2 text-sm leading-7 text-muted-foreground">
+                        {item.grimoirePlan}
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                        Race Plan
+                      </p>
+                      <p className="mt-2 text-sm leading-7 text-muted-foreground">
+                        {item.racePlan}
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                        Stat Plan
+                      </p>
+                      <p className="mt-2 text-sm leading-7 text-muted-foreground">
+                        {item.statPlan}
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                        Broom Plan
+                      </p>
+                      <p className="mt-2 text-sm leading-7 text-muted-foreground">
+                        {item.broomPlan}
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="mt-6 rounded-2xl border border-[hsl(var(--nav-theme)/0.22)] bg-[hsl(var(--nav-theme)/0.06)] p-4">
+                    <p className="text-xs font-semibold uppercase tracking-[0.18em] text-[hsl(var(--nav-theme-light))]">
+                      Why It Works
+                    </p>
+                    <p className="mt-2 text-sm leading-7 text-muted-foreground">
+                      {item.whyItWorks}
+                    </p>
+                  </div>
+                </article>
+              );
+            })}
           </div>
         </div>
       </section>
