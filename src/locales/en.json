@@ -122,22 +122,22 @@
       {
         "icon": "AlertTriangle",
         "title": "Clover Origins Anti Magic Guide",
-        "description": "Why Anti Magic is the signature chase roll"
+        "description": "Why Anti Magic matters and how to chase it cleanly"
       },
       {
         "icon": "Gamepad2",
         "title": "Clover Origins PvP Guide",
-        "description": "Arena prep, build stability, and duel timing"
+        "description": "Arena prep, build stability, and launch resource planning"
       },
       {
         "icon": "MessageCircle",
         "title": "Clover Origins Good and Evil Path Guide",
-        "description": "Choose your side and shape your route"
+        "description": "Compare both sides before you lock your route"
       },
       {
         "icon": "Clock",
         "title": "Clover Origins First Grimoire Guide",
-        "description": "Unlock, evaluate, and keep your first real build"
+        "description": "Reach the Wizard NPC and judge your first real roll"
       }
     ]
   },
@@ -736,108 +736,158 @@
     "lucidBlocksSteamDeckAndController": {
       "title": "Clover Origins Anti Magic Guide",
       "displayType": "accordion",
-      "intro": "Anti Magic is the signature chase outcome in Clover Origins because it combines rarity, identity, and long-term prestige. It is the roll many players benchmark every reroll decision against.",
+      "eyebrow": "Rare Roll",
+      "subtitle": "Anti Magic is one of the clearest chase rewards in Clover Origins. It sits above the common launch pool and changes how players value every early reroll.",
+      "intro": "Clover Origins pushes players into a spin-driven progression loop with grimoires, yen, stat resets, and quest progress all feeding each other. Anti Magic stands out because it is the rare outcome many players want to build toward, but the smartest chase still starts with free resources and steady progression.",
+      "highlights": [
+        "Redeem launch codes before you spend any paid rerolls.",
+        "Keep quests and enemy clears moving between chase attempts.",
+        "Treat a strong early grimoire as progress, not as failure."
+      ],
       "faqs": [
         {
-          "question": "Why is Anti Magic so valuable in Clover Origins?",
-          "answer": "Anti Magic is valuable in Clover Origins because it is presented as the standout rare grimoire and represents the highest-profile long-term reroll target."
+          "question": "Why do Clover Origins players care so much about Anti Magic?",
+          "answer": "Anti Magic is the headline chase result in Clover Origins because it combines rarity, prestige, and obvious long-term identity. It is the roll that makes players rethink whether they should keep rerolling or start building immediately."
         },
         {
-          "question": "Should Anti Magic always be kept in Clover Origins?",
-          "answer": "In most cases, yes. If you land Anti Magic in Clover Origins, the usual recommendation is to keep it and shape the rest of your build around that result."
+          "question": "How do players obtain Anti Magic in Clover Origins?",
+          "answer": "Players chase Anti Magic through Clover Origins grimoire progression and reroll resources. That makes codes, early yen, quest progress, and your first useful spins the cleanest setup tools for the chase."
         },
         {
-          "question": "Is it worth chasing Anti Magic on a fresh Clover Origins account?",
-          "answer": "It can be, but only if you are comfortable with variance. Many Clover Origins players are better served by keeping a strong A-tier grimoire and progressing first."
+          "question": "What is the cleanest early-game Anti Magic plan in Clover Origins?",
+          "answer": "The cleanest Clover Origins route is to redeem every active code first, unlock your first real systems, and use free spins before committing to deeper rerolls. That gives you the best mix of progress and chase value."
         },
         {
-          "question": "How should Clover Origins resources be used when chasing Anti Magic?",
-          "answer": "Use free code spins first, protect your useful resets, and avoid wrecking a stable Clover Origins account just to force more rerolls than your resources can support."
+          "question": "Should a Clover Origins account spend everything immediately chasing Anti Magic?",
+          "answer": "Not usually. A better Clover Origins early route is to use launch resources first, push the opening quests, unlock your first grimoire, and keep account progression moving instead of stalling on one rare outcome."
         },
         {
-          "question": "When should a Clover Origins player stop chasing Anti Magic?",
-          "answer": "Stop when your current Clover Origins grimoire clears content well and the next reroll wave would cost more progress than it is likely to gain."
+          "question": "What should a Clover Origins player do after missing Anti Magic early?",
+          "answer": "Keep a workable setup, continue leveling through quests and enemy fights, and rebuild resources through normal progression. Missing Anti Magic early does not stop a Clover Origins account from becoming strong."
         }
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
       "title": "Clover Origins PvP Guide",
-      "displayType": "settingCards",
-      "intro": "PvP in Clover Origins rewards players who bring a stable build, clean movement, and realistic expectations about where their account stands. Arena success starts before the duel opens.",
-      "settings": [
+      "displayType": "cardList",
+      "eyebrow": "Combat",
+      "subtitle": "PvP is already part of the public game pitch for Clover Origins, but it sits inside a wider progression loop. The strongest prep comes from combining a first grimoire, movement unlocks, usable stats, and free code resources before chasing more serious fights.",
+      "intro": "Clover Origins presents PvP as a proving ground for your build rather than a separate mode detached from progression. The best early PvP preparation is simply building a cleaner account foundation first.",
+      "items": [
         {
-          "name": "Build Stability First",
-          "type": "Arena Prep",
-          "description": "Bring a Clover Origins build you actually plan to keep. PvP is much harder when your stats and grimoire are still experimental."
+          "title": "Where Clover Origins PvP Fits",
+          "description": "PvP works best after the account already understands the game's wider RPG loop.",
+          "bullets": [
+            "Treat PvP as part of the broader Clover Origins progression path.",
+            "Do not rush duels before the early quest and grimoire checkpoints are online.",
+            "Use PvP to test a stable build, not to replace core progression."
+          ]
         },
         {
-          "name": "Know Your Range",
-          "type": "Engage Plan",
-          "description": "The best Clover Origins PvP openers come from understanding your magic's range, pressure windows, and escape options before the fight starts."
+          "title": "Clover Origins PvP Prep Checklist",
+          "description": "Before treating PvP as a main goal, make sure the account has the basics in place.",
+          "bullets": [
+            "Progress through the opening Clover Origins quests and level up.",
+            "Unlock and test your first grimoire before serious duels.",
+            "Claim current codes for yen, stat resets, and reroll bundles."
+          ]
         },
         {
-          "name": "Mobility Matters",
-          "type": "Movement",
-          "description": "Good Clover Origins movement creates more wins than random aggression because spacing, dodges, and chase control decide a lot of fights."
+          "title": "What Usually Decides Clover Origins PvP Early",
+          "description": "Most early wins come from progression quality rather than one isolated combo.",
+          "bullets": [
+            "A better grimoire outcome changes your floor immediately.",
+            "Movement systems matter because spacing and chase control decide clean openings.",
+            "Stat resets matter because they let you refine weak early point choices."
+          ]
         },
         {
-          "name": "Reset for Purpose",
-          "type": "Late Optimization",
-          "description": "Save Clover Origins stat resets for real PvP refinement after your PvE route is already stable, not before."
+          "title": "Useful Clover Origins Launch Resources",
+          "description": "The current code pool gives a real head start for PvP prep.",
+          "bullets": [
+            "1KLIKES! is the biggest early Clover Origins bundle for yen and spins.",
+            "SHUTDOWNSORRY! supports rebuilds after weak opening rolls.",
+            "BETARELEASE! and 500LIKES! help clean up early build mistakes."
+          ]
         }
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
       "title": "Clover Origins Good and Evil Path Guide",
-      "displayType": "timeline",
-      "intro": "The good-versus-evil split is one of the clearest identity hooks in Clover Origins. Your path should fit the fantasy you want to live with for quests, build flavor, and later PvP identity.",
-      "entries": [
+      "displayType": "accordion",
+      "eyebrow": "Path Choice",
+      "subtitle": "Clover Origins makes the good-versus-evil split one of its clearest fantasy hooks. Public descriptions frame the choice as joining the Magic Knights to protect the Clover Kingdom or embracing chaos as an evil Mage.",
+      "intro": "The path decision in Clover Origins is less about hiding the core systems and more about setting the fantasy of your run. After choosing your side, the wider progression loop still revolves around quests, enemies, spins, your first grimoire, movement unlocks, and eventually PvP.",
+      "highlights": [
+        "Both sides still share the same core Clover Origins progression systems.",
+        "Pick the route whose fantasy you actually want to keep for several sessions.",
+        "Your path choice matters most when it matches your build identity."
+      ],
+      "faqs": [
         {
-          "title": "Choose Your Side Early",
-          "type": "Choice",
-          "description": "Clover Origins asks you to frame your run as a Magic Knight or an evil Mage right away, so pick the fantasy you are actually interested in keeping."
+          "question": "What are the two Clover Origins alignment paths?",
+          "answer": "Clover Origins presents two clear alignments. The good route joins the Magic Knights to protect the Clover Kingdom, while the evil route leans into the darker mage fantasy and a more chaotic identity."
         },
         {
-          "title": "Let Quests Teach the Path",
-          "type": "Quest Loop",
-          "description": "Your Clover Origins side choice should feel natural in the quest route you are following, not like a random selection detached from progression."
+          "question": "When does the Clover Origins path choice start to matter?",
+          "answer": "The Clover Origins path choice matters right from the opening fantasy framing, then carries forward into how your quests, roleplay flavor, and later PvP identity feel on the account."
         },
         {
-          "title": "Match Your Build Identity",
-          "type": "Build Flavor",
-          "description": "Good and evil choices in Clover Origins work best when your grimoire, stats, and race decisions reinforce the same overall identity."
+          "question": "What do both Clover Origins paths still share?",
+          "answer": "Both Clover Origins routes still feed into the same practical systems: quests, enemy grinding, spin-based growth, first-grimoire progression, broom travel, dashing, and PvP. The path mainly frames the identity and tone of your run."
         },
         {
-          "title": "Use PvP as a Late Expression",
-          "type": "PvP Identity",
-          "description": "Once your Clover Origins build stabilizes, your chosen path becomes part of how you present yourself in PvP and community discussion."
+          "question": "Who should choose the good side in Clover Origins?",
+          "answer": "Choose the good side in Clover Origins if the Magic Knights and kingdom-protector fantasy is the part of the game you want to lean into for quests, build flavor, and character identity."
+        },
+        {
+          "question": "Who should choose the evil side in Clover Origins?",
+          "answer": "Choose the evil side in Clover Origins if you prefer the rebellious chaos-mage fantasy and want your run to carry that darker identity through progression and later PvP."
         }
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
       "title": "Clover Origins First Grimoire Guide",
+      "eyebrow": "Beginner Milestone",
+      "subtitle": "Your first grimoire is one of the game's earliest major milestones. The core route is consistent: progress through the early game, level up, then visit the Wizard NPC to unlock and spin for it.",
       "displayType": "steps",
-      "intro": "Your first grimoire unlock is the first real build checkpoint in Clover Origins. If you handle that moment well, the rest of your early progression becomes much easier to manage.",
+      "intro": "Clover Origins treats the first grimoire as the point where early setup turns into real build progression. Once you have chosen your alignment and cleared enough early content, the next major objective is reaching the Wizard NPC, getting your first spin, and using that result to keep quests, enemies, movement unlocks, and later PvP moving forward.",
       "steps": [
         {
-          "title": "Reach the Wizard NPC",
-          "description": "Quest through the opening Clover Origins route until you are ready to visit the Wizard NPC. Do not treat the first grimoire like a random side activity."
+          "step": 1,
+          "label": "Choose your Clover Origins path",
+          "details": "Start by choosing between the good and evil sides. This is the opening identity choice before the wider Clover Origins progression loop starts paying off.",
+          "action": "Pick the route whose fantasy you actually want to keep."
         },
         {
-          "title": "Spend Free Spins Before Buying More",
-          "description": "Use your launch and like-milestone Clover Origins rewards first so your initial grimoire evaluation comes from free resources."
+          "step": 2,
+          "label": "Push the opening Clover Origins progression",
+          "details": "Early Clover Origins grimoire access comes from progressing through quests, defeating enemies, and leveling up. That opening stretch is the real gate to the milestone.",
+          "action": "Focus on quests and simple enemy clears until your account feels stable."
         },
         {
-          "title": "Judge the Roll by Progression Value",
-          "description": "Ask whether your first Clover Origins grimoire feels good in quests and farming. A practical keeper is often better than endless chasing."
+          "step": 3,
+          "label": "Claim the Clover Origins launch codes",
+          "details": "Current code bundles give extra yen, stat resets, grimoire spins, broom spins, and race spins. Those rewards make the first major setup much easier to evaluate.",
+          "action": "Redeem the available codes before you commit to early rerolls."
         },
         {
-          "title": "Pair the Roll With Smart Stats",
-          "description": "Once the grimoire looks usable, tune your Clover Origins stats to support it instead of immediately rerolling into uncertainty."
+          "step": 4,
+          "label": "Visit the Clover Origins Wizard NPC",
+          "details": "After the early leveling stretch, the Wizard NPC is the checkpoint that unlocks and spins your first real grimoire.",
+          "action": "Head to the Wizard NPC as soon as the opening grind is complete."
         },
         {
-          "title": "Commit or Reset With Intention",
-          "description": "If the roll is worth keeping, build around it. If not, use Clover Origins resets and extra spins in a controlled way rather than panicking through every resource at once."
+          "step": 5,
+          "label": "Test your first Clover Origins result",
+          "details": "Once the grimoire is unlocked, the account starts to feel more build-focused. That is the moment to judge whether the roll supports your questing, farming, and comfort level.",
+          "action": "Take the result back into quests and combat immediately."
+        },
+        {
+          "step": 6,
+          "label": "Enter the real Clover Origins loop",
+          "details": "After the first unlock, the game opens into longer-term progression through quests, enemy fights, better broom progression, movement unlocks, and eventual PvP.",
+          "action": "Keep leveling, shape your stats, and spend later spins with more intent."
         }
       ]
     }
