@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next'
 import { getAllContent, CONTENT_TYPES, type ContentType } from '@/lib/content'
 import { routing, type Locale } from '@/i18n/routing'
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.cloverorigins.wiki'
 
 // 静态页面配置
 const staticPagesConfig: Record<string, { priority: number; changeFrequency: 'monthly' | 'yearly' }> = {
@@ -16,11 +16,9 @@ const staticPagesConfig: Record<string, { priority: number; changeFrequency: 'mo
 const contentTypePriority: Record<string, number> = {
 	'guides': 0.9,
 	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
 	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
+	'biomes': 0.8,
+	'building': 0.8,
 	'support': 0.6,
 }
 
@@ -28,11 +26,9 @@ const contentTypePriority: Record<string, number> = {
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
 	'guides': 'weekly',
 	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
 	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
+	'biomes': 'weekly',
+	'building': 'weekly',
 	'support': 'monthly',
 }
 

@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import { NextIntlClientProvider } from 'next-intl'
-import { getMessages, getTranslations } from 'next-intl/server'
+import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing, type Locale } from '@/i18n/routing'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
@@ -28,6 +28,22 @@ type Props = {
 	params: Promise<{ locale: string }>
 }
 
+const DEFAULT_SITE_URL = 'https://www.cloverorigins.wiki'
+const SITE_NAME = 'Clover Origins Wiki'
+const SITE_DESCRIPTION =
+	'Clover Origins Wiki covers active codes, grimoire guides, race and broom rolls, quests, stat builds, and beginner tips for the Roblox Black Clover RPG.'
+const SITE_KEYWORDS = [
+	'Clover Origins',
+	'Clover Origins Wiki',
+	'Roblox',
+	'codes',
+	'grimoires',
+	'quests',
+	'races',
+	'brooms',
+	'stat build',
+]
+
 // 生成静态参数
 export function generateStaticParams() {
 	return routing.locales.map((locale) => ({ locale }))
@@ -36,19 +52,15 @@ export function generateStaticParams() {
 // 生成元数据
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	const { locale } = await params
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
-
-	// 获取 SEO 翻译
-	const t = await getTranslations('seo.home')
-
-	// 将 keywords 字符串分割为数组
-	const keywordsString = t('keywords')
-	const keywords = keywordsString.split(',').map(k => k.trim())
+	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || DEFAULT_SITE_URL
+	const localeUrl = locale === 'en' ? siteUrl : `${siteUrl}/${locale}`
+	const heroImageUrl = new URL('/images/hero.webp', siteUrl).toString()
 
 	return {
-		title: t('title'),
-		description: t('description'),
-		keywords: keywords,
+		metadataBase: new URL(siteUrl),
+		title: 'Clover Origins Wiki - Codes, Grimoires & Quests',
+		description: SITE_DESCRIPTION,
+		keywords: SITE_KEYWORDS,
 		robots: {
 			index: true,
 			follow: true,
@@ -63,25 +75,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 		openGraph: {
 			type: 'website',
 			locale: locale,
-			url: locale === 'en' ? siteUrl : `${siteUrl}/${locale}`,
-			siteName: 'Lucid Blocks Wiki',
-			title: t('ogTitle'),
-			description: t('ogDescription'),
+			url: localeUrl,
+			siteName: SITE_NAME,
+			title: 'Clover Origins Wiki - Codes, Grimoires & Quests',
+			description: SITE_DESCRIPTION,
 			images: [
 				{
-					url: `${siteUrl}/images/hero.webp`,
+					url: heroImageUrl,
 					width: 1920,
 					height: 1080,
-					alt: 'Lucid Blocks - Surreal Voxel Sandbox',
+					alt: 'Clover Origins Wiki Hero Image',
 				},
 			],
 		},
 		twitter: {
 			card: 'summary_large_image',
-			title: t('twitterTitle'),
-			description: t('twitterDescription'),
-			images: [`${siteUrl}/images/hero.webp`],
-			creator: '@lucidblocks',
+			title: 'Clover Origins Wiki - Codes, Grimoires & Quests',
+			description: SITE_DESCRIPTION,
+			images: [heroImageUrl],
 		},
 		icons: {
 			icon: [

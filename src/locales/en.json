@@ -33,27 +33,27 @@
     "readMore": "Read More"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Black Clover Inspired Roblox RPG",
+    "title": "Clover Origins Wiki",
+    "description": "Track active codes, grimoires, race and broom rerolls, quest routes, stat builds, and beginner progression for Clover Origins on Roblox.",
+    "getFreeCodesCTA": "Get Clover Origins Codes",
+    "playOnSteamCTA": "Play Clover Origins on Roblox",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "4",
+        "label": "Active Codes"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "248969",
+        "label": "Funzy Labs Members"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "2025-10-30",
+        "label": "Roblox Listing Date"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "2",
+        "label": "Moral Paths"
       }
     }
   },
@@ -784,27 +784,27 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Master Clover Origins?",
+    "description": "Join the Clover Origins community for updates, code drops, and strategy discussions.",
+    "joinCommunity": "Join Clover Origins Discord",
+    "joinGame": "Play Clover Origins on Roblox"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Clover Origins Wiki",
+    "description": "Your complete resource hub for Clover Origins codes, grimoires, quests, races, broom guides, and stat builds.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
-    "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "twitter": "Official Roblox Game",
+    "steamCommunity": "Funzy Labs Roblox Group",
+    "steamStore": "Funzy Labs YouTube",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "copyright": "© 2026 Clover Origins Wiki. Not affiliated with Funzy Labs or Roblox Corporation.",
+    "disclaimer": "Unofficial fan-made Roblox game resource website."
   },
   "pages": {
     "guides": {

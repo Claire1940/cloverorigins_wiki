@@ -23,6 +23,21 @@ interface PageProps {
   params: Promise<{ locale: string; slug: string[] }>
 }
 
+const DEFAULT_SITE_URL = 'https://www.cloverorigins.wiki'
+const SITE_NAME = 'Clover Origins Wiki'
+
+function toAbsoluteImage(siteUrl: string, image?: string) {
+  if (!image) {
+    return new URL('/images/hero.webp', siteUrl).toString()
+  }
+
+  try {
+    return new URL(image, siteUrl).toString()
+  } catch {
+    return new URL('/images/hero.webp', siteUrl).toString()
+  }
+}
+
 export default async function UnifiedContentPage({ params }: PageProps) {
   const { locale, slug } = await params
 
@@ -214,7 +229,8 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale, slug } = await params
   const contentType = slug[0]
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
+  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || DEFAULT_SITE_URL
+  const defaultImage = new URL('/images/hero.webp', siteUrl).toString()
 
   if (!isValidContentType(contentType)) {
     return { title: 'Not Found' }
@@ -236,9 +252,18 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         description,
         alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
         openGraph: {
+          type: 'website',
           title,
           description,
+          siteName: SITE_NAME,
+          images: [defaultImage],
           url: `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`,
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title,
+          description,
+          images: [defaultImage],
         },
         robots: {
           index: true,
@@ -254,13 +279,27 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       }
     } catch {
       // 如果翻译不存在，使用默认值
-      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - Lucid Blocks Wiki`
+      const defaultTitle = `${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - Clover Origins Wiki`
       const path = `/${contentType}`
 
       return {
         title: defaultTitle,
-        description: `Browse all ${contentType} content for Lucid Blocks Wiki`,
+        description: `Browse all ${contentType} content for Clover Origins Wiki`,
         alternates: buildLanguageAlternates(path, locale as Locale, siteUrl),
+        openGraph: {
+          type: 'website',
+          title: defaultTitle,
+          description: `Browse all ${contentType} content for Clover Origins Wiki`,
+          siteName: SITE_NAME,
+          images: [defaultImage],
+          url: `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`,
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title: defaultTitle,
+          description: `Browse all ${contentType} content for Clover Origins Wiki`,
+          images: [defaultImage],
+        },
         robots: {
           index: true,
           follow: true,
@@ -288,16 +327,25 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       )
 
       const fullPath = `/${slug.join('/')}`
+      const image = toAbsoluteImage(siteUrl, metadata.image)
 
       return {
-        title: `${metadata.title} - Lucid Blocks Wiki`,
+        title: `${metadata.title} - Clover Origins Wiki`,
         description: metadata.description,
         alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
         openGraph: {
+          type: 'article',
+          siteName: SITE_NAME,
           title: metadata.title,
           description: metadata.description,
-          images: metadata.image ? [metadata.image] : [],
+          images: [image],
           url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
+        },
+        twitter: {
+          card: 'summary_large_image',
+          title: metadata.title,
+          description: metadata.description,
+          images: [image],
         },
         robots: {
           index: true,
@@ -323,16 +371,25 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
           )
 
           const fullPath = `/${slug.join('/')}`
+          const image = toAbsoluteImage(siteUrl, metadata.image)
 
           return {
-            title: `${metadata.title} - Lucid Blocks Wiki`,
+            title: `${metadata.title} - Clover Origins Wiki`,
             description: metadata.description,
             alternates: buildLanguageAlternates(fullPath, locale as Locale, siteUrl),
             openGraph: {
+              type: 'article',
+              siteName: SITE_NAME,
               title: metadata.title,
               description: metadata.description,
-              images: metadata.image ? [metadata.image] : [],
+              images: [image],
               url: `${siteUrl}${locale === 'en' ? fullPath : `/${locale}${fullPath}`}`,
+            },
+            twitter: {
+              card: 'summary_large_image',
+              title: metadata.title,
+              description: metadata.description,
+              images: [image],
             },
             robots: {
               index: true,
