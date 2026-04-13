@@ -47,20 +47,34 @@ function LinkedTitle({
   children,
   className,
   locale,
+  disableLink = false,
 }: {
   linkData: { url: string; title: string } | null | undefined;
   children: React.ReactNode;
   className?: string;
   locale: string;
+  disableLink?: boolean;
 }) {
-  void linkData;
-  void locale;
+  if (!linkData || disableLink) {
+    if (className) {
+      return <span className={className}>{children}</span>;
+    }
 
-  if (className) {
-    return <span className={className}>{children}</span>;
+    return <>{children}</>;
   }
 
-  return <>{children}</>;
+  return (
+    <Link
+      href={`/${locale}${linkData.url}`}
+      title={linkData.title}
+      className={
+        className ??
+        "transition-colors duration-200 hover:text-[hsl(var(--nav-theme-light))] hover:underline underline-offset-4"
+      }
+    >
+      {children}
+    </Link>
+  );
 }
 
 interface HomePageClientProps {
@@ -677,6 +691,7 @@ export default function HomePageClient({
                               ]
                             }
                             locale={locale}
+                            disableLink
                           >
                             {item.label}
                           </LinkedTitle>
