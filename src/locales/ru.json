@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Руководства",
-    "crafting": "Крафт",
-    "items": "Предметы",
-    "biomes": "Биомы",
-    "building": "Строительство",
-    "support": "Поддержка"
+    "codes": "Codes",
+    "guide": "Guide",
+    "grimoire": "Grimoire",
+    "map": "Map",
+    "release": "Release",
+    "showcase": "Showcase",
+    "trailer": "Trailer"
   },
   "common": {
     "home": "Главная",

@@ -10,7 +10,15 @@
       "twitterDescription": "Clover Origins Wiki covers active codes, grimoire tier lists, best magic picks, quests, races, brooms, and build advice for Clover Origins on Roblox."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "grimoire": "Grimoire",
+    "map": "Map",
+    "release": "Release",
+    "showcase": "Showcase",
+    "trailer": "Trailer"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -947,125 +955,145 @@
     "disclaimer": "Unofficial fan-made Roblox game resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Clover Origins Guides",
-      "description": "Complete Clover Origins guides covering beginner progression, quest routing, first grimoire timing, and practical build planning.",
-      "metaTitle": "Clover Origins Guides - Beginner Routes & Progression",
-      "metaDescription": "Browse Clover Origins guides for first-hour tips, leveling routes, quest flow, grimoire unlock timing, and clean early progression decisions.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "These Clover Origins guides explain how the main systems fit together, from early questing and leveling to grimoire timing and account progression.",
-      "why": "Why read guides?",
-      "whySteps": {
-        "step1Title": "Learn Core Systems",
-        "step1Description": "Understand quests, grimoires, rerolls, and stat timing before you waste early resources",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow cleaner routes for leveling, first grimoire unlocks, and smoother account growth",
-        "step3Title": "Make Better Decisions",
-        "step3Description": "Use practical guide pages to choose what to keep, reroll, and build around"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Guides"
-    },
-    "crafting": {
+    "codes": {
       "title": "Clover Origins Codes",
-      "description": "Track active Clover Origins codes, reward bundles, and redemption steps for grimoire spins, broom spins, race spins, yen, and stat resets.",
-      "metaTitle": "Clover Origins Codes - Active Rewards & Redeem Steps",
-      "metaDescription": "Check the latest Clover Origins codes, see what each code rewards, and learn the fastest way to redeem spins, yen, and stat resets.",
-      "categoryLabel": "CODE TRACKER",
-      "whatIs": "What are Codes?",
-      "whatIsDescription": "Clover Origins codes give launch-period rewards such as yen, stat resets, grimoire spins, broom spins, and race spins that shape your first build decisions.",
-      "why": "Why track codes?",
+      "description": "Track active Clover Origins codes, free spins, yen rewards, stat resets, and the fastest redeem steps for each update.",
+      "metaTitle": "Clover Origins Codes - Active Spins, Yen & Reset Rewards",
+      "metaDescription": "Find active Clover Origins codes, reward details, and quick redeem steps for free spins, yen, and stat resets in the Roblox RPG.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Clover Origins Codes?",
+      "whatIsDescription": "Clover Origins Codes are redeemable reward strings that hand out spins, yen, resets, and other launch-period boosts that speed up early account progress.",
+      "why": "Why check Clover Origins Codes?",
       "whySteps": {
-        "step1Title": "Claim Early Value",
-        "step1Description": "Secure free spins, yen, and reset tools before your first long quest session",
-        "step2Title": "Understand Rewards",
-        "step2Description": "See which codes help grimoire progression, race rerolls, and broom upgrades most",
+        "step1Title": "Claim Free Rolls",
+        "step1Description": "Use current code drops to collect extra spins and resets before you commit to a weak early build.",
+        "step2Title": "Track Reward Value",
+        "step2Description": "See which Clover Origins codes give the most useful rewards for grimoires, currency, and account cleanup.",
         "step3Title": "Redeem Faster",
-        "step3Description": "Use the in-game Menu and Info tab flow without wasting time hunting for the code box"
+        "step3Description": "Follow a clean redeem path so you can claim rewards quickly and get back into quests, grinding, and rerolls."
       },
       "featured": "Featured & Essential",
-      "all": "All Code Pages"
+      "all": "All Codes"
     },
-    "items": {
-      "title": "Clover Origins Grimoires",
-      "description": "Dive into Clover Origins grimoires, rare rolls, Anti Magic planning, and the choices that turn early spins into a stable build.",
-      "metaTitle": "Clover Origins Grimoires - Tier List & Roll Planning",
-      "metaDescription": "Explore Clover Origins grimoire guides covering tier lists, Anti Magic value, first unlock timing, and which rolls are worth keeping.",
+    "guide": {
+      "title": "Clover Origins Guide",
+      "description": "Start Clover Origins with cleaner leveling, first grimoire timing, broom unlock prep, and practical early quest routing.",
+      "metaTitle": "Clover Origins Guide - Beginner Progression, Levels & Tips",
+      "metaDescription": "Read the essential Clover Origins guide for beginner leveling, quest routes, grimoire unlock timing, broom prep, and early build decisions.",
+      "categoryLabel": "BEGINNER GUIDE",
+      "whatIs": "What is the Clover Origins Guide?",
+      "whatIsDescription": "The Clover Origins Guide category covers the first hours of the game, including level milestones, quest flow, mobility unlocks, and the decisions that shape early momentum.",
+      "why": "Why read the Clover Origins Guide?",
+      "whySteps": {
+        "step1Title": "Learn the First Hour",
+        "step1Description": "Get a practical view of what to do first so your opening levels, quests, and unlocks line up cleanly.",
+        "step2Title": "Avoid Early Waste",
+        "step2Description": "Spend rerolls, yen, and resets with more purpose instead of burning valuable resources before your build settles.",
+        "step3Title": "Reach Midgame Faster",
+        "step3Description": "Use proven route planning to move from basic questing into bosses, brooms, and stronger grimoire decisions."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Guide Pages"
+    },
+    "grimoire": {
+      "title": "Clover Origins Grimoire",
+      "description": "Compare Clover Origins grimoires, rarity expectations, reroll priorities, and the magic choices that shape your whole account.",
+      "metaTitle": "Clover Origins Grimoire - Magic Rolls, Rarity & Best Picks",
+      "metaDescription": "Explore Clover Origins grimoire pages for magic rarity, reroll timing, standout rolls, and practical advice on what to keep.",
       "categoryLabel": "GRIMOIRE SYSTEM",
-      "whatIs": "What are Grimoires?",
-      "whatIsDescription": "Grimoires are the main Clover Origins identity system. They define your magic style, your reroll pressure, and the build choices that matter most in early progression.",
-      "why": "Why check grimoire guides?",
+      "whatIs": "What is the Clover Origins Grimoire system?",
+      "whatIsDescription": "The Clover Origins Grimoire system determines your magic identity, influences your stat planning, and drives most of the reroll pressure that defines progression.",
+      "why": "Why study Clover Origins Grimoires?",
       "whySteps": {
-        "step1Title": "Know the Chase Rolls",
-        "step1Description": "See where Anti Magic, Wind, Fire, Regen, and Reinforcement fit into practical progression",
-        "step2Title": "Plan Your Spins",
-        "step2Description": "Use your free grimoire spins at the right time instead of burning them blindly",
+        "step1Title": "Know the Strong Rolls",
+        "step1Description": "Learn which grimoires stand out for grinding, movement, pressure, and long-term build value.",
+        "step2Title": "Time Your Rerolls",
+        "step2Description": "Use limited spins at smarter moments so you are not rerolling blindly after every disappointing result.",
         "step3Title": "Build With Intent",
-        "step3Description": "Match your grimoire to stats, race value, farming comfort, and later PvP goals"
+        "step3Description": "Match your grimoire plan to quests, stats, broom comfort, and the type of account you want to grow."
       },
       "featured": "Featured & Essential",
-      "all": "All Grimoire Guides"
+      "all": "All Grimoire Pages"
     },
-    "biomes": {
-      "title": "Clover Origins Quests",
-      "description": "Follow Clover Origins quest routes, leveling checkpoints, Wizard NPC timing, and the objective loops that keep progression efficient.",
-      "metaTitle": "Clover Origins Quests - Route Order & Leveling Flow",
-      "metaDescription": "Use Clover Origins quest guides to plan early leveling, main story progression, daily loops, and first grimoire checkpoints.",
-      "categoryLabel": "QUEST ROUTES",
-      "whatIs": "What are Quests?",
-      "whatIsDescription": "Quest guides cover the route order, overlapping objectives, leveling flow, and milestone timing that make Clover Origins progression smoother.",
-      "why": "Why follow quest guides?",
+    "map": {
+      "title": "Clover Origins Map",
+      "description": "Use the Clover Origins map hub to understand travel routes, leveling zones, NPC services, and how each region supports progression.",
+      "metaTitle": "Clover Origins Map - Zones, NPC Routes & World Layout",
+      "metaDescription": "Browse Clover Origins map guides for leveling zones, landmark routes, NPC locations, and cleaner travel across the world.",
+      "categoryLabel": "WORLD MAP",
+      "whatIs": "What is the Clover Origins Map?",
+      "whatIsDescription": "The Clover Origins Map category explains how the world is laid out, where important services sit, and which regions are worth visiting at each stage of progress.",
+      "why": "Why use the Clover Origins Map?",
       "whySteps": {
-        "step1Title": "Level Faster",
-        "step1Description": "Stack quests and enemy clears so XP, yen, and route efficiency grow together",
-        "step2Title": "Hit Key Milestones",
-        "step2Description": "Reach the Wizard NPC and your first real build checkpoints at the right time",
-        "step3Title": "Reduce Wasted Travel",
-        "step3Description": "Use tighter routes that keep NPC turn-ins, enemy camps, and broom travel working together"
+        "step1Title": "Travel Smarter",
+        "step1Description": "Cut down wasted movement by learning how major landmarks, quest areas, and service NPCs connect.",
+        "step2Title": "Follow Zone Order",
+        "step2Description": "Stay in areas that match your level so combat, quest rewards, and route efficiency stay aligned.",
+        "step3Title": "Find Key NPCs",
+        "step3Description": "Reach dealers, reset services, and progression checkpoints faster when you know where the useful stops are."
       },
       "featured": "Featured & Essential",
-      "all": "All Quest Guides"
+      "all": "All Map Pages"
     },
-    "building": {
-      "title": "Clover Origins Builds",
-      "description": "Shape Clover Origins builds around grimoires, race value, stat timing, broom comfort, and the goals you care about most.",
-      "metaTitle": "Clover Origins Builds - Stats, Races & Grimoire Synergy",
-      "metaDescription": "Read Clover Origins build guides covering beginner setups, stat reset timing, race synergy, broom value, and PvE-to-PvP transitions.",
-      "categoryLabel": "BUILD PLANNING",
-      "whatIs": "What are Builds?",
-      "whatIsDescription": "Build pages explain how grimoires, race decisions, stat allocation, broom upgrades, and farming routes connect into a stable Clover Origins account.",
-      "why": "Why study builds?",
+    "release": {
+      "title": "Clover Origins Release",
+      "description": "Follow Clover Origins release coverage for beta timing, platform availability, update windows, and launch-facing news worth tracking.",
+      "metaTitle": "Clover Origins Release - Beta Date, Updates & Platforms",
+      "metaDescription": "Check Clover Origins release details, beta timing, update status, platform availability, and launch information gathered in one place.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is the Clover Origins Release page?",
+      "whatIsDescription": "The Clover Origins Release category collects timing, access, and rollout information around beta phases, launch updates, and the larger release schedule players care about.",
+      "why": "Why follow Clover Origins Release updates?",
       "whySteps": {
-        "step1Title": "Avoid Bad Commitments",
-        "step1Description": "Delay full commitment until your first grimoire and reroll results are worth keeping",
-        "step2Title": "Use Resets Well",
-        "step2Description": "Spend Clover Origins stat resets after meaningful changes instead of wasting them early",
-        "step3Title": "Support Your Goal",
-        "step3Description": "Tune your build for leveling, farming, path identity, or later PvP without fighting your own setup"
+        "step1Title": "Track Beta Timing",
+        "step1Description": "Keep the important release milestones together so you know when major phases and public access windows happen.",
+        "step2Title": "Watch Platform Plans",
+        "step2Description": "Understand where Clover Origins is available and how release notes affect the way players can join.",
+        "step3Title": "Keep Update Context",
+        "step3Description": "Use release coverage to connect announcements, patches, and rollout changes without chasing scattered posts."
       },
       "featured": "Featured & Essential",
-      "all": "All Build Guides"
+      "all": "All Release Pages"
     },
-    "support": {
-      "title": "Clover Origins PvP",
-      "description": "Prepare for Clover Origins PvP with stable builds, better movement, cleaner stat timing, and realistic duel expectations.",
-      "metaTitle": "Clover Origins PvP - Arena Prep & Combat Readiness",
-      "metaDescription": "Use Clover Origins PvP guides to prepare your build, movement, stats, and grimoire plan before taking competitive fights.",
-      "categoryLabel": "PVP PREP",
-      "whatIs": "What is PvP?",
-      "whatIsDescription": "PvP pages focus on duel readiness, build stability, movement control, and the adjustments that matter after your PvE foundation is secure.",
-      "why": "Why check PvP guides?",
+    "showcase": {
+      "title": "Clover Origins Showcase",
+      "description": "Watch Clover Origins showcase coverage for grimoire demos, combat clips, testing footage, and feature overviews that reveal how systems look in motion.",
+      "metaTitle": "Clover Origins Showcase - Gameplay Demos & Magic Previews",
+      "metaDescription": "See Clover Origins showcase pages covering grimoire demos, gameplay tests, movement clips, and visual previews of new features.",
+      "categoryLabel": "GAME SHOWCASE",
+      "whatIs": "What is the Clover Origins Showcase category?",
+      "whatIsDescription": "The Clover Origins Showcase category highlights gameplay footage, move demonstrations, and visual previews that help players understand how updates and systems actually feel in action.",
+      "why": "Why watch Clover Origins Showcases?",
       "whySteps": {
-        "step1Title": "Enter With Stability",
-        "step1Description": "Take PvP seriously only after your Clover Origins build stops changing every session",
-        "step2Title": "Sharpen Movement",
-        "step2Description": "Improve spacing, chase control, and broom-assisted positioning before forcing more fights",
-        "step3Title": "Refine Late",
-        "step3Description": "Use resets and late tweaks for real duel gains once your PvE route already works"
+        "step1Title": "See Systems in Motion",
+        "step1Description": "Use showcase footage to understand pacing, effects, and combat flow before you build around a feature.",
+        "step2Title": "Compare Magic Styles",
+        "step2Description": "Watch how different grimoires and movement options look during testing, farming, and short fights.",
+        "step3Title": "Spot New Features",
+        "step3Description": "Pick up changes to maps, visuals, and mechanical updates faster when the game is shown directly in clips."
       },
       "featured": "Featured & Essential",
-      "all": "All PvP Guides"
+      "all": "All Showcase Pages"
+    },
+    "trailer": {
+      "title": "Clover Origins Trailer",
+      "description": "Keep up with Clover Origins trailer pages for official videos, teaser breakdowns, new map reveals, and the marketing beats around major updates.",
+      "metaTitle": "Clover Origins Trailer - Official Videos, Teasers & Reveals",
+      "metaDescription": "Browse Clover Origins trailer coverage for official videos, teaser analysis, map reveals, and update trailers connected to new releases.",
+      "categoryLabel": "VIDEO TRAILER",
+      "whatIs": "What is the Clover Origins Trailer section?",
+      "whatIsDescription": "The Clover Origins Trailer section focuses on teasers, reveal videos, and preview footage that frame upcoming features, map changes, and major update beats.",
+      "why": "Why follow Clover Origins Trailers?",
+      "whySteps": {
+        "step1Title": "Catch Reveal Beats",
+        "step1Description": "Use trailers to see the biggest upcoming themes, zones, and visual highlights before patch notes land.",
+        "step2Title": "Read Video Context",
+        "step2Description": "Trailer pages turn short clips into usable context by explaining what each reveal likely points toward for players.",
+        "step3Title": "Track Hype Cycles",
+        "step3Description": "Stay aligned with the release rhythm by following teaser drops, announcement windows, and major preview moments."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Trailer Pages"
     }
   }
 }

@@ -8,6 +8,7 @@ import { extractPlaceholderMetadata, getTailwindRgbString } from '@/lib/imageUti
 import { extractPrimaryKeyword } from '@/lib/utils'
 import { SidebarAd } from '@/components/ads/SidebarAd'
 import { AdBanner } from '@/components/ads'
+import { NAVIGATION_CONFIG } from '@/config/navigation'
 
 interface DetailPageProps {
 	frontmatter: ContentFrontmatter
@@ -23,14 +24,9 @@ export async function DetailPage({ frontmatter, content, contentType, language, 
 	const t = await getTranslations()
 
 	// 内容类型翻译映射
-	const contentTypeLabels: Record<string, string> = {
-		guides: t('nav.guides'),
-		crafting: t('nav.crafting'),
-		items: t('nav.items'),
-		biomes: t('nav.biomes'),
-		building: t('nav.building'),
-		support: t('nav.support'),
-	}
+	const contentTypeLabels = Object.fromEntries(
+		NAVIGATION_CONFIG.map((item) => [item.key, t(`nav.${item.key}`)]),
+	) as Record<string, string>
 
 	// 提取图片元数据
 	const imageMetadata = frontmatter.image ? extractPlaceholderMetadata(frontmatter.image) : null

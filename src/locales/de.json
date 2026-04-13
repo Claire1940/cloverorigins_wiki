@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Anleitungen",
-    "crafting": "Herstellung",
-    "items": "Gegenstände",
-    "biomes": "Biome",
-    "building": "Bauen",
-    "support": "Unterstützung"
+    "codes": "Codes",
+    "guide": "Guide",
+    "grimoire": "Grimoire",
+    "map": "Map",
+    "release": "Release",
+    "showcase": "Showcase",
+    "trailer": "Trailer"
   },
   "common": {
     "home": "Startseite",
