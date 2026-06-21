@@ -1,3 +1,4 @@
+import { setRequestLocale } from 'next-intl/server'
 import { getLatestArticles } from "@/lib/getLatestArticles";
 import { buildModuleLinkMap } from "@/lib/buildModuleLinkMap";
 import type { Language } from "@/lib/content";
@@ -19,6 +20,7 @@ export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
   const { locale } = await params;
+  setRequestLocale(locale)
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || DEFAULT_SITE_URL;
   const pageUrl = locale === "en" ? siteUrl : `${siteUrl}/${locale}`;
   const heroImageUrl = new URL("/images/hero.webp", siteUrl).toString();
@@ -67,6 +69,7 @@ export async function generateMetadata({
 
 export default async function HomePage({ params }: PageProps) {
   const { locale } = await params;
+  setRequestLocale(locale)
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || DEFAULT_SITE_URL;
   const heroImageUrl = new URL("/images/hero.webp", siteUrl).toString();
   const logoUrl = new URL("/android-chrome-512x512.png", siteUrl).toString();

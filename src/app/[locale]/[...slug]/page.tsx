@@ -1,5 +1,5 @@
 import { notFound, redirect } from 'next/navigation'
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 import {
   getAllContentPaths,
   getAllContent,
@@ -40,6 +40,7 @@ function toAbsoluteImage(siteUrl: string, image?: string) {
 
 export default async function UnifiedContentPage({ params }: PageProps) {
   const { locale, slug } = await params
+  setRequestLocale(locale)
 
   // 验证内容类型
   const contentType = slug[0]
@@ -228,6 +229,7 @@ export async function generateStaticParams() {
  */
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale, slug } = await params
+  setRequestLocale(locale)
   const contentType = slug[0]
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || DEFAULT_SITE_URL
   const defaultImage = new URL('/images/hero.webp', siteUrl).toString()
