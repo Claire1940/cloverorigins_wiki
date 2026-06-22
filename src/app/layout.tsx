@@ -1,15 +1,12 @@
 import './globals.css'
-import { getLocale } from 'next-intl/server'
 
-export default async function RootLayout({
+export default function RootLayout({
 	children,
 }: {
 	children: React.ReactNode
 }) {
-	const locale = await getLocale()
-
 	return (
-		<html lang={locale} suppressHydrationWarning>
+		<html lang="en" suppressHydrationWarning>
 			<body suppressHydrationWarning className="antialiased">
 				{children}
 			</body>
